@@ -155,17 +155,52 @@ hr.small {
     position: relative;
     width: 100%;
     height: 100%;
-    background: url(../img/bg.jpg) no-repeat center center scroll;
+    background: url(../img/nash.jpg) no-repeat center center scroll;
+    background-attachment: fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
-    background-size: cover;
     -o-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    color: white;
+    text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+}
+
+.social-media li a {
+    color: rgba(255,255,255, .75)
+}
+
+.social-media li a :hover {
+    color: rgba(255,255,255, .9)
+}
+
+#location-bar {
+    color: #fff;
+    opacity: .5;
+    bottom: 10px;
+    left: 20px;
+    position: absolute;
+}
+
+.dp {
+    height: 240px;
+    width: 240px;
+    border-radius: 100%;
+    margin-top: -60px;
+    border: 3px solid #fff;
 }
 
 /* About */
 
 .about {
     padding: 50px 0;
+}
+
+.position {
+    height: inherit;
+    vertical-align: middle;
+    color: rgb(35, 82, 124);
 }
 
 /* Services */
@@ -184,13 +219,36 @@ hr.small {
     display: table;
     width: 100%;
     height: 400px;
-    color: #fff;
+    color: white;
+    text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
     background: url(../img/callout.jpg) no-repeat center center scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
 }
+
+.callout.resume {
+    background: url(../img/nash-blur.png);
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.resume .btn {
+    background: rgba(255,255,255,.5);
+    color: white;
+}
+
+.resume .btn:hover {
+    color: #333;
+    background: rgba(255,255,255,.75);
+}
+
 
 /* Portfolio */
 
