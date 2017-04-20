@@ -14,6 +14,7 @@ body {
 
 body {
     font-family: "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
+    /*min-width:615px;*/
 }
 
 .text-vertical-center {
@@ -177,7 +178,7 @@ hr.small {
 
 #location-bar {
     color: #fff;
-    opacity: .5;
+    opacity: 0.9;
     bottom: 10px;
     left: 20px;
     position: absolute;
@@ -305,4 +306,18 @@ footer {
   position: fixed;
   bottom: 5px;
   right: 5px;
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 768px) {
+    .position h3 {
+        display: none;
+    }
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+    .position h3 {
+        display: block;
+    }
 }
