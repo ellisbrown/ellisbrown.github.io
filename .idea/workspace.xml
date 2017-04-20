@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="942462e2-cd06-46a8-89ec-c58d35e91d85" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/stylish-portfolio.css" afterPath="$PROJECT_DIR$/css/stylish-portfolio.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <ignored path="ellisbrown.github.io.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -44,10 +44,10 @@
           <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="163">
-                  <caret line="98" column="52" lean-forward="true" selection-start-line="98" selection-start-column="52" selection-end-line="98" selection-end-column="52" />
+                <state relative-caret-position="64">
+                  <caret line="7" column="31" lean-forward="false" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
                   <folding>
-                    <element signature="e#9867#9873#0" expanded="true" />
+                    <element signature="e#9926#9932#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -60,7 +60,7 @@
           <file leaf-file-name="stylish-portfolio.css" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/css/stylish-portfolio.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="415">
+                <state relative-caret-position="1705">
                   <caret line="311" column="39" lean-forward="false" selection-start-line="311" selection-start-column="39" selection-end-line="311" selection-end-column="39" />
                   <folding />
                 </state>
@@ -121,8 +121,8 @@
       <list>
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/css/asdf.css" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/css/stylish-portfolio.css" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -266,10 +266,10 @@
       <recent name="$PROJECT_DIR$/img" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/css" />
       <recent name="$PROJECT_DIR$/font-awesome" />
       <recent name="$PROJECT_DIR$/resume" />
-      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/img" />
     </key>
   </component>
@@ -370,12 +370,12 @@
       <workItem from="1492627952313" duration="159000" />
       <workItem from="1492628324066" duration="3000" />
       <workItem from="1492630624397" duration="53000" />
-      <workItem from="1492630812386" duration="18280000" />
+      <workItem from="1492630812386" duration="19988000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21576000" />
+    <option name="totallyTimeSpent" value="23284000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1920" y="-711" width="1920" height="1080" extended-state="0" />
@@ -504,19 +504,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/favicon.ico">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="163">
-          <caret line="98" column="52" lean-forward="true" selection-start-line="98" selection-start-column="52" selection-end-line="98" selection-end-column="52" />
+        <state relative-caret-position="64">
+          <caret line="7" column="31" lean-forward="false" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
           <folding>
-            <element signature="e#9867#9873#0" expanded="true" />
+            <element signature="e#9926#9932#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/stylish-portfolio.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="415">
+        <state relative-caret-position="1705">
           <caret line="311" column="39" lean-forward="false" selection-start-line="311" selection-start-column="39" selection-end-line="311" selection-end-column="39" />
           <folding />
         </state>
