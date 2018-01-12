@@ -2,7 +2,8 @@
 header.masthead {
   text-align: center;
   color: white;
-  background-image: url('../img/header-bg.jpg');
+  //background-image: url('../img/header-bg.jpg');
+  background-color: #e1efe2;
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -10,6 +11,7 @@ header.masthead {
   .intro-text {
     padding-top: 150px;
     padding-bottom: 100px;
+    color: black;
     .intro-lead-in {
       font-size: 22px;
       font-style: italic;
