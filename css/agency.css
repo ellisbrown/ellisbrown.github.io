@@ -79,7 +79,7 @@ body {
   -webkit-tap-highlight-color: #fed136; }
 
 #mainNav {
-  background-color: #212529; }
+  background-color: #e1efe2; }
   #mainNav .navbar-toggler {
     font-size: 12px;
     right: 0;
@@ -87,7 +87,7 @@ body {
     text-transform: uppercase;
     color: white;
     border: 0;
-    background-color: #fed136;
+    background-color: #000;
     font-family: 'Helvetica Bold', Helvetica, Arial, sans-serif; }
   #mainNav .navbar-brand {
     color: #000;
