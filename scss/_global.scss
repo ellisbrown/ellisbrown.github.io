@@ -1,7 +1,8 @@
 // Global styling for this template
 body {
   overflow-x: hidden;
-  @include body-font;
+  //@include body-font;
+  @include off-white-font
 }
 
 p {
@@ -9,7 +10,7 @@ p {
 }
 
 a {
-  color: $primary;
+  //color: $black;
   &:hover {
     color: darken($primary, 10%);
   }
@@ -26,7 +27,7 @@ h4,
 h5,
 h6 {
   font-weight: 700;
-  @include heading-font;
+  @include off-white-font;
 }
 
 section {
@@ -42,7 +43,7 @@ section {
     font-style: italic;
     margin-bottom: 75px;
     text-transform: none;
-    @include serif-font;
+    @include off-white-font;
   }
 }
 @media(min-width:768px) {
@@ -53,7 +54,7 @@ section {
 
 // Button Styles
 .btn {
-  @include heading-font;
+  @include off-white-font;
   font-weight: 700;
 }
 

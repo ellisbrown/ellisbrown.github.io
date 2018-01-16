@@ -1,0 +1,41 @@
+// Styling for the contact section
+section#about {
+  margin-bottom: 50px;
+  text-align: left;
+  background-color: #FFF5EE;
+  img {
+    width: 225px;
+    height: 225px;
+    //border: 7px solid $white;
+  }
+  h4 {
+    margin-top: 25px;
+    margin-bottom: 0;
+    text-transform: none;
+  }
+  p {
+    margin-top: 0;
+    text-align: left;
+  }
+  .school-fig {
+    width: 175px;
+    height: auto;
+  }
+  .experience-fig {
+    width: 150px;
+    height: auto;
+  }
+  #news {
+    padding-top: 12px;
+  }
+  .row {
+    padding-bottom: 30px;
+  }
+  .profile {
+    //margin-bottom: 50px;
+    text-align: center;
+  }
+  .profile-text {
+    text-align: center;
+  }
+}

@@ -9,16 +9,16 @@
     color: white;
     border: 0;
     background-color: $primary;
-    @include heading-font;
+    @include off-white-font;
   }
   .navbar-brand {
-    color: $primary;
-    @include script-font;
+    color: $black;
+    @include off-white-font;
     &.active,
     &:active,
     &:focus,
     &:hover {
-      color: darken($primary, 10%);
+      color: $primary;
     }
   }
   .navbar-nav {
@@ -28,8 +28,8 @@
         font-weight: 400;
         padding: 0.75em 0;
         letter-spacing: 1px;
-        color: white;
-        @include heading-font;
+        color: $black;
+        @include off-white-font;
         &.active,
         &:hover {
           color: $primary;
@@ -63,7 +63,7 @@
     &.navbar-shrink {
       padding-top: 0;
       padding-bottom: 0;
-      background-color: $gray-900;
+      background-color: $off-white-green;
       .navbar-brand {
         font-size: 1.25em;
         padding: 12px 0;

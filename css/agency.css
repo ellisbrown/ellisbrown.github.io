@@ -5,15 +5,13 @@
  */
 body {
   overflow-x: hidden;
-  font-family: 'Roboto Slab', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+  font-family: 'Helvetica Bold', Helvetica, Arial, sans-serif; }
 
 p {
   line-height: 1.75; }
 
-a {
-  color: #fed136; }
-  a:hover {
-    color: #fec503; }
+a:hover {
+  color: #fec503; }
 
 .text-primary {
   color: #fed136 !important; }
@@ -25,7 +23,7 @@ h4,
 h5,
 h6 {
   font-weight: 700;
-  font-family: 'Helvetica Bold', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+  font-family: 'Helvetica Bold', Helvetica, Arial, sans-serif; }
 
 section {
   padding: 100px 0; }
@@ -39,14 +37,14 @@ section {
     font-style: italic;
     margin-bottom: 75px;
     text-transform: none;
-    font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+    font-family: 'Helvetica Bold', Helvetica, Arial, sans-serif; }
 
 @media (min-width: 768px) {
   section {
     padding: 150px 0; } }
 
 .btn {
-  font-family: 'Helvetica Bold', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Helvetica Bold', Helvetica, Arial, sans-serif;
   font-weight: 700; }
 
 .btn-xl {
@@ -90,19 +88,19 @@ body {
     color: white;
     border: 0;
     background-color: #fed136;
-    font-family: 'Helvetica Bold', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+    font-family: 'Helvetica Bold', Helvetica, Arial, sans-serif; }
   #mainNav .navbar-brand {
-    color: #fed136;
-    font-family: 'Kaushan Script', 'Helvetica Neue', Helvetica, Arial, cursive; }
+    color: #000;
+    font-family: 'Helvetica Bold', Helvetica, Arial, sans-serif; }
     #mainNav .navbar-brand.active, #mainNav .navbar-brand:active, #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
-      color: #fec503; }
+      color: #fed136; }
   #mainNav .navbar-nav .nav-item .nav-link {
     font-size: 90%;
     font-weight: 400;
     padding: 0.75em 0;
     letter-spacing: 1px;
-    color: white;
-    font-family: 'Helvetica Bold', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+    color: #000;
+    font-family: 'Helvetica Bold', Helvetica, Arial, sans-serif; }
     #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
       color: #fed136; }
 
@@ -125,7 +123,7 @@ body {
     #mainNav.navbar-shrink {
       padding-top: 0;
       padding-bottom: 0;
-      background-color: #212529; }
+      background-color: #e1efe2; }
       #mainNav.navbar-shrink .navbar-brand {
         font-size: 1.25em;
         padding: 12px 0; } }
@@ -134,13 +132,9 @@ header.masthead {
   text-align: center;
   color: white;
   background-color: #e1efe2;
-  background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover; }
+  height: 100%; }
   header.masthead .intro-text {
     padding-top: 150px;
     padding-bottom: 100px;
@@ -150,13 +144,23 @@ header.masthead {
       font-style: italic;
       line-height: 22px;
       margin-bottom: 25px;
-      font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+      font-family: 'Helvetica Bold', Helvetica, Arial, sans-serif; }
     header.masthead .intro-text .intro-heading {
       font-size: 50px;
       font-weight: 700;
       line-height: 50px;
       margin-bottom: 25px;
-      font-family: 'Helvetica Bold', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+      font-family: 'Helvetica Bold', Helvetica, Arial, sans-serif; }
+    header.masthead .intro-text .intro-bottom {
+      font-size: 22px;
+      font-style: bold;
+      line-height: 22px;
+      margin-bottom: 25px;
+      font-family: 'Helvetica Bold', Helvetica, Arial, sans-serif; }
+      header.masthead .intro-text .intro-bottom a {
+        color: #000; }
+        header.masthead .intro-text .intro-bottom a:hover {
+          color: #fec503; }
 
 @media (min-width: 768px) {
   header.masthead .intro-text {
@@ -167,13 +171,13 @@ header.masthead {
       font-style: italic;
       line-height: 40px;
       margin-bottom: 25px;
-      font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+      font-family: 'Helvetica Bold', Helvetica, Arial, sans-serif; }
     header.masthead .intro-text .intro-heading {
       font-size: 75px;
       font-weight: 700;
       line-height: 75px;
       margin-bottom: 50px;
-      font-family: 'Helvetica Bold', 'Helvetica Neue', Helvetica, Arial, sans-serif; } }
+      font-family: 'Helvetica Bold', Helvetica, Arial, sans-serif; } }
 
 .service-heading {
   margin: 15px 0;
@@ -426,19 +430,34 @@ header.masthead {
     .timeline > li.timeline-inverted > .timeline-panel {
       padding: 0 100px 20px 20px; } }
 
-.team-member {
+section#about {
   margin-bottom: 50px;
-  text-align: center; }
-  .team-member img {
+  text-align: left;
+  background-color: #FFF5EE; }
+  section#about img {
     width: 225px;
-    height: 225px;
-    border: 7px solid #fff; }
-  .team-member h4 {
+    height: 225px; }
+  section#about h4 {
     margin-top: 25px;
     margin-bottom: 0;
     text-transform: none; }
-  .team-member p {
-    margin-top: 0; }
+  section#about p {
+    margin-top: 0;
+    text-align: left; }
+  section#about .school-fig {
+    width: 175px;
+    height: auto; }
+  section#about .experience-fig {
+    width: 150px;
+    height: auto; }
+  section#about #news {
+    padding-top: 12px; }
+  section#about .row {
+    padding-bottom: 30px; }
+  section#about .profile {
+    text-align: center; }
+  section#about .profile-text {
+    text-align: center; }
 
 section#contact {
   background-color: #212529;
@@ -462,21 +481,21 @@ section#contact {
   section#contact ::-webkit-input-placeholder {
     font-weight: 700;
     color: #ced4da;
-    font-family: 'Helvetica Bold', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+    font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
   section#contact :-moz-placeholder {
     font-weight: 700;
     color: #ced4da;
     /* Firefox 18- */
-    font-family: 'Helvetica Bold', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+    font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
   section#contact ::-moz-placeholder {
     font-weight: 700;
     color: #ced4da;
     /* Firefox 19+ */
-    font-family: 'Helvetica Bold', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+    font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
   section#contact :-ms-input-placeholder {
     font-weight: 700;
     color: #ced4da;
-    font-family: 'Helvetica Bold', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+    font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
 
 footer {
   padding: 25px 0;
@@ -485,13 +504,13 @@ footer {
     font-size: 90%;
     line-height: 40px;
     text-transform: none;
-    font-family: 'Helvetica Bold', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+    font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
   footer ul.quicklinks {
     font-size: 90%;
     line-height: 40px;
     margin-bottom: 0;
     text-transform: none;
-    font-family: 'Helvetica Bold', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+    font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
 
 ul.social-buttons {
   margin-bottom: 0; }
