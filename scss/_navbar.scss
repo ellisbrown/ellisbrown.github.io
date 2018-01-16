@@ -1,6 +1,6 @@
 // Styling for the navbar
 #mainNav {
-  background-color: $gray-900;
+  background-color: $off-white-green;
   .navbar-toggler {
     font-size: 12px;
     right: 0;
@@ -8,7 +8,7 @@
     text-transform: uppercase;
     color: white;
     border: 0;
-    background-color: $primary;
+    background-color: $black;
     @include off-white-font;
   }
   .navbar-brand {
