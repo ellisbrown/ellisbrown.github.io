@@ -223,6 +223,8 @@ section#research {
   section#research p {
     margin-top: 0;
     text-align: left; }
+  section#research a {
+    color: #6C757D !important; }
   section#research #news {
     padding-top: 12px; }
   section#research .row {
