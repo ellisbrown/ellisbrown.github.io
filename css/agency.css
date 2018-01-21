@@ -179,9 +179,83 @@ header.masthead {
       margin-bottom: 50px;
       font-family: 'Helvetica Bold', Helvetica, Arial, sans-serif; } }
 
-.service-heading {
-  margin: 15px 0;
-  text-transform: none; }
+section#about {
+  text-align: left;
+  background-color: #ffffff;
+  padding-top: 0px; }
+  section#about img {
+    width: 225px;
+    height: 225px; }
+  section#about h1 {
+    margin-bottom: 150px; }
+  section#about h4 {
+    margin-top: 25px;
+    margin-bottom: 0;
+    text-transform: none; }
+  section#about p {
+    margin-top: 0;
+    text-align: left; }
+  section#about .school-fig {
+    width: 175px;
+    height: auto; }
+  section#about .experience-fig {
+    width: 150px;
+    height: auto; }
+  section#about #news {
+    padding-top: 12px; }
+  section#about .row {
+    padding-bottom: 30px; }
+  section#about .profile {
+    text-align: center; }
+  section#about .profile-text {
+    text-align: center; }
+  section#about .seal-row {
+    padding-bottom: 0px; }
+
+section#research {
+  text-align: left;
+  background-color: #FFF5EE;
+  padding-top: 0px; }
+  section#research h1 {
+    margin-bottom: 50px; }
+  section#research h4 {
+    margin-top: -10px;
+    margin-bottom: 0;
+    text-transform: none; }
+  section#research p {
+    margin-top: 0;
+    text-align: left; }
+  section#research #news {
+    padding-top: 12px; }
+  section#research .row {
+    padding-bottom: 30px; }
+  section#research .paper {
+    margin-bottom: 30px;
+    padding: 10px; }
+  section#research .paper-info {
+    margin-bottom: 10px !important; }
+  section#research .paper-fig {
+    width: 100%; }
+  section#research .keyword {
+    background-color: #e1efe2; }
+  section#research .asterisk {
+    font-size: x-small;
+    margin-top: -10px; }
+  section#research .btns {
+    margin-bottom: 10px; }
+  section#research .lab {
+    width: 95%;
+    max-height: 100px; }
+  section#research .link {
+    color: #899196 !important; }
+    section#research .link:hover {
+      color: white !important; }
+  section#research .text-muted a {
+    color: #868e96; }
+    section#research .text-muted a:hover {
+      color: #fec503; }
+  section#research .popover-body {
+    max-width: 100%; }
 
 #portfolio .portfolio-item {
   right: 0;
@@ -429,35 +503,6 @@ header.masthead {
         margin-top: 40px; }
     .timeline > li.timeline-inverted > .timeline-panel {
       padding: 0 100px 20px 20px; } }
-
-section#about {
-  margin-bottom: 50px;
-  text-align: left;
-  background-color: #FFF5EE; }
-  section#about img {
-    width: 225px;
-    height: 225px; }
-  section#about h4 {
-    margin-top: 25px;
-    margin-bottom: 0;
-    text-transform: none; }
-  section#about p {
-    margin-top: 0;
-    text-align: left; }
-  section#about .school-fig {
-    width: 175px;
-    height: auto; }
-  section#about .experience-fig {
-    width: 150px;
-    height: auto; }
-  section#about #news {
-    padding-top: 12px; }
-  section#about .row {
-    padding-bottom: 30px; }
-  section#about .profile {
-    text-align: center; }
-  section#about .profile-text {
-    text-align: center; }
 
 section#contact {
   background-color: #212529;
