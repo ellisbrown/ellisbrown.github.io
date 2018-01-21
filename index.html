@@ -11,8 +11,7 @@
     <script>(function (w, d, s, l, i) {
         w[l] = w[l] || [];
         w[l].push({
-            'gtm.start':
-                new Date().getTime(), event: 'gtm.js'
+            'gtm.start': new Date().getTime(), event: 'gtm.js'
         });
         var f = d.getElementsByTagName(s)[0],
             j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : '';
@@ -39,6 +38,8 @@
     <!-- Custom styles for this template -->
     <link href="css/agency.min.css" rel="stylesheet">
 
+    <!-- Place this tag in your head or just before your close body tag. -->
+    <script async defer src="https://buttons.github.io/buttons.js"></script>
 </head>
 
 <body id="page-top">
@@ -68,9 +69,9 @@
                 <li class="nav-item">
                     <a class="nav-link js-scroll-trigger" href="#research">Research</a>
                 </li>
-                <!--<li class="nav-item">-->
-                    <!--<a class="nav-link js-scroll-trigger" href="#projects">Projects</a>-->
-                <!--</li>-->
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="#projects">Projects</a>
+                </li>
                 <!--<li class="nav-item">-->
                 <!--<a class="nav-link js-scroll-trigger" href="#timeline">Timeline</a>-->
                 <!--</li>-->
@@ -90,9 +91,9 @@
                 RESEARCH @ VANDERBILT AIVAS LAB</p>
             <div class="intro-bottom ">ELLIS [dot] L [dot] BROWN [at] VANDERBILT [dot] EDU</div>
             <div class="intro-bottom text-uppercase">
-                <a href="http://github.com/ellisbrown">[GitHub]</a>
+                <a href="http://github.com/ellisbrown" target="_blank">[GitHub]</a>
                 &nbsp &middot &nbsp
-                <a href="data/ELBII-cv-20180108.pdf">[CV (01.08.2018)]</a>
+                <a href="data/ELBII-cv-20180108.pdf" target="_blank">[CV (01.08.2018)]</a>
             </div>
             <!--<a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#services">Tell Me More</a>-->
         </div>
@@ -321,11 +322,13 @@
                     Abstract
                 </button>
                 <a role="button" class="btn btn-sm btn-outline-secondary link" target="_blank"
-                   href="https://docs.google.com/presentation/d/e/2PACX-1vTZMsXTsUARrHq0TMRYhMBA3yaHOUI8OnS0GmsczXkZEDnjPtLuTj-py7MAGPmCs5FmpAkHTILFdTdr/pub?start=false&loop=false&delayms=3000" target="_blank">
+                   href="https://docs.google.com/presentation/d/e/2PACX-1vTZMsXTsUARrHq0TMRYhMBA3yaHOUI8OnS0GmsczXkZEDnjPtLuTj-py7MAGPmCs5FmpAkHTILFdTdr/pub?start=false&loop=false&delayms=3000"
+                   target="_blank">
                     Slides
                 </a>
                 <a role="button" class="btn btn-sm btn-outline-secondary link" target="_blank"
-                   href="https://my.vanderbilt.edu/aivaslab/2017/09/ellis-brown-gives-talk-at-aises-2017-national-conference/" target="_blank">
+                   href="https://my.vanderbilt.edu/aivaslab/2017/09/ellis-brown-gives-talk-at-aises-2017-national-conference/"
+                   target="_blank">
                     Link
                 </a>
             </div>
@@ -333,262 +336,163 @@
     </div>
 </section>
 
+<!-- PROJECTS -->
+<section class="bg-light" id="projects">
+    <h1 class="text-uppercase font-weight-bold font-italic">PROJECTS</h1>
+    <div class="container">
+        <div class="row"><p><br><br><br></p></div>
 
-<!--&lt;!&ndash; Portfolio Grid &ndash;&gt;-->
-<!--<section class="bg-light" id="projects">-->
-<!--<div class="container">-->
-<!--<div class="row">-->
-<!--<div class="col-lg-12 text-center">-->
-<!--<h2 class="section-heading text-uppercase">Portfolio</h2>-->
-<!--<h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>-->
-<!--</div>-->
-<!--</div>-->
-<!--<div class="row">-->
-<!--<div class="col-md-4 col-sm-6 portfolio-item">-->
-<!--<a class="portfolio-link" data-toggle="modal" href="#portfolioModal1">-->
-<!--<div class="portfolio-hover">-->
-<!--<div class="portfolio-hover-content">-->
-<!--<i class="fa fa-plus fa-3x"></i>-->
-<!--</div>-->
-<!--</div>-->
-<!--<img class="img-fluid" src="img/portfolio/01-thumbnail.jpg" alt="">-->
-<!--</a>-->
-<!--<div class="portfolio-caption">-->
-<!--<h4>Threads</h4>-->
-<!--<p class="text-muted">Illustration</p>-->
-<!--</div>-->
-<!--</div>-->
-<!--<div class="col-md-4 col-sm-6 portfolio-item">-->
-<!--<a class="portfolio-link" data-toggle="modal" href="#portfolioModal2">-->
-<!--<div class="portfolio-hover">-->
-<!--<div class="portfolio-hover-content">-->
-<!--<i class="fa fa-plus fa-3x"></i>-->
-<!--</div>-->
-<!--</div>-->
-<!--<img class="img-fluid" src="img/portfolio/02-thumbnail.jpg" alt="">-->
-<!--</a>-->
-<!--<div class="portfolio-caption">-->
-<!--<h4>Explore</h4>-->
-<!--<p class="text-muted">Graphic Design</p>-->
-<!--</div>-->
-<!--</div>-->
-<!--<div class="col-md-4 col-sm-6 portfolio-item">-->
-<!--<a class="portfolio-link" data-toggle="modal" href="#portfolioModal3">-->
-<!--<div class="portfolio-hover">-->
-<!--<div class="portfolio-hover-content">-->
-<!--<i class="fa fa-plus fa-3x"></i>-->
-<!--</div>-->
-<!--</div>-->
-<!--<img class="img-fluid" src="img/portfolio/03-thumbnail.jpg" alt="">-->
-<!--</a>-->
-<!--<div class="portfolio-caption">-->
-<!--<h4>Finish</h4>-->
-<!--<p class="text-muted">Identity</p>-->
-<!--</div>-->
-<!--</div>-->
-<!--<div class="col-md-4 col-sm-6 portfolio-item">-->
-<!--<a class="portfolio-link" data-toggle="modal" href="#portfolioModal4">-->
-<!--<div class="portfolio-hover">-->
-<!--<div class="portfolio-hover-content">-->
-<!--<i class="fa fa-plus fa-3x"></i>-->
-<!--</div>-->
-<!--</div>-->
-<!--<img class="img-fluid" src="img/portfolio/04-thumbnail.jpg" alt="">-->
-<!--</a>-->
-<!--<div class="portfolio-caption">-->
-<!--<h4>Lines</h4>-->
-<!--<p class="text-muted">Branding</p>-->
-<!--</div>-->
-<!--</div>-->
-<!--<div class="col-md-4 col-sm-6 portfolio-item">-->
-<!--<a class="portfolio-link" data-toggle="modal" href="#portfolioModal5">-->
-<!--<div class="portfolio-hover">-->
-<!--<div class="portfolio-hover-content">-->
-<!--<i class="fa fa-plus fa-3x"></i>-->
-<!--</div>-->
-<!--</div>-->
-<!--<img class="img-fluid" src="img/portfolio/05-thumbnail.jpg" alt="">-->
-<!--</a>-->
-<!--<div class="portfolio-caption">-->
-<!--<h4>Southwest</h4>-->
-<!--<p class="text-muted">Website Design</p>-->
-<!--</div>-->
-<!--</div>-->
-<!--<div class="col-md-4 col-sm-6 portfolio-item">-->
-<!--<a class="portfolio-link" data-toggle="modal" href="#portfolioModal6">-->
-<!--<div class="portfolio-hover">-->
-<!--<div class="portfolio-hover-content">-->
-<!--<i class="fa fa-plus fa-3x"></i>-->
-<!--</div>-->
-<!--</div>-->
-<!--<img class="img-fluid" src="img/portfolio/06-thumbnail.jpg" alt="">-->
-<!--</a>-->
-<!--<div class="portfolio-caption">-->
-<!--<h4>Window</h4>-->
-<!--<p class="text-muted">Photography</p>-->
-<!--</div>-->
-<!--</div>-->
-<!--</div>-->
-<!--</div>-->
-<!--</section>-->
+        <!-- SSD PYTORCH -->
+        <div class="row project">
+            <div class="col-sm-4 figure">
+                <img src="img/projects/ssd.png" class="embed-responsive">
+            </div>
+            <div class="col-sm-7 offset-1 paper">
+                <h4 class="text-left">SSD.PyTorch
+                    <div class="pull-right">
+                        <!-- Place this tag where you want the button to render. -->
+                        <a class="github-button" href="https://github.com/amdegroot/ssd.pytorch/subscription"
+                           data-icon="octicon-eye" data-show-count="true"
+                           aria-label="Watch amdegroot/ssd.pytorch on GitHub">Watch</a>
+                        <!-- Place this tag where you want the button to render. -->
+                        <a class="github-button" href="https://github.com/amdegroot/ssd.pytorch"
+                           data-icon="octicon-star" data-show-count="true"
+                           aria-label="Star amdegroot/ssd.pytorch on GitHub">Star</a>
+                        <!-- Place this tag where you want the button to render. -->
+                        <a class="github-button" href="https://github.com/amdegroot/ssd.pytorch/fork"
+                           data-icon="octicon-repo-forked" data-show-count="true"
+                           aria-label="Fork amdegroot/ssd.pytorch on GitHub">Fork</a>
+                    </div>
+                    <br>
+                </h4>
+                <h5 class="text-muted">Single Shot MultiBox Object Detector (SSD), in PyTorch</h5>
+                <p class="paper-info">
+                    <span class="badge keyword">Real-time Object Detection</span>
+                    <span class="badge keyword">Convolutional Neural Network</span>
+                    <span class="badge keyword">Computer Vision</span>
+                    <span class="badge keyword">Deep Learning</span>
+                    <span class="badge keyword">PyTorch</span>
+                </p>
+                <p class="text-left paper-info">
+                    <a href="https://amdegroot.github.io/" target="_blank">Max DeGroot</a>, <strong>Ellis Brown</strong>
+                </p>
+                <p>Implemented SSD, a unified framework for real-time object detection using a single network. Has
+                    become the de facto implementation in PyTorch.</p>
+                <a role="button" class="btn btn-sm btn-outline-secondary link" target="_blank"
+                   href="http://arxiv.org/abs/1512.02325v5" target="_blank">
+                    Original Paper
+                </a>
+                <a role="button" class="btn btn-sm btn-outline-secondary link" target="_blank"
+                   href="http://www.github.com/amdegroot/ssd.pytorch" target="_blank">
+                    Code
+                </a>
+            </div>
+        </div>
+        <div class="row"><p><br></p></div>
 
-<!--&lt;!&ndash; Timeline &ndash;&gt;-->
-<!--<section id="timeline">-->
-<!--<div class="container">-->
-<!--<div class="row">-->
-<!--<div class="col-lg-12 text-center">-->
-<!--<h2 class="section-heading text-uppercase">Timeline</h2>-->
-<!--&lt;!&ndash;<h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>&ndash;&gt;-->
-<!--</div>-->
-<!--</div>-->
-<!--<div class="row">-->
-<!--<div class="col-lg-12">-->
-<!--<ul class="timeline">-->
-<!--<li>-->
-<!--<div class="timeline-image">-->
-<!--<img class="rounded-circle img-fluid" src="img/about/experience/blackrock-alt.jpg" alt="">-->
-<!--</div>-->
-<!--<div class="timeline-panel">-->
-<!--<div class="timeline-heading">-->
-<!--<h4>07/2017 -</h4>-->
-<!--<h4 class="subheading">Software Engineer</h4>-->
-<!--<h5>BlackRock</h5>-->
-<!--</div>-->
-<!--<div class="timeline-body">-->
-<!--<p class="text-muted">Core Data - Market Reference Data</p>-->
-<!--</div>-->
-<!--</div>-->
-<!--</li>-->
-<!--<li class="timeline-inverted">-->
-<!--<div class="timeline-image">-->
-<!--<img class="rounded-circle img-fluid" src="img/about/experience/aivas-alt.png" alt="">-->
-<!--</div>-->
-<!--<div class="timeline-panel">-->
-<!--<div class="timeline-heading">-->
-<!--<h4>01/2017 -</h4>-->
-<!--<h4 class="subheading">Research Assistant</h4>-->
-<!--<h5>Vanderbilt Artificial Intelligence & Visual Analogical Systems Lab</h5>-->
-<!--</div>-->
-<!--<div class="timeline-body">-->
-<!--<p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>-->
-<!--</div>-->
-<!--</div>-->
-<!--</li>-->
-<!--<li>-->
-<!--<div class="timeline-image">-->
-<!--<img class="rounded-circle img-fluid" src="img/about/3.jpg" alt="">-->
-<!--</div>-->
-<!--<div class="timeline-panel">-->
-<!--<div class="timeline-heading">-->
-<!--<h4>December 2012</h4>-->
-<!--<h4 class="subheading">Transition to Full Service</h4>-->
-<!--</div>-->
-<!--<div class="timeline-body">-->
-<!--<p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>-->
-<!--</div>-->
-<!--</div>-->
-<!--</li>-->
-<!--<li class="timeline-inverted">-->
-<!--<div class="timeline-image">-->
-<!--<img class="rounded-circle img-fluid" src="img/about/4.jpg" alt="">-->
-<!--</div>-->
-<!--<div class="timeline-panel">-->
-<!--<div class="timeline-heading">-->
-<!--<h4>July 2014</h4>-->
-<!--<h4 class="subheading">Phase Two Expansion</h4>-->
-<!--</div>-->
-<!--<div class="timeline-body">-->
-<!--<p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>-->
-<!--</div>-->
-<!--</div>-->
-<!--</li>-->
-<!--<li class="timeline-inverted">-->
-<!--<div class="timeline-image">-->
-<!--<h4>Be Part-->
-<!--<br>Of Our-->
-<!--<br>Story!</h4>-->
-<!--</div>-->
-<!--</li>-->
-<!--</ul>-->
-<!--</div>-->
-<!--</div>-->
-<!--</div>-->
-<!--</section>-->
+        <!-- NAME2GENDER -->
+        <div class="row project">
+            <div class="col-sm-4 figure">
+                <img src="img/projects/name2gender.png" class="embed-responsive">
+            </div>
+            <div class="col-sm-7 offset-1 paper">
+                <h4 class="text-left">Name2Gender
+                    <div class="pull-right">
+                        <!-- Place this tag where you want the button to render. -->
+                        <a class="github-button" href="https://github.com/ellisbrown/name2gender/subscription"
+                           data-icon="octicon-eye" data-show-count="true"
+                           aria-label="Watch ellisbrown/name2gender on GitHub">Watch</a>
+                        <!-- Place this tag where you want the button to render. -->
+                        <a class="github-button" href="https://github.com/ellisbrown/name2gender"
+                           data-icon="octicon-star" data-show-count="true"
+                           aria-label="Star ellisbrown/name2gender on GitHub">Star</a>
+                        <!-- Place this tag where you want the button to render. -->
+                        <a class="github-button" href="https://github.com/ellisbrown/name2gender/fork"
+                           data-icon="octicon-repo-forked" data-show-count="true"
+                           aria-label="Fork ellisbrown/name2gender on GitHub">Fork</a>
+                    </div>
+                    <br>
+                </h4>
+                <h5 class="text-muted">Gender Inference from Character Sequences in Multinational First Names</h5>
+                <p class="paper-info">
+                    <span class="badge keyword">Natural Language Processing</span>
+                    <span class="badge keyword">Recurrent Neural Network</span>
+                    <span class="badge keyword">Naïve-Bayes</span>
+                    <span class="badge keyword">PyTorch</span>
+                </p>
+                <p class="text-left paper-info">
+                    <strong>Ellis Brown</strong>
+                </p>
+                <p>Used Naïve-Bayes and PyTorch Char-RNN to extrapolate gender from character sequences in first names
+                    from around the world.
+                    <a target="_blank"
+                       href="https://towardsdatascience.com/name2gender-introduction-626d89378fb0"
+                       target="_blank"> Blog Post</a> was picked up by <a
+                            href="https://towardsdatascience.com/" target="_blank">Towards Data Science Publication</a>
+                    on Medium. The primary reason for creating this was to convey the interesting problem for all
+                    audiences, and also in order to become more familiar with RNNs.</p>
+                <a role="button" class="btn btn-sm btn-outline-secondary link" target="_blank"
+                   href="https://towardsdatascience.com/name2gender-introduction-626d89378fb0" target="_blank">
+                    Blog Post
+                </a>
+                <a role="button" class="btn btn-sm btn-outline-secondary link" target="_blank"
+                   href="http://www.github.com/ellisbrown/name2gender" target="_blank">
+                    Code
+                </a>
+            </div>
+        </div>
+        <div class="row"><p><br></p></div>
 
-<!--&lt;!&ndash; Clients &ndash;&gt;-->
-<!--<section class="py-5">-->
-<!--<div class="container">-->
-<!--<div class="row">-->
-<!--<div class="col-md-3 col-sm-6">-->
-<!--<a href="#">-->
-<!--<img class="img-fluid d-block mx-auto" src="img/logos/envato.jpg" alt="">-->
-<!--</a>-->
-<!--</div>-->
-<!--<div class="col-md-3 col-sm-6">-->
-<!--<a href="#">-->
-<!--<img class="img-fluid d-block mx-auto" src="img/logos/designmodo.jpg" alt="">-->
-<!--</a>-->
-<!--</div>-->
-<!--<div class="col-md-3 col-sm-6">-->
-<!--<a href="#">-->
-<!--<img class="img-fluid d-block mx-auto" src="img/logos/themeforest.jpg" alt="">-->
-<!--</a>-->
-<!--</div>-->
-<!--<div class="col-md-3 col-sm-6">-->
-<!--<a href="#">-->
-<!--<img class="img-fluid d-block mx-auto" src="img/logos/creative-market.jpg" alt="">-->
-<!--</a>-->
-<!--</div>-->
-<!--</div>-->
-<!--</div>-->
-<!--</section>-->
+        <!-- DEEP GENRES -->
+        <div class="row project">
+            <div class="col-sm-4 figure">
+                <img src="img/projects/deepgenres.png" class="embed-responsive">
+            </div>
+            <div class="col-sm-7 offset-1 paper">
+                <h4 class="text-left">DeepGenres.Torch
+                    <div class="pull-right">
+                        <!-- Place this tag where you want the button to render. -->
+                        <a class="github-button" href="https://github.com/amdegroot/deepgenres.torch/subscription"
+                           data-icon="octicon-eye" data-show-count="true"
+                           aria-label="Watch amdegroot/deepgenres.torch on GitHub">Watch</a>
+                        <!-- Place this tag where you want the button to render. -->
+                        <a class="github-button" href="https://github.com/amdegroot/deepgenres.torch"
+                           data-icon="octicon-star" data-show-count="true"
+                           aria-label="Star amdegroot/deepgenres.torch on GitHub">Star</a>
+                        <!-- Place this tag where you want the button to render. -->
+                        <a class="github-button" href="https://github.com/amdegroot/deepgenres.torch/fork"
+                           data-icon="octicon-repo-forked" data-show-count="true"
+                           aria-label="Fork amdegroot/deepgenres.torch on GitHub">Fork</a>
+                    </div>
+                    <br>
+                </h4>
+                <h5 class="text-muted">Music Genre Classification from 3 second clips, in Torch</h5>
+                <p class="paper-info">
+                    <span class="badge keyword">Audio Classification</span>
+                    <span class="badge keyword">Convolutional Neural Network</span>
+                    <span class="badge keyword">Music</span>
+                    <span class="badge keyword">Deep Learning</span>
+                    <span class="badge keyword">Torch</span>
+                </p>
+                <p class="text-left paper-info">
+                    <a href="https://amdegroot.github.io/" target="_blank">Max DeGroot</a>, <strong>Ellis Brown</strong>
+                </p>
+                <p>A deep learning method for automatically labeling songs by genre using Torch. The primary reason for
+                    creating this was to become more familiar with deep learning for audio.</p>
+                <a role="button" class="btn btn-sm btn-outline-secondary link" target="_blank"
+                   href="http://www.github.com/amdegroot/deepgenres.torch" target="_blank">
+                    Code
+                </a>
+            </div>
+        </div>
+        <div class="row"><p><br></p></div>
 
-<!--&lt;!&ndash; Contact &ndash;&gt;-->
-<!--<section id="contact">-->
-<!--<div class="container">-->
-<!--<div class="row">-->
-<!--<div class="col-lg-12 text-center">-->
-<!--<h2 class="section-heading text-uppercase">Contact Us</h2>-->
-<!--<h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>-->
-<!--</div>-->
-<!--</div>-->
-<!--<div class="row">-->
-<!--<div class="col-lg-12">-->
-<!--<form id="contactForm" name="sentMessage" novalidate>-->
-<!--<div class="row">-->
-<!--<div class="col-md-6">-->
-<!--<div class="form-group">-->
-<!--<input class="form-control" id="name" type="text" placeholder="Your Name *" required data-validation-required-message="Please enter your name.">-->
-<!--<p class="help-block text-danger"></p>-->
-<!--</div>-->
-<!--<div class="form-group">-->
-<!--<input class="form-control" id="email" type="email" placeholder="Your Email *" required data-validation-required-message="Please enter your email address.">-->
-<!--<p class="help-block text-danger"></p>-->
-<!--</div>-->
-<!--<div class="form-group">-->
-<!--<input class="form-control" id="phone" type="tel" placeholder="Your Phone *" required data-validation-required-message="Please enter your phone number.">-->
-<!--<p class="help-block text-danger"></p>-->
-<!--</div>-->
-<!--</div>-->
-<!--<div class="col-md-6">-->
-<!--<div class="form-group">-->
-<!--<textarea class="form-control" id="message" placeholder="Your Message *" required data-validation-required-message="Please enter a message."></textarea>-->
-<!--<p class="help-block text-danger"></p>-->
-<!--</div>-->
-<!--</div>-->
-<!--<div class="clearfix"></div>-->
-<!--<div class="col-lg-12 text-center">-->
-<!--<div id="success"></div>-->
-<!--<button id="sendMessageButton" class="btn btn-primary btn-xl text-uppercase" type="submit">Send Message</button>-->
-<!--</div>-->
-<!--</div>-->
-<!--</form>-->
-<!--</div>-->
-<!--</div>-->
-<!--</div>-->
-<!--</section>-->
+    </div>
+</section>
+
 <!-- Info Salience Modal -->
-<div class="modal fade" id="info-salience-abstract" tabindex="-1" role="dialog" aria-labelledby="info-salience-abstract-title"
+<div class="modal fade" id="info-salience-abstract" tabindex="-1" role="dialog"
+     aria-labelledby="info-salience-abstract-title"
      aria-hidden="true">
     <div class="modal-dialog" role="document">
         <div class="modal-content">

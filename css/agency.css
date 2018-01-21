@@ -256,6 +256,60 @@ section#research {
   section#research .popover-body {
     max-width: 100%; }
 
+section#projects {
+  text-align: left;
+  padding-top: 0px; }
+  section#projects h1 {
+    margin-bottom: 50px; }
+  section#projects h4 {
+    margin-top: -10px;
+    margin-bottom: 0;
+    text-transform: none; }
+  section#projects p {
+    margin-top: 0;
+    text-align: left; }
+  section#projects #news {
+    padding-top: 12px; }
+  section#projects .row {
+    padding-bottom: 30px; }
+  section#projects .paper {
+    margin-bottom: 30px;
+    padding: 10px; }
+  section#projects .paper-info {
+    margin-bottom: 10px !important; }
+  section#projects .paper-fig {
+    width: 100%; }
+  section#projects .keyword {
+    background-color: #899196;
+    color: white; }
+  section#projects .asterisk {
+    font-size: x-small;
+    margin-top: -10px; }
+  section#projects .btns {
+    margin-bottom: 10px; }
+  section#projects .lab {
+    width: 95%;
+    max-height: 100px; }
+  section#projects .link {
+    color: #899196 !important; }
+    section#projects .link:hover {
+      color: white !important; }
+  section#projects a {
+    color: black; }
+    section#projects a:hover {
+      color: #fec503; }
+  section#projects .text-muted a {
+    color: #868e96; }
+    section#projects .text-muted a:hover {
+      color: #fec503; }
+  section#projects .project {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px; }
+  section#projects .figure {
+    display: flex;
+    align-items: center; }
+
 #portfolio .portfolio-item {
   right: 0;
   margin: 0 0 15px; }
