@@ -181,7 +181,6 @@ header.masthead {
 
 section#about {
   text-align: left;
-  background-color: #ffffff;
   padding-top: 0px; }
   section#about img {
     width: 225px;
@@ -214,7 +213,6 @@ section#about {
 
 section#research {
   text-align: left;
-  background-color: #FFF5EE;
   padding-top: 0px; }
   section#research h1 {
     margin-bottom: 50px; }
