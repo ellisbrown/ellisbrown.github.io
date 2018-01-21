@@ -237,7 +237,8 @@ section#research {
   section#research .paper-fig {
     width: 100%; }
   section#research .keyword {
-    background-color: #e1efe2; }
+    background-color: #899196;
+    color: white; }
   section#research .asterisk {
     font-size: x-small;
     margin-top: -10px; }
