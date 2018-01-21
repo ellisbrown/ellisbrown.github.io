@@ -1,12 +1,16 @@
 // Styling for the contact section
 section#about {
-  margin-bottom: 50px;
+  //margin-bottom: 50px;
   text-align: left;
-  background-color: #FFF5EE;
+  background-color: #ffffff;
+  padding-top: 0px;
   img {
     width: 225px;
     height: 225px;
     //border: 7px solid $white;
+  }
+  h1 {
+    margin-bottom: 150px;
   }
   h4 {
     margin-top: 25px;
@@ -37,5 +41,8 @@ section#about {
   }
   .profile-text {
     text-align: center;
+  }
+  .seal-row {
+    padding-bottom: 0px;
   }
 }
