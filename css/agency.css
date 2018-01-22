@@ -177,7 +177,9 @@ header.masthead {
       font-weight: 700;
       line-height: 75px;
       margin-bottom: 50px;
-      font-family: 'Helvetica Bold', Helvetica, Arial, sans-serif; } }
+      font-family: 'Helvetica Bold', Helvetica, Arial, sans-serif; }
+  .intro {
+    min-height: 100vh; } }
 
 section#about {
   text-align: left;
