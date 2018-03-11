@@ -3,7 +3,8 @@ header.masthead {
   text-align: center;
   color: white;
   //background-image: url('../img/header-bg.jpg');
-  background-color: $off-white-green;
+  background-color: $bg-color;
+  background-image: url($bg-pattern);
   //background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
