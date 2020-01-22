@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "About Me"
+title: "homepage"
 layout: single
 # author_profile: true
 last_modified_at: 2020-01-19

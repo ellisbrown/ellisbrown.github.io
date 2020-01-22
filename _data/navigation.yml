@@ -2,8 +2,8 @@
 main:
   - title: "about"
     url: /
-  # - title: "projects"
-  #   url: /projects/
+  - title: "projects"
+    url: /projects/
   - title: "research"
     url: /research/
   - title: "cv"
