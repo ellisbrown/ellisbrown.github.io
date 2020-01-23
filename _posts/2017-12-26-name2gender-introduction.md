@@ -2,6 +2,7 @@
 layout: single
 title:  "Gender Inference from Character Sequences in Multinational First Names"
 date:   2017-12-26
+excerpt: "Accurate prediction of an unknown individual’s gender is desirable for use in marketing, social science, and many other applications in academia and industry. Perhaps the most obvious and telling indicator of a person’s gender is their first name."
 header:
     image: /assets/posts/name2gen/header.png
 categories:
