@@ -3,7 +3,7 @@ layout: single
 title:  "Gender Inference from Character Sequences in Multinational First Names"
 date:   2017-12-26
 header:
-    image: /assets/images/posts/name2gen_header.png
+    image: /assets/posts/name2gen/header.png
 categories:
     - NLP
 tags: 
@@ -18,7 +18,7 @@ toc_sticky: true
 
 Consider the names “John” and “Cindy” — most people would instantly mark John as a male name and Cindy as a female one. Is this the case *primarily* because we have seen so many examples of male Johns and female Cindys that our brains have built up a latent association between the specific name and the corresponding gender? Probably.
 
-But some component of the name itself (its spelling / combination of letters) contributes to the gender with which it is associated to a large degree as well. Consider the names “Andy” and “Andi.” They are phonetically identical ([/ˈæn.di/](https://en.wiktionary.org/wiki/Andy#Pronunciation)), however most people would categorize “Andy” as male and “Andi” as female upon seeing the spellings. The suffix of a name can indicate the name’s gender; however, the rules are not cut and dry. For example, names “ending in *-yn* appear to be predominantly female, despite the fact that names ending in *-n* tend to be male; and names ending in *-ch* are usually male, even though names that end in *-h* tend to be female” [[1](#references)]. There are many more character patterns that correspond to a certain gender classification than just the suffix — this task is not trivial.
+But some component of the name itself (its spelling / combination of letters) contributes to the gender with which it is associated to a large degree as well. Consider the names “Andy” and “Andi.” They are phonetically identical ([/ˈæn.di/](https://en.wiktionary.org/wiki/Andy#Pronunciation)), however most people would categorize “Andy” as male and “Andi” as female upon seeing the spellings. The suffix of a name can indicate the name’s gender; however, the rules are not cut and dry. For example, names “ending in *-yn* appear to be predominantly female, despite the fact that names ending in *-n* tend to be male; and names ending in *-ch* are usually male, even though names that end in *-h* tend to be female.” [^1] There are many more character patterns that correspond to a certain gender classification than just the suffix — this task is not trivial.
 
 The gender classification of a name becomes increasingly difficult when you consider the space of all names from around the world — the examples I have given thus far are admittedly from a standard American viewpoint. Let’s now consider two Indian names (a culture with which I have next to no exposure): when I see the names “Priyanka” and “Srikanth,” I instantly assume Priyanka to be female and Srikanth to be male. Why is that? How do our brains extract the gender revealing information encoded in the sequence of characters that compose a name?
 
@@ -29,7 +29,7 @@ Accurate prediction of an unknown individual’s gender is desirable for use in 
 This gender classification problem is similar to but fundamentally different from a larger class of problem in [Natural Language Understanding](https://en.wikipedia.org/wiki/Natural_language_understanding). Given the words “cat” and “dog,” almost all people will assign cat to female and dog to male.
 
 {% capture dog_img %}
-![Dog]({{ "/assets/images/posts/name2gen_dog.jpg" | relative_url }})
+![Dog]({{ "/assets/posts/name2gen/dog.jpg" | relative_url }})
 {% endcapture %}
 
 <figure class="align-left">
@@ -39,7 +39,7 @@ This gender classification problem is similar to but fundamentally different fro
 
 The core difference here is that when we read the word “dog,” our brains translate the sequence of characters “d-o-g” to a high dimensional representation of the abstract entity that is our understanding of a dog. It is some combination of features in this high dimensional representation in our brains that correlate more closely to our abstract representation of *males* than to that of *females*; it is not the sequence of characters themselves that contain the gender-revealing information (at least for the most part).
 
-Our gender classification problem becomes even more interesting when you abstract it from names to *all* words in general. Linguistically, many languages are structured with the concept of a [grammatical gender](https://en.wikipedia.org/wiki/Grammatical_gender) wherein classes of nouns in the language are formally associated with one of a discrete set of genders [[2](#references)]. In such languages, certain sequences of characters in a word can almost surely identify the grammatical gender of the word. Learning these character sequences — whether explicitly or implicitly — is an inherent part of learning the language. Furthermore, understanding of such character patterns may assist in understanding of unseen words. For these reasons, studying information embedded in character sequences seems like an interesting and integral topic to Linguistics and NLU that is beyond the scope of this post.
+Our gender classification problem becomes even more interesting when you abstract it from names to *all* words in general. Linguistically, many languages are structured with the concept of a [grammatical gender](https://en.wikipedia.org/wiki/Grammatical_gender) wherein classes of nouns in the language are formally associated with one of a discrete set of genders.[^2] In such languages, certain sequences of characters in a word can almost surely identify the grammatical gender of the word. Learning these character sequences — whether explicitly or implicitly — is an inherent part of learning the language. Furthermore, understanding of such character patterns may assist in understanding of unseen words. For these reasons, studying information embedded in character sequences seems like an interesting and integral topic to Linguistics and NLU that is beyond the scope of this post.
 
 ---
 
@@ -51,7 +51,7 @@ All code for this project is available at [GitHub://ellisbrown/name2gender](http
 As an initial approach to the topic, I explore a vanilla machine learning technique using hard-coding features of names that are known to have high correlation to the name’s associated gender (such as suffix, as mentioned earlier). This quick and dirty implementation is actually able to achieve pretty good results with minimal work.
 
 > The features in used in this approach are pulled directly from the NLTK book:
-> Names ending in -a, -e and -i are likely to be female, while names ending in -k, -o, -r, -s and -t are likely to be male… names ending in -yn appear to be predominantly female, despite the fact that names ending in -n tend to be male; and names ending in -ch are usually male, even though names that end in -h tend to be female. [[1](#references)]
+> Names ending in -a, -e and -i are likely to be female, while names ending in -k, -o, -r, -s and -t are likely to be male… names ending in -yn appear to be predominantly female, despite the fact that names ending in -n tend to be male; and names ending in -ch are usually male, even though names that end in -h tend to be female.[^1]
 
 {% highlight python %}
 def gender_features(name):
@@ -120,7 +120,7 @@ An alternative approach might be to store the value of a character by its locati
 We then define the structure of the network module itself:
 
 {% capture rnn_layers %}
-![RNN]({{ "/assets/images/posts/name2gen_rnn.png" | relative_url }})
+![RNN]({{ "/assets/posts/name2gen/rnn.png" | relative_url }})
 {% endcapture %}
 
 <figure class="align-left">
@@ -128,7 +128,7 @@ We then define the structure of the network module itself:
   <figcaption>source: https://goo.gl/BB7h2A</figcaption>
 </figure>
 
-Following the direction of the [PyTorch name nationality classification example](https://goo.gl/BB7h2A), we create a simple network with 2 [linear layers](http://pytorch.org/docs/master/nn.html#linear-layers) operating on an input and hidden state, and a [LogSoftmax](http://pytorch.org/docs/master/nn.html#logsoftmax) layer on the output. I use 128 hidden units [[4](#references)].
+Following the direction of the [PyTorch name nationality classification example](https://goo.gl/BB7h2A), we create a simple network with 2 [linear layers](http://pytorch.org/docs/master/nn.html#linear-layers) operating on an input and hidden state, and a [LogSoftmax](http://pytorch.org/docs/master/nn.html#logsoftmax) layer on the output. I use 128 hidden units.[^4]
 
 This is a very simple network definition, and likely could be improved by adding more linear layers or better shaping the network.
 
@@ -181,7 +181,7 @@ Improving / cleaning this dataset would likely be the most impactful improvement
 ---
 
 # Disclaimer
-It is worthy to acknowledge that there are many names, such as my own (Ellis), that are about equally common among both genders. Datasets containing discrete labels, as opposed to frequency of occurrence in the world, were much easier to come across, and so I have only taken into consideration the binary classification of names given by these datasets. A more robust approach would incorporate the frequency of occurrence in a population to give a more probabilistic gender prediction. The “Gender-name association scores” approach by Wendy Liu might be a good approach [[3](#references)]. The presence of gender ambiguous names also limits the best case real-world accuracy that could be achieved by a gender classification system.
+It is worthy to acknowledge that there are many names, such as my own (Ellis), that are about equally common among both genders. Datasets containing discrete labels, as opposed to frequency of occurrence in the world, were much easier to come across, and so I have only taken into consideration the binary classification of names given by these datasets. A more robust approach would incorporate the frequency of occurrence in a population to give a more probabilistic gender prediction. The “Gender-name association scores” approach by Wendy Liu might be a good approach.[^3] The presence of gender ambiguous names also limits the best case real-world accuracy that could be achieved by a gender classification system.
 
 Furthermore, there are increasing movements being made to recognize more than the traditional binary male and female genders in our society. As these efforts are still in their infancy and there is very little (if any) data containing these expanded gender classifications, I make no attempt to incorporate them into this analysis.
 
@@ -191,12 +191,12 @@ I also only take names written in the Latin Alphabet into consideration. Abstrac
 As I touched on above, improving the dataset is definitely the best starting point for improvements.
 Application of this name to gender classification to variations of first names would be a really useful to anyone who finds first name classification useful. As Wendy Liu puts it:
 
->“Nicknames, abbreviations, mangled names, and usernames can frequently contain non-trivial gender cues. Identifying strategies for extracting and using these cues to more accurately infer gender is a promising direction for future work.” [[3](#references)]
+>“Nicknames, abbreviations, mangled names, and usernames can frequently contain non-trivial gender cues. Identifying strategies for extracting and using these cues to more accurately infer gender is a promising direction for future work.” [^3]
 
 There is also the possibility of crafting the testing scheme to better represent a real world use case. In my analysis, I treated every name as equally likely to occur. A better real world dataset might include some representation of how frequently a certain name occurs in the world. For example, “John” would have a much higher frequency rating than “Ellis.” This change would affect how the testing results are calculated, and the system as a whole. We would ideally have most of the common first names included in our dataset.
 
 {% capture name_freq %}
-![Freq]({{ "/assets/images/posts/name2gen_freq.png" | relative_url }})
+![Freq]({{ "/assets/posts/name2gen/freq.png" | relative_url }})
 {% endcapture %}
 
 <figure class="align-left">
@@ -209,7 +209,7 @@ For such names, we could simply lookup what our datastore has for the gender of 
 ---
 
 # References
-1. Bird, S., Klein, E., and Loper, E. “6.1.1 Gender Identification.” Natural Language Processing with Python: Analyzing Text with the Natural Language Toolkit, O’Reilly, 2009, [www.nltk.org/book/ch06.html](http://www.nltk.org/book/ch06.html).
-2. “Grammatical Gender.” Wikipedia, Wikimedia Foundation, 21 Dec. 2017, [en.wikipedia.org/wiki/Grammatical_gender](http://en.wikipedia.org/wiki/Grammatical_gender).
-3. Liu, W., and Ruths, D. “What’s in a Name? Using First Names as Features for Gender Inference in Twitter” AAAI Spring Symposium Series (2013), 21 Dec. 2017 [https://www.aaai.org/ocs/index.php/SSS/SSS13/paper/view/5744/5908](https://www.aaai.org/ocs/index.php/SSS/SSS13/paper/view/5744/5908).
-4. Robertson, S. “Classifying Names with a Character-Level RNN.” Classifying Names with a Character-Level RNN, PyTorch Docs, 2017, [http://pytorch.org/tutorials/intermediate/char_rnn_classification_tutorial.html](http://pytorch.org/tutorials/intermediate/char_rnn_classification_tutorial.html).
+[^1]: Bird, S., Klein, E., and Loper, E. “6.1.1 Gender Identification.” Natural Language Processing with Python: Analyzing Text with the Natural Language Toolkit, O’Reilly, 2009, <a href="www.nltk.org/book/ch06.html" style="word-wrap:break-word;">www.nltk.org/book/ch06.html</a>.
+[^2]: “Grammatical Gender.” Wikipedia, Wikimedia Foundation, 21 Dec. 2017, <a href="http://en.wikipedia.org/wiki/Grammatical_gender" style="word-wrap:break-word;">http://en.wikipedia.org/wiki/Grammatical_gender</a>.
+[^3]: Liu, W., and Ruths, D. “What’s in a Name? Using First Names as Features for Gender Inference in Twitter” AAAI Spring Symposium Series (2013), 21 Dec. 2017, <a href="https://www.aaai.org/ocs/index.php/SSS/SSS13/paper/view/5744/5908" style="word-wrap:break-word;">https://www.aaai.org/ocs/index.php/SSS/SSS13/paper/view/5744/5908</a>.
+[^4]: Robertson, S. “Classifying Names with a Character-Level RNN.” Classifying Names with a Character-Level RNN, PyTorch Docs, 2017, <a href="http://pytorch.org/tutorials/intermediate/char_rnn_classification_tutorial.html" style="word-wrap:break-word;">http://pytorch.org/tutorials/intermediate/char_rnn_classification_tutorial.html</a>.
