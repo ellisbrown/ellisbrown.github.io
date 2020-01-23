@@ -29,6 +29,6 @@ All the tests looked great as expected, but my new PCP remarked that I had a hea
 
 A couple of weeks and a barrage of tests later, I was diagnosed with a congenital heart valve defect that was causing my aortic valve to deteriorate and my aortic root to enlarge. If I didn't get it fixed or replaced in the next year or two, my valve could go beyond repair and I would have an aneurysm, likely before my 30s.
 
-In the grand scheme of things, my healthcare scare has been relatively manageable.  There are a lot of conditions that would have been much worse to be diagnosed with. I was lucky to find out about my condition when I did, and luckier still to have had access to such great doctors. I was able to have surgery to repair my valve and aortic root, and my heart is now healthier than ever.
+In the grand scheme of things, my health scare has been relatively manageable.  There are a lot of conditions that would have been much worse to be diagnosed with. I was lucky to find out about my condition when I did, and luckier still to have had access to such great doctors. I was able to have surgery to repair my valve and aortic root, and my heart is now healthier than ever.
 
 Unexpected health issues can arise in your mid-twenties, even if you feel perfectly fine! Believe me, I know it is hard to make time, but a couple of hours now could give you 60 years.
