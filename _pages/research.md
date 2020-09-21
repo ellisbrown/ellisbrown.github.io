@@ -7,45 +7,61 @@ toc: true
 toc_sticky: true
 ---
 
-## publications
 
-### journal
+## working
+A Krylov Method for Fast Parameter Tuning in Ridge Regression
+<small>
+Hristo Paskov, <u>Ellis Brown, II</u>.<br>
+2020, Unpublished Manuscript, BlackRock AI Labs, Palo Alto, CA.
+</small>
+
+## journal
 
 An Architecture for Spatiotemporal Template-Based Search<br>
 <small>
-<u>Brown, E. L., II</u>, Park, S., Warford, N., Seiffert, A., Kawamura, K., Lappin, J., and Kunda, M.<br>
-2018, <i>Advances in Cognitive Systems 6, 101–118</i>. [[paper](http://www.cogsys.org/papers/ACSvol6/papers/paper-6-8.pdf)]
+<u>Ellis Brown, II</u>, Soobeen Park, Noel Warford, Adriane Seiffert, Kazuhiko Kawamura, Joe Lappin, and Maithilee Kunda.<br>
+2018, <i>Advances in Cognitive Systems 6, 101–118</i>.<br>
+[[paper](http://www.cogsys.org/papers/ACSvol6/papers/paper-6-8.pdf)]
 </small>
 
-### preprint
-Modeling Uncertainty in Bayesian Neural Networks with Dropout: The effect of weight prior and network architecture selection<br>
-<small>
-<u>Brown, E. L., II</u>\*, Manko, M.\*, Matlin, E.\*<br>
-2019, Technical paper. (\* equal contribution)
-</small>
-
-## presentations
-
-### conference
+## conference
 
 Modeling Uncertainty in Bayesian Neural Networks with Dropout:<br>The effect of weight prior and network architecture selection<br>
 <small>
-<u>Brown, E. L., II</u>\*, Manko, M.\*, Matlin, E.\*<br>
+<u>Ellis Brown, II</u>\*, Melanie Manko\*, Ethna Matlin.\*<br>
 American Indian Science and Engineering Society National Conference, Madison, WI.
-<br>2019, Oct. 10. Abstract and Poster presentation. (\* equal contribution) [[poster](/assets/files/posters/2019_bnn_uncertainty_aises_poster.pdf)]
-<br>*Awarded Third Place, Graduate Poster Presentation Prize*
+<br>2019, Oct. 10. Abstract and Poster presentation. (\* equal contribution)<br>
+[[poster](/assets/files/presentations/2019_bnn_uncertainty_aises_poster.pdf)]
+<br>*Awarded Third Place, Graduate Student Research Competition*
 </small>
 
 SpatioTemporal Template-based Search:<br>An Architecture for Spatiotemporal Template-Based Search<br>
 <small>
-<u>Brown, E. L., II</u>, Park, S., Warford, N., Seiffert, A., Kawamura, K., Lappin, J., and Kunda, M.<br>
+<u>Ellis Brown, II</u>, Soobeen Park, Noel Warford, Adriane Seiffert, Kazuhiko Kawamura, Joe Lappin, and Maithilee Kunda<br>
 Sixth Annual Conference on Advances in Cognitive Systems, Stanford, CA.
-<br>2018, Aug. 20. Paper and Oral presentation. [[paper](http://www.cogsys.org/papers/ACSvol6/article04.pdf)] [[slides]()]
+<br>2018, Aug. 20. Paper and Oral presentation.<br>
+[[paper](http://www.cogsys.org/papers/ACSvol6/article04.pdf), [slides](https://docs.google.com/presentation/d/1YmzagDd5uLdEq42bkXCAX-vy0kdYvxeQp9jIYhFo-z8/present)]
 </small>
 
 Computational Cognitive Systems to Model Information Salience<br>
 <small>
-<u>Brown, E. L., II</u>, Seiffert, A. E., Warford, N., Park, S., & Kunda, M.<br>
+<u>Ellis Brown, II</u>, Adriane Seiffert, Noel Warford, Soobeen Park, and Maithilee Kunda.<br>
 American Indian Science and Engineering Society National Conference, Denver, CO.
-<br>2017, Sep. 21. Abstract and Oral presentation. [[slides](https://docs.google.com/presentation/d/e/2PACX-1vTZMsXTsUARrHq0TMRYhMBA3yaHOUI8OnS0GmsczXkZEDnjPtLuTj-py7MAGPmCs5FmpAkHTILFdTdr/pub?start=false&loop=false&delayms=3000)] [[link](https://my.vanderbilt.edu/aivaslab/2017/09/ellis-brown-gives-talk-at-aises-2017-national-conference/)]
+<br>2017, Sep. 21. Abstract and Oral presentation.<br>
+[[slides](https://docs.google.com/presentation/d/e/2PACX-1vTZMsXTsUARrHq0TMRYhMBA3yaHOUI8OnS0GmsczXkZEDnjPtLuTj-py7MAGPmCs5FmpAkHTILFdTdr/pub?start=false&loop=false&delayms=3000), [link](https://my.vanderbilt.edu/aivaslab/2017/09/ellis-brown-gives-talk-at-aises-2017-national-conference/)]
+</small>
+
+## reports
+Securities Lending Policy Optimization<br>
+<small>
+<u>Ellis Brown, II.</u><br>
+2020, Department of Computer Science, Stanford University, Palo Alto, CA.<br>
+[[paper](/assets/files/papers/2020_seclending_policy_opt.pdf), [video](/assets/files/presentations/2020_seclending_policy_opt.mp4)]
+</small>
+
+Modeling Uncertainty in Bayesian Neural Networks with Dropout: The effect of weight prior and network architecture selection<br>
+<small>
+<u>Ellis Brown, II</u>\*, Manko, M.\*, Matlin, E.\*<br>
+2019, Department of Electrical Engineering and Computer Science, Columbia University, New York, NY. (\* equal contribution)<br>
+[[paper](/assets/files/papers/2019_bnn_uncertainty.pdf), [slides](/assets/files/presentations/2019_bnn_uncertainty_slides.pdf)]
 </small>

@@ -10,8 +10,8 @@
 # Review documentation to determine if you should use `theme` or `remote_theme`
 # https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/#installing-the-theme
 
-# theme                    : "minimal-mistakes-jekyll"
-remote_theme             : "mmistakes/minimal-mistakes"
+theme                    : "minimal-mistakes-jekyll"
+# remote_theme             : "mmistakes/minimal-mistakes"
 minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
@@ -113,7 +113,7 @@ author:
   name             : "Ellis L. Brown II"
   avatar           : "/assets/images/elb.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Machine Learning Engineer"
-  location         : "New York, NY"
+  location         : "Bay Area, CA"
   email            : "ellis.l.brown.ii@gmail.com"
   links:
     - label: "Email"
