@@ -96,7 +96,7 @@ social:
   type                   : # Person or Organization (defaults to Person)
   name                   : # If the user or organization name differs from the site's name
   links: # An array of links to social media profiles
-    - "https://twitter.com/ellisbrownii"
+    - "https://twitter.com/_ellisbrown"
     - "https://www.linkedin.com/in/ellislbrownii/"
     - "https://github.com/ellisbrown"
 
@@ -133,14 +133,14 @@ author:
       url: "https://github.com/ellisbrown"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/ellisbrownii"
+      url: "https://twitter.com/_ellisbrown"
 
 # Site Footer
 footer:
   links:
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/ellisbrownii"
+      url: "https://twitter.com/_ellisbrown"
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
       # url:
