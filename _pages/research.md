@@ -28,7 +28,7 @@ An Architecture for Spatiotemporal Template-Based Search<br>
 
 Modeling Uncertainty in Bayesian Neural Networks with Dropout:<br>The effect of weight prior and network architecture selection<br>
 <small>
-<u>Ellis Brown, II</u>\*, Melanie Manko\*, Ethna Matlin.\*<br>
+<u>Ellis Brown, II</u>\*, Melanie Manko\*, Ethan Matlin.\*<br>
 American Indian Science and Engineering Society National Conference, Madison, WI.
 <br>2019, Oct. 10. Abstract and Poster presentation. (\* equal contribution)<br>
 [[poster](/assets/files/presentations/2019_bnn_uncertainty_aises_poster.pdf)]
@@ -61,7 +61,7 @@ Securities Lending Policy Optimization<br>
 
 Modeling Uncertainty in Bayesian Neural Networks with Dropout: The effect of weight prior and network architecture selection<br>
 <small>
-<u>Ellis Brown, II</u>\*, Manko, M.\*, Matlin, E.\*<br>
+<u>Ellis Brown, II</u>\*, Melanie Manko\*, Ethan Matlin.\*<br>
 2019, Department of Electrical Engineering and Computer Science, Columbia University, New York, NY. (\* equal contribution)<br>
 [[paper](/assets/files/papers/2019_bnn_uncertainty.pdf), [slides](/assets/files/presentations/2019_bnn_uncertainty_slides.pdf)]
 </small>
