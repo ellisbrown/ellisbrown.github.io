@@ -8,12 +8,12 @@ toc_sticky: true
 ---
 
 
-## working
+<!-- ## working
 A Krylov Method for Fast Parameter Tuning in Ridge Regression
 <small>
 Hristo Paskov, <u>Ellis Brown, II</u>.<br>
 2020, Unpublished Manuscript, BlackRock AI Labs, Palo Alto, CA.
-</small>
+</small> -->
 
 ## journal
 
