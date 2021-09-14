@@ -3,7 +3,7 @@ permalink: /
 title: "homepage"
 layout: single
 # author_profile: true
-last_modified_at: 2020-09-20
+last_modified_at: 2021-09-13
 ---
 <img src="/assets/images/elb.jpg" alt="elb" class="align-right" width="40%" style="box-shadow: 0 0 5px #828282; margin-top: 0em; margin-bottom: 1em;"> 
 I am currently a MSCS student at Carnegie Mellon, primarily interested in reinforcement learning and AI safety. My goal is to build sequential decision-making agents that learn as efficiently and act as robustly as humans do, and can be safely deployed in the real world.
