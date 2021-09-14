@@ -6,11 +6,12 @@ layout: single
 last_modified_at: 2020-09-20
 ---
 <img src="/assets/images/elb.jpg" alt="elb" class="align-right" width="40%" style="box-shadow: 0 0 5px #828282; margin-top: 0em; margin-bottom: 1em;"> 
-I am currently a MSCS student at Carnegie Mellon University, primarily interested in reinforcement learning and AI safety. My goal is to build sequential decision-making agents that learn as efficiently and act as robustly as humans do, and can be safely deployed in the real world.
+I am currently a MSCS student at Carnegie Mellon, primarily interested in reinforcement learning and AI safety. My goal is to build sequential decision-making agents that learn as efficiently and act as robustly as humans do, and can be safely deployed in the real world.
 
 I was previously a ML Engineer at BlackRock AI Labs in Palo Alto working on projects at the intersection of Machine Learning, Optimization, and Finance.  Over the past couple of years, I have also taken non-degree graduate Machine Learning courses at Stanford and Columbia.
 
-I graduated in May 2017 from Vanderbilt University with degrees in Computer Science and Math. As a senior, I was a research assistant in [Maithilee Kunda](https://my.vanderbilt.edu/mkunda/)'s [lab](https://my.vanderbilt.edu/aivaslab/) where I led a computational cognitive science project. After my junior year, I was a software-engineering intern at BlackRock in NYC.
+I graduated in May 2017 from Vanderbilt with degrees in Computer Science and Math. As a senior, I was a research assistant in [Maithilee Kunda](https://my.vanderbilt.edu/mkunda/)'s [lab](https://my.vanderbilt.edu/aivaslab/) where I led a computational cognitive science project. 
+I interned at BlackRock in NYC.
 
 <!-- I am broadly interested in Artificial Intelligence and Machine Learning, and its potential to extend humanity's ability to solve challenging problems. I believe that there is a lot to learn about learning from studying us humans and other intelligent animals, but also do not. -->
 
