@@ -6,6 +6,25 @@ author_profile: true
 classes: wide
 ---
 <div class="notice" markdown="1" style="overflow: hidden;">
+<!-- <img class="align-left" src="/assets/files/projects/ssd.png" style="max-width:300px"> -->
+<h1>SeparableOptimization.jl<br>
+</h1>
+<p>Solves the problem of minimizing a sum of piecewise-quadratic functions subject to affine equality constraints by applying the Alternating Direction Method of Multipliers (ADMM).</p>
+<a href="http://www.github.com/JuliaFirstOrder/SeparableOptimization.jl" class="btn btn--inverse">Code</a>
+<span style="float: right"><b>Jul 2021</b></span>
+</div>
+
+<div class="notice" markdown="1" style="overflow: hidden;">
+<!-- <img class="align-left" src="/assets/files/projects/ssd.png" style="max-width:300px"> -->
+<h1>PiecewiseQuadratics.jl<br>
+</h1>
+<p>Allows for the representation and manipulation of piecewise-quadratic functions, including the computation of the proximal operator and the convex envelope.</p>
+<a href="http://www.github.com/JuliaFirstOrder/PiecewiseQuadratics.jl" class="btn btn--inverse">Code</a>
+<span style="float: right"><b>Jul 2021</b></span>
+</div>
+
+
+<div class="notice" markdown="1" style="overflow: hidden;">
 <img class="align-left" src="/assets/files/projects/ssd.png" style="max-width:300px">
 <h1>ssd-pytorch<br>
 <span class="footnote small" style="font-style: italic; font-weight:normal">Single Shot MultiBox Object Detector (SSD), in PyTorch</span>
