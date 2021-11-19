@@ -1,8 +1,18 @@
-@import "minimal-mistakes";
+--- 
+# Only the main Sass file needs front matter (the dashes are enough) 
+--- 
+
 
 // see https://github.com/mmistakes/minimal-mistakes/discussions/1219
+
+@charset "utf-8";
+
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
+@import "minimal-mistakes"; // main partials
+
+
 html {
-    font-size: 14px; // change to whatever
+    font-size: 16px; // change to whatever
 
     @include breakpoint($medium) {
         font-size: 16px; // change to whatever
@@ -14,5 +24,73 @@ html {
 
     @include breakpoint($x-large) {
         font-size: 20px; // change to whatever
+    }
+}
+
+.project {
+    @extend .notice;
+    overflow: hidden;
+
+    .teaser {
+        width: 30%;
+        float: left;
+        position: relative;
+        height: 100%;
+        display: flex;
+        align-items: center;
+
+        img {
+            @extend .align-left;
+            width: 95%;
+            height: 100%;
+            // & body {
+            //     height:100%;    
+            //     @include display-box;           
+            //     @include box-align(center);
+            // }
+            // & body {
+            //     height:100%;    
+            //     display:-ms-flexbox;
+            //     display:-moz-box;
+            //     display:-webkit-box;
+            //     display:-webkit-flex;
+            //     display:flex;       
+            //     -ms-align-items:center;
+            //     -moz-align-items:center;
+            //     -webkit-align-items:center;
+            //     align-items:center;
+            // }
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            // position: relative;
+            // top: 100%;
+            // transform: translateY(50%);
+        }
+    }
+
+    .content {
+        width: 70%;
+        float: right;
+        
+        h1 span {
+            @extend .footnote;
+            @extend small;
+
+            font-style: italic;
+            font-weight: normal;
+        }
+
+        .button {
+            @extend .btn;
+            @extend .btn--inverse;
+
+        }
+
+        .date {
+            float: right;
+            font-weight: bold;
+        }
     }
 }
