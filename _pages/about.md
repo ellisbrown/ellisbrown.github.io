@@ -8,7 +8,7 @@ last_modified_at: 2021-11-13
 <img src="/assets/images/elb.jpg" alt="elb" class="align-right" width="35%" style="box-shadow: 0 0 5px #828282; margin-top: 0em; margin-bottom: 0em;"> 
 I am a MSCS student at CMU, primarily interested in machine learning and reinforcement learning.
 My goal is to develop intelligent agents that can generalize as robustly and efficiently as humans do, allowing them to be *safely* deployed in the real world.
-Recently, I am particularly excited about model-based / unsupervised / meta learning, exploration, and learning useful representations.
+Recently, I am particularly excited about exploration,  model-based / unsupervised / meta learning, and learning useful representations.
 
 Previously, I was a founding ML Engineer at [BlackRock AI Labs](https://www.blackrock.com/corporate/ai) in Palo Alto working with 
 [Stephen Boyd](https://web.stanford.edu/~boyd/), [Mykel Kochenderfer](https://mykel.kochenderfer.com/), and [Trevor Hastie](https://web.stanford.edu/~hastie/)
