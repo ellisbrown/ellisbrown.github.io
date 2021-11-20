@@ -4,7 +4,7 @@ title:  "Open-source Julia packages for first-order optimization"
 date:   2021-07-31
 excerpt: "We present two Julia packages that the BlackRock AI Labs has released, PiecewiseQuadratics.jl and SeparableOptimization.jl, along with a new Julia organization we created that is dedicated to first-order optimization methods."
 header:
-  teaser: https://miro.medium.com/max/1400/1*KshJc4-Rcc9dGvcXRw9mxw.jpeg
+    image: https://miro.medium.com/max/1400/1*KshJc4-Rcc9dGvcXRw9mxw.jpeg
 categories:
     - optimization
 tags:
