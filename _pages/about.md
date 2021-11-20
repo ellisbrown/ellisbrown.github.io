@@ -20,4 +20,4 @@ Over the past couple of years, I have also taken non-degree graduate machine lea
 
 I am a proud member of the [Osage Nation](https://www.osagenation-nsn.gov/) and have recently enjoyed engaging with the Native research community at [AISES](https://conference.aises.org/).
 
-Finally: if you haven't made time for a regular checkin with a doctor recently, [please do](/life/make-time-for-the-doctor/)! Even if you feel perfectly healthy.
+Lastly: if you haven't made time for a regular checkin with a doctor recently, [please do](/life/make-time-for-the-doctor/)! Even if you feel perfectly healthy.
