@@ -21,9 +21,9 @@ Open-sourced two Julia packages for separable optimization problems
 <p>
 Created a new Julia organization, <a href="https://www.github.com/JuliaFirstOrder">JuliaFirstOrder</a>, dedicated to first-order optimization methods.
 <a href="https://www.github.com/JuliaFirstOrder/PiecewiseQuadratics.jl">PiecewiseQuadratics.jl</a>
-Allows for the representation and manipulation of piecewise-quadratic functions, including the computation of the proximal operator and the convex envelope.
+allows for the representation and manipulation of piecewise-quadratic functions, including the computation of the proximal operator and the convex envelope.
 <a href="https://www.github.com/JuliaFirstOrder/SeparableOptimization.jl"> SeparableOptimization.jl</a>
-Solves the problem of minimizing a sum of piecewise-quadratic functions subject to affine equality constraints by applying the Alternating Direction Method of Multipliers (ADMM).
+solves the problem of minimizing a sum of piecewise-quadratic functions subject to affine equality constraints by applying the Alternating Direction Method of Multipliers (ADMM).
 Presented at JuliaCon 2021
 <!-- <ul style="margin: 0;">
   <li><a href="https://www.github.com/JuliaFirstOrder/PiecewiseQuadratics.jl">PiecewiseQuadratics.jl</a> Allows for the representation and manipulation of piecewise-quadratic functions, including the computation of the proximal operator and the convex envelope.</li>
