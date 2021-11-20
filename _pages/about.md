@@ -19,3 +19,5 @@ on projects at the intersection of machine learning, optimization, and finance. 
 Over the past couple of years, I have also taken non-degree graduate machine learning courses at Columbia and Stanford while working in NYC and Palo Alto.
 
 I am a proud member of the [Osage Nation](https://www.osagenation-nsn.gov/) and have recently enjoyed engaging with the Native research community at [AISES](https://conference.aises.org/).
+
+Finally: if you haven't made time for a regular checkin with a doctor recently, [please do](/life/make-time-for-the-doctor/)! Even if you feel perfectly healthy.
