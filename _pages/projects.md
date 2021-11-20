@@ -8,7 +8,9 @@ classes: wide
 
 <div class="project" markdown="1">
 <div class="teaser">
+<a href="https://live.juliacon.org/talk/FGUEAM">
 <img src="/assets/files/projects/julia_firstorder.jpeg">
+</a>
 </div>
 <div class="content">
 <h1>Julia First Order Optimization<br>
@@ -42,7 +44,9 @@ Presented at JuliaCon 2021
 
 <div class="project">
 <div class="teaser">
+<a href="http://www.github.com/amdegroot/ssd.pytorch">
 <img src="/assets/files/projects/ssd.png">
+</a>
 </div>
 <div class="content">
 <h1>ssd.pytorch<br>
@@ -58,14 +62,16 @@ Presented at JuliaCon 2021
 
 <div class="project">
 <div class="teaser">
+<a href="/assets/files/presentations/2019_bnn_uncertainty_aises_poster.pdf">
 <img src="/assets/files/projects/bnn.png">
+</a>
 </div>
 <div class="content">
 <h1>BNN-Uncertainty<br>
 <span>Keras implementation of a Bayesian Neural Network with dropout</span>
 </h1>
 <p>Experiments investigating the effect of weight prior selection and network architecture on uncertainty estimates.</p>
-<a href="/assets/files/posters/2019_bnn_uncertainty_aises_poster.pdf" class="button">Poster</a>
+<a href="/assets/files/presentations/2019_bnn_uncertainty_aises_poster.pdf" class="button">Poster</a>
 <a href="http://www.github.com/ellisbrown/BNN-Uncertainty" class="button">Code</a>
 <span class="date">May 2019</span>
 </div>
@@ -73,7 +79,9 @@ Presented at JuliaCon 2021
 
 <div class="project">
 <div class="teaser">
+<a href="https://towardsdatascience.com/name2gender-introduction-626d89378fb0">
 <img src="/assets/files/projects/name2gender.png">
+</a>
 </div>
 <div class="content">
 <h1>Name2Gender<br>
@@ -89,7 +97,9 @@ Presented at JuliaCon 2021
 
 <div class="project">
 <div class="teaser">
+<a href="http://www.github.com/amdegroot/deepgenres.torch">
 <img src="/assets/files/projects/deepgenres.png">
+</a>
 </div>
 <div class="content">
 <h1>
