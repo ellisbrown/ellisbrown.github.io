@@ -11,7 +11,7 @@ Recently, I am particularly excited about generalization, exploration, and model
 I am also generally interested in drawing inspiration from intelligence in humans and nature.
 My long-term goal is to develop intelligent agents that can generalize and continually adapt as robustly and efficiently as humans do, allowing them to be *safely* deployed in the real world.
 
-Previously, I was a founding engineer at [BlackRock AI Labs](https://www.blackrock.com/corporate/ai) in Palo Alto working with 
+Previously I was a founding engineer at [BlackRock AI Labs](https://www.blackrock.com/corporate/ai) in Palo Alto, where I was fortunate to work with 
 [Mykel Kochenderfer](https://mykel.kochenderfer.com/),
 [Stephen Boyd](https://web.stanford.edu/~boyd/),
 and [Trevor Hastie](https://web.stanford.edu/~hastie/)
