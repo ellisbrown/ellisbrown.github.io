@@ -26,7 +26,7 @@ Created a new Julia organization, <a href="https://www.github.com/JuliaFirstOrde
 allows for the representation and manipulation of piecewise-quadratic functions, including the computation of the proximal operator and the convex envelope.
 <a href="https://www.github.com/JuliaFirstOrder/SeparableOptimization.jl"> SeparableOptimization.jl</a>
 solves the problem of minimizing a sum of piecewise-quadratic functions subject to affine equality constraints by applying the Alternating Direction Method of Multipliers (ADMM).
-Presented at JuliaCon 2021
+Presented at JuliaCon 2021.
 <!-- <ul style="margin: 0;">
   <li><a href="https://www.github.com/JuliaFirstOrder/PiecewiseQuadratics.jl">PiecewiseQuadratics.jl</a> Allows for the representation and manipulation of piecewise-quadratic functions, including the computation of the proximal operator and the convex envelope.</li>
   <li><a href="https://www.github.com/JuliaFirstOrder/SeparableOptimization.jl"> SeparableOptimization.jl</a>Solves the problem of minimizing a sum of piecewise-quadratic functions subject to affine equality constraints by applying the Alternating Direction Method of Multipliers (ADMM).</li>
@@ -52,7 +52,7 @@ Presented at JuliaCon 2021
 <h1>ssd.pytorch<br>
 <span>Single Shot MultiBox Object Detector (SSD), in PyTorch</span>
 </h1>
-<p>Implented SSD, a unified framework for real-time object detection using a single network. Has become the de facto implementation in PyTorch.</p>
+<p>Implented SSD, a unified framework for real-time object detection using a single network. Has become the de facto implementation in PyTorch (4.5k+ stars).</p>
 <a href="http://arxiv.org/abs/1512.02325v5" class="button">Original Paper</a>
 <a href="http://www.github.com/amdegroot/ssd.pytorch" class="button">Code</a>
 <span class="date">Mar 2017</span>
