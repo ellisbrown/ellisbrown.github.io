@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "homepage"
+title: "Ellis Brown"
 layout: single
 # author_profile: true
 last_modified_at: 2021-11-13
