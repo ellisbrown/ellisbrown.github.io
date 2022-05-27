@@ -3,12 +3,12 @@ permalink: /
 title: "Ellis Brown"
 layout: single
 # author_profile: true
-last_modified_at: 2021-11-13
+last_modified_at: 2022-05-25
 ---
-<img src="/assets/images/elb.jpg" alt="elb" class="align-right" width="35%" style="box-shadow: 0 0 5px #828282; margin-top: 0em; margin-bottom: 0em;"> 
-I am a MSCS student at CMU, primarily interested in artificial intelligence and reinforcement learning.
-Recently, I am particularly excited about curiosity-based exploration, self-supervised learning, and representation learning.
-I am also generally interested in drawing inspiration from intelligence in humans and nature.
+<img src="/assets/images/elb.jpg" alt="elb" class="align-right" width="35%" style="box-shadow: 0 0 5px #828282; margin-top: 0em; margin-bottom: 0em; border-radius: 50%;"> 
+I am a MSCS student at CMU advised by [Deepak Pathak](https://www.cs.cmu.edu/~dpathak/).
+I am recently excited about self-supervised learning, curiosity-based exploration, and leveraging internet-scale models and data. 
+I am keen to draw inspiration from intelligence in humans and nature---especially as a goal-post rather than a blueprint.
 My long-term goal is to develop intelligent agents that can *generalize* and *continually adapt* as robustly and efficiently as humans do, allowing them to be *safely* deployed in the real world.
 
 Previously I was a founding engineer at [BlackRock AI Labs](https://www.blackrock.com/corporate/ai) in Palo Alto, where I was fortunate to work with 
