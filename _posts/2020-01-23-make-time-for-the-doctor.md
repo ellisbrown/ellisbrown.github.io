@@ -16,7 +16,7 @@ categories:
 
 If you told me a year ago I would need open-heart surgery just after turning 25, I would have thought you were crazy. Just like most new college grads, I had felt healthy and invincible for as long as I could remember.
 
-Last spring I made an appointment with a neurologist regarding infrequent migraines I had been having.  Luckily my case is nothing more than a nuisance, but something unexpected struck me from my visit.  When the doctor asked me who my PCP (primary care physician) was, I was at a loss for words.
+Last spring I made an appointment with a neurologist regarding infrequent migraines I had been having.  Luckily my case is nothing more than a nuisance, but something unexpected struck me from my visit: I was at a loss for words when the doctor asked me who my PCP (primary care physician) was.
 
 I had seen the same pediatrician since I was a kid, even over the summers while in college; in my two and a half years on my own in the real world, getting a routine checkup had not even crossed my mind. I was preoccupied with work and life in a new city. But hey, I was healthy and finding a doctor is nearly impossible when you’re working full-time.  He gave me a bit of a hard time about it and pointed me to a couple of good PCPs to look up.
 
