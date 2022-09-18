@@ -10,6 +10,7 @@ $red-color-dark:      #B71C1C !default;
 $orange-color:        #F29105 !default;
 $blue-color:          #0076df !default;
 $blue-color-dark:     #00369f !default;
+$cool-blue-color:     #332faf !default;
 $cyan-color:          #2698BA !default;
 $light-cyan-color:    lighten($cyan-color, 25%);
 $green-color:         #00ab37 !default;
@@ -17,7 +18,8 @@ $green-color-lime:    #B7D12A !default;
 $green-color-dark:    #009f06 !default;
 $green-color-light:   #ddffdd !default;
 $green-color-bright:  #11D68B !default;
-$purple-color:        #B509AC !default;
+$cool-green-color:    #237b5c !default;
+$purple-color:        #8d12bd !default;
 $light-purple-color:  lighten($purple-color, 25%);
 $pink-color:          #f92080 !default;
 $pink-color-light:    #ffdddd !default;
@@ -28,7 +30,8 @@ $grey-color-light:    lighten($grey-color, 40%);
 $grey-color-dark:     #1C1C1D;
 $grey-900:            #212529;
 
-$white-color: #ffffff !default;
+// $white-color: #ffffff !default;
+$white-color: #f2f0fc !default;
 $black-color: #000000 !default;
 
 
@@ -36,3 +39,9 @@ $black-color: #000000 !default;
 
 $code-bg-color-light:     rgba($purple-color, 0.05);
 $code-bg-color-dark:      #2c3237 !default;
+
+// $theme-color-light:             $purple-color;
+// $theme-color-light:             $red-color-dark;
+// $theme-color-light:             $cool-green-color;
+$theme-color-light:             $cool-blue-color;
+$theme-color-dark:              $cyan-color;

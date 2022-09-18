@@ -1,12 +1,8 @@
 github_users:
-  - torvalds
-  - alshedivat
-
+  - ellisbrown
 github_repos:
-  - alshedivat/al-folio
-  - twbs/bootstrap
-  - jekyll/jekyll
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - jpswalsh/academicons
-  - mathjax/MathJax
+  - amdegroot/ssd.pytorch
+  - JuliaFirstOrder/PiecewiseQuadratics.jl
+  - JuliaFirstOrder/SeparableOptimization.jl
+  - ellisbrown/name2gender
+  - amdegroot/deepgenres.torch
