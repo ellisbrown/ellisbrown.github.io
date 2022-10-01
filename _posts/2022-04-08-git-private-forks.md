@@ -13,9 +13,7 @@ tags:
 toc: true
 ---
 
-I have found myself forking repositories quite frequently recently for school projects and research, and most of the time I have wanted to keep them private on GitHub. It is not that straightforward, so once I figured out the right way to accomplish it I started honing [this Gist](https://gist.github.com/ellisbrown/b880f46c25af40be0b0f0bd280ca7155) to remind myself of the right steps.
-
-After using it for the umpteenth time this year, I realized that the Gist had basically turned into a mini blog post 😅, so I thought I'd just post it here in case it can help any one else trying to accomplish the same!
+I have found myself forking repositories quite frequently recently for school projects and research, and most of the time I have wanted to keep them private on GitHub. It is not that straightforward, so once I figured out the right way to accomplish it I started honing this post to remind myself of the right steps. Hopefully it helps any one else trying to accomplish the same thing!
 
 ## Basic Steps
 
