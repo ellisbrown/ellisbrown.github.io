@@ -6,7 +6,7 @@ layout: single
 last_modified_at: 2022-08-05
 ---
 <img src="/assets/images/elb.jpg" alt="elb" class="align-right" width="35%" style="box-shadow: 0 0 5px #828282; margin-top: 0em; margin-bottom: 0em; border-radius: 50%;"> 
-I am a Master's student in the [Computer Science Department](http://csd.cmu.edu/) at [CMU](https://www.cmu.edu/) and a graduate student researcher in the [Robitics Institute](http://www.ri.cmu.edu/). I am advised by [Deepak Pathak](http://www.cs.cmu.edu/~dpathak/) and collaborate closely with [Alyosha Efros](http://www.cs.berkeley.edu/~efros/).
+I am a Master's student in the [Computer Science Department](http://csd.cmu.edu/) at [CMU](https://www.cmu.edu/) and a graduate student researcher in the [Robotics Institute](http://www.ri.cmu.edu/). I am advised by [Deepak Pathak](http://www.cs.cmu.edu/~dpathak/) and collaborate closely with [Alyosha Efros](http://www.cs.berkeley.edu/~efros/).
 
 My research interests lie in artificial intelligence at the intersection of machine learning, computer vision, and robotics.
 Currently, I am particularly excited about self-supervised learning, intrinsic motivation, and open-endedness.
