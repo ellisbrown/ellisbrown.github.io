@@ -41,7 +41,7 @@ blockquote {
   border-left: 2px solid var(--global-theme-color);
   margin: 1.5em 10px;
   padding: 0.5em 10px;
-  font-size: 1.2rem;
+  font-size: 1.05rem;
 }
 
 // Math
@@ -343,8 +343,12 @@ footer.sticky-bottom {
 
 @media (min-width: 768px) {
   .repo {
-    max-width: 50%;
+    max-width: 75%;
   }
+}
+
+.repo-img {
+    max-width: 100% !important;
 }
 
 // Blog
@@ -654,30 +658,44 @@ html.transition *:after {
 
 // Extra Markdown style (post Customization)
 .post{
-  .post-meta{
-    color: var(--global-text-color-light);
-    font-size: 0.875rem;
-    margin-bottom: 0;
-  }
-  .post-tags{
-    color: var(--global-text-color-light);
-    font-size: 0.875rem;
-    padding-top: 0.25rem;
-    padding-bottom: 1rem;
-    a {
-      color: var(--global-text-color-light);
-      text-decoration: none;
-      &:hover {
-        color: var(--global-theme-color);
-      }
+    .post-meta{
+        color: var(--global-text-color-light);
+        font-size: 0.875rem;
+        margin-bottom: 0;
     }
-  }
-  .post-content{
-    blockquote {
-      border-left: 5px solid var(--global-theme-color);
-      padding: 8px;
+    .post-tags{
+        color: var(--global-text-color-light);
+        font-size: 0.875rem;
+        padding-top: 0.25rem;
+        padding-bottom: 1rem;
+        a {
+        color: var(--global-text-color-light);
+        text-decoration: none;
+        &:hover {
+            color: var(--global-theme-color);
+        }
+        }
     }
-  }
+    .post-content{
+        max-width: 800px;
+        blockquote {
+        border-left: 5px solid var(--global-theme-color);
+        padding: 8px;
+        }
+    }
+    img {
+        max-width: 325px;
+        // padding: 0 1rem 0 1rem;  // order is top right bottom left
+    }
+    .align-right {
+        float: right;
+        margin: 0 0 1rem 1rem;
+    }
+    .align-left {
+        float: left;
+        margin: 0 1rem 1rem 0;
+        // justify-content: flex-start;
+    }
 }
 
 progress {

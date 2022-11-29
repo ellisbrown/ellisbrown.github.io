@@ -1,8 +1,8 @@
 ---
-layout: single
+layout: post
 title:  "VNC Virtual Desktop on a Headless Server"
 date:   2022-08-25
-excerpt: "Setup a virtual desktop environment on a Linux server without a monitor."
+description: "Setup a virtual desktop environment on a Linux server without a monitor."
 categories:
     - programming
 tags:

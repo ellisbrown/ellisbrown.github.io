@@ -1,8 +1,8 @@
 ---
-layout: single
+layout: post
 title:  "Open-source Julia packages for first-order optimization"
 date:   2021-07-31
-excerpt: "We present two Julia packages that the BlackRock AI Labs has released, PiecewiseQuadratics.jl and SeparableOptimization.jl, along with a new Julia organization we created that is dedicated to first-order optimization methods."
+description: "We present two Julia packages that the BlackRock AI Labs has released, PiecewiseQuadratics.jl and SeparableOptimization.jl, along with a new Julia organization we created that is dedicated to first-order optimization methods."
 header:
     image: https://miro.medium.com/max/1400/1*KshJc4-Rcc9dGvcXRw9mxw.jpeg
 categories:
@@ -27,7 +27,16 @@ After devising the ADMM based optimization methodology described in the [paper](
 This package allows for the representation and manipulation of univariate piecewise quadratic functions, designed to be used as a cost function in optimization packages.
 Piecewise quadratic functions are composed of several equations (“pieces”), each of which takes the standard quadratic form and applies to a different part of the domain. Consider the following example:
 
-![](https://miro.medium.com/max/601/1*-XFLInQVTjJ4Wpb8Vfbvig.png)
+$$
+f(x) = \left\{\begin{array}{ll}
+x^2 - 3x - 3 & \text{if } x \in [-\infty, 3]\\
+x + 3 & \text{if } x \in [3, 4]\\
+2x^2 - 20x + 47 & \text{if } x \in [4, 6]\\
+x - 7 & \text{if } x \in [6, 7.5]\\
+4x - 29 & \text{if } x \in [7.5, \infty]\\
+\end{array}\right.
+$$
+
 
 Within [PiecewiseQuadratics.jl](https://github.com/JuliaFirstOrder/PiecewiseQuadratics.jl), we would represent `f` as a `PiecewiseQuadratic`, which is simply a list of `BoundedQuadratics`. Here, each `BoundedQuadratic` represents our quadratic equation “pieces,” and is defined by the equation’s `p`, `q`, and `r` terms along with the `Interval` it applies to (represented by `[lb, ub]`). Altogether, we represent f with the following code:
 ```julia
