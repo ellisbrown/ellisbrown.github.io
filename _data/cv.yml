@@ -13,7 +13,7 @@
       institution: Carnegie Mellon University, Pittsburgh, PA
       year: 2023 
       description:
-        - Advised by Professors <a href="https://www.cs.cmu.edu/~dpathak">Deepak Pathak</a> and <a href="https://www.cs.berkeley.edu/~efros/">Alyosha Efros</a>.
+        - Advised by Professors <a href="https://www.cs.cmu.edu/~dpathak">Deepak Pathak</a> and <a href="https://www.cs.berkeley.edu/~efros/">Alexei Efros</a>.
     - title: Non-Degree Graduate Student, Computer Science
       institution: Stanford University, Stanford, CA
       year: 2020
@@ -63,9 +63,6 @@
 - title: Honors and Awards
   type: time_table
   contents:
-    - year: 2021 - Pres.
-      items: 
-        - Intel Growing the Legacy Graduate Scholarship
     - year: 2021
       items: 
         - Scholar, Computer Science Research Mentorship Program, Google Research
@@ -76,6 +73,9 @@
 - title: Scholarship
   type: time_table
   contents:
+    - year: 2023 - 2028
+      items:
+        - GEM PhD Full Fellowship, sponsored by Adobe Research
     - year: 2021 - Pres.
       items: 
         - Intel Growing the Legacy Graduate Scholarship
@@ -99,4 +99,4 @@
 - title: Other Interests
   type: list
   contents:
-    - <u>Hobbies:</u> Water Polo, Skiing, Kitesurfing (learning); Formula 1; eating/cooking delicious food.
+    - <u>Hobbies:</u> water polo, skiing, kitesurfing (learning); Formula 1; eating/cooking delicious food.
