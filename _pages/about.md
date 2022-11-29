@@ -34,8 +34,8 @@ on projects at the intersection of machine learning, optimization, and finance.
 While working in Palo Alto and NYC, I was a non-degree computer science graduate student at [Stanford](http://www.stanford.edu/) and [Columbia](http://www.columbia.edu/).
 Before that, I studied computer science and mathematics at [Vanderbilt](http://www.vanderbilt.edu/) and worked on computational cognitive science and artificial intelligence with [Maithilee Kunda](http://my.vanderbilt.edu/mkunda/).
 
-
+<!--  -->
 
 I am a proud member of the [Osage Nation](http://www.osagenation-nsn.gov/) and have recently enjoyed engaging with the Native research community at [AISES](http://conference.aises.org/).
 
-If you haven't made time for a regular checkin with a doctor recently, [*please do!*](/life/make-time-for-the-doctor/) Even if you feel perfectly healthy.
+If you haven't made time for a regular checkin with a doctor recently, *[please do!](/blog/2020/make-time-for-the-doctor/)* Even if you feel perfectly healthy.
