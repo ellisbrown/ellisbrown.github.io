@@ -3,80 +3,52 @@
 
 @string{aps = {American Physical Society,}}
 
-@book{einstein1956investigations,
-  bibtex_show={true},
-  title={Investigations on the Theory of the Brownian Movement},
-  author={Einstein, Albert},
-  year={1956},
-  publisher={Courier Corporation,},
-  preview={brownian-motion.gif}
+@inproceedings{li2023internetexplorer,
+    abbr={CVPR-23},
+    title={Internet Explorer: Representation Learning on the Open Web},
+    author={Li*, Alexander and Brown*, Ellis and Efros, Alexei A., and Pathak, Deepak},
+    year={2023},
+    booktitle = {Conference on Computer Vision and Pattern Recognition (CVPR)},
+    selected={true},
+    under_review={true},
 }
 
-@article{einstein1950meaning,
-  abbr={AJP},
-  bibtex_show={true},
-  title={The meaning of relativity},
-  author={Einstein, Albert and Taub, AH},
-  journal={American Journal of Physics,},
-  volume={18},
-  number={6},
-  pages={403--404},
-  year={1950},
-  publisher={American Association of Physics Teachers,}
+@inproceedings{li2022internetcuriosity,
+    abbr={ECCV SSLWIN},
+    bibtex_show={true},
+    title={Internet Curiosity: Directed Unsupervised Learning on Uncurated Internet Data},
+    author={Li*, Alexander and Brown*, Ellis and Efros, Alexei A., and Pathak, Deepak},
+    year={2022},
+    booktitle = {European Conference on Computer Vision (ECCV) Workshop on ``Self Supervised Learning: What is Next?''},
+    address = {Tel Aviv, Israel},
+    selected={true},
+    abstract={We show that a curiosity-driven computer vision algorithm can learn to efficiently query Internet text-to-image search engines for images that improve the model's performance on a specified dataset. In contrast to typical self-supervised computer vision algorithms, which learn from static datasets, our model actively expands its training set with the most relevant images. First, we calculate the image-level curiosity reward as the negative distance of an image's representation to its nearest neighbor in the targeted dataset. This reward is easily estimated using only unlabeled data from the targeted dataset, and can be aggregated into a query-level reward that effectively identifies useful queries. Second, we use text embedding similarity scores to propagate observed curiosity rewards to untried text queries. This efficiently identifies relevant semantic clusters without any need for class labels or label names from the targeted dataset. Our method significantly outperforms models that require 1-2 orders of magnitude more compute and data.},
+    poster={presentations/2022_ECCV_InternetCuriosity_Poster.pdf}
 }
 
-@article{PhysRev.47.777,
-  abbr={PhysRev},
-  title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author={Einstein, A. and Podolsky, B. and Rosen, N.},
-  abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal={Phys. Rev.,},
-  volume={47},
-  issue={10},
-  pages={777--780},
-  numpages={0},
-  year={1935},
-  month={May},
-  publisher=aps,
-  doi={10.1103/PhysRev.47.777},
-  url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf={example_pdf.pdf},
-  selected={true}
+@article{brown2018stts,
+    abbr={Adv. CogSys},
+    bibtex_show={true},
+    title={An Architecture for Spatiotemporal Template-Based Search},
+    author={Brown, Ellis and Park, Soobeen, and Wardord, Noel and Seiffert, Adriane and Kawamura, Kazuhiko and Lappin, Joseph and Kunda, Maithilee},
+    year={2018},
+    journal = {Advances in Cognitive Systems},
+    volume = {6},
+    pages = {101--118},
+    selected={true},
+    abstract={Visual search for a spatiotemporal target occurs frequently in human experience---from military or aviation staff monitoring complex displays of multiple moving objects to daycare teachers monitoring a group of children on a playground for risky behaviors. In spatiotemporal search, unlike more traditional visual search tasks, the target cannot be identified from a single frame of visual experience; as the target is a spatiotemporal pattern that unfolds over time, detection of the target must also integrate information over time. We propose a new computational cognitive architecture used to model and understand human visual attention in the specific context of visual search for a spatiotemporal target. Results from a previous human participant study found that humans show interesting attentional capacity limitations in this type of search task.  Our architecture, called the SpatioTemporal Template-based Search (STTS) architecture, solves the same search task from the study using a wide variety of parameterized models that each represent a different cognitive theory of visual attention from the psychological literature.  We present results from initial computational experiments using STTS as a first step towards understanding the computational nature of attentional bottlenecks in this type of search task, and we discuss how continued STTS experiments will help determine which theoretical models best explain the capacity limitations shown by humans.  We expect that results from this research will help refine the design of visual information displays to help human operators perform difficult, real-world monitoring tasks.},
+    pdf={http://cogsys.org/journal/volume6/article-6-8.pdf},
 }
 
-@article{einstein1905molekularkinetischen,
-  title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author={Einstein, A.},
-  journal={Annalen der physik,},
-  volume={322},
-  number={8},
-  pages={549--560},
-  year={1905},
-  publisher={Wiley Online Library}
+@inproceedings{brown2018spatiotemporal,
+    abbr={ACS-18},
+    author = {Brown, Ellis and Park, Soobeen and Warford, Noel and Seiffert, Adriane and Kawamura, Kazuhiko and Lappin, Joe and Kunda, Maithilee},
+    title = {SpatioTemporal Template-based Search: An Architecture for Spatiotemporal Template-Based Search},
+    booktitle = {Proceedings of the 6th Conference on Advances in Cognitive Systems},
+    year = {2018},
+    address = {Stanford, CA},
+    month = {August},
+    pdf = {https://my.vanderbilt.edu/aivaslab/files/2022/03/Brown-et-al-2018-SpatioTemporal-Template-based-Search-conference-paper.pdf},
+    slides={https://docs.google.com/presentation/d/1YmzagDd5uLdEq42bkXCAX-vy0kdYvxeQp9jIYhFo-z8/present},
 }
 
-@article{einstein1905movement,
-  abbr={Ann. Phys.},
-  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author={Einstein, A.},
-  journal={Ann. Phys.,},
-  volume={17},
-  pages={549--560},
-  year={1905}
-}
-
-@article{einstein1905electrodynamics,
-  title={On the electrodynamics of moving bodies},
-  author={Einstein, A.},
-  year={1905}
-}
-
-@book{przibram1967letters,
-  bibtex_show={true},
-  title={Letters on wave mechanics},
-  author={Einstein, Albert and Schrödinger, Erwin and Planck, Max and Lorentz, Hendrik Antoon and Przibram, Karl},
-  year={1967},
-  publisher={Vision},
-  preview={wave-mechanics.gif}
-}

@@ -7,6 +7,8 @@
 // Colors
 $red-color:           #FF3636 !default;
 $red-color-dark:      #B71C1C !default;
+$dark-red-color:    #8c1515 !default;
+// $dark-red-color:    #cc002c !default;
 $orange-color:        #F29105 !default;
 $blue-color:          #0076df !default;
 $blue-color-dark:     #00369f !default;
@@ -30,18 +32,39 @@ $grey-color-light:    lighten($grey-color, 40%);
 $grey-color-dark:     #1C1C1D;
 $grey-900:            #212529;
 
-// $white-color: #ffffff !default;
-$white-color: #f2f0fc !default;
+$white-color: #ffffff !default;
+// $white-color: #f2f0fc !default;
 $black-color: #000000 !default;
 
+
+// CMU Colors
+// https://www.cmu.edu/brand/brand-guidelines/visual-identity/colors.html
+
+// C92 M18 Y32 K65
+// 92 18 32 65
+$cmu-honbostel-teal: #07493d !default;
+// C47 M6 Y28 K18
+// 47 6 28 18
+$cmu-palladian-green: #6fc597 !default;
+// C0 M96 Y77 K42
+// 0 96 77 42
+$cmu-skibo-red: #940622 !default;
 
 // Theme colors
 
 $code-bg-color-light:     rgba($purple-color, 0.05);
 $code-bg-color-dark:      #2c3237 !default;
 
+
 // $theme-color-light:             $purple-color;
 // $theme-color-light:             $red-color-dark;
 // $theme-color-light:             $cool-green-color;
-$theme-color-light:             $cool-blue-color;
-$theme-color-dark:              $cyan-color;
+// $theme-color-light:             $cool-blue-color;
+// $theme-color-light:             $dark-red-color;
+$theme-color-light:             $cmu-skibo-red;
+
+// $theme-color-dark:              $cyan-color;
+$theme-color-dark:              $cmu-palladian-green;
+
+
+

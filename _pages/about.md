@@ -5,32 +5,36 @@ permalink: /
 # subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
 
 profile:
-  align: right
+  align: center
   image: elb.jpg
-  image_cicular: false # crops the image to make it circular
-  # address: >
-  #   <p>555 your office number</p>
-  #   <p>123 your address street</p>
-  #   <p>Your City, State 12345</p>
+  image_circular: true # crops the image to make it circular
+  address: >
+    <p>ellisbrown at cmu dot edu</p>
 
 news: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true  # includes social icons at the bottom of the page
+social: false  # includes social icons at the bottom of the page
 ---
 
-I am a Master's student in the [Computer Science Department](http://csd.cmu.edu/) at [CMU](https://www.cmu.edu/) and a graduate student researcher in the [Robitics Institute](http://www.ri.cmu.edu/). I am advised by [Deepak Pathak](http://www.cs.cmu.edu/~dpathak/) and collaborate closely with [Alyosha Efros](http://www.cs.berkeley.edu/~efros/).
-My recent interests are in self-supervised learning, curiosity-based exploration, and leveraging internet-scale models and data.
-I am keen to draw inspiration from intelligence in humans and nature---especially as a goal-post rather than a blueprint.
-My long-term goal is to develop intelligent agents that can *generalize* and *continually adapt* as robustly and efficiently as humans do, allowing them to be *safely* deployed in the real world.
+<!-- Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
-Previously I was a founding engineer at [BlackRock AI Labs](http://www.blackrock.com/corporate/ai) in Palo Alto, where I was fortunate to work with 
+Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+
+Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+ -->
+
+I am a Master's student in the [Computer Science Department](http://csd.cmu.edu/) at [CMU](https://www.cmu.edu/) and a graduate student researcher in the [Robotics Institute](http://www.ri.cmu.edu/). I am advised by [Deepak Pathak](http://www.cs.cmu.edu/~dpathak/) and collaborate closely with [Alyosha Efros](http://www.cs.berkeley.edu/~efros/).
+
+Previously I was a founding engineer at [BlackRock AI Labs](http://www.blackrock.com/corporate/ai), where I was fortunate to work with 
 [Mykel Kochenderfer](http://mykel.kochenderfer.com/),
 [Stephen Boyd](http://web.stanford.edu/~boyd/),
 and [Trevor Hastie](http://web.stanford.edu/~hastie/)
-on projects at the intersection of machine learning, optimization, and finance. Before that, I studied computer science and mathematics at [Vanderbilt](http://www.vanderbilt.edu/), and was an undergraduate student researcher in [Maithilee Kunda](http://my.vanderbilt.edu/mkunda/)'s [lab](http://my.vanderbilt.edu/aivaslab/) working on computational cognitive science and artificial intelligence.
+on projects at the intersection of machine learning, optimization, and finance.
+While working in Palo Alto and NYC, I was a non-degree computer science graduate student at [Stanford](http://www.stanford.edu/) and [Columbia](http://www.columbia.edu/).
+Before that, I studied computer science and mathematics at [Vanderbilt](http://www.vanderbilt.edu/) and worked on computational cognitive science and artificial intelligence with [Maithilee Kunda](http://my.vanderbilt.edu/mkunda/).
 
-Over the past couple of years, I have also taken non-degree graduate machine learning courses at [Columbia](http://www.columbia.edu/) and [Stanford](http://www.stanford.edu/) while working in NYC and Palo Alto.
+
 
 I am a proud member of the [Osage Nation](http://www.osagenation-nsn.gov/) and have recently enjoyed engaging with the Native research community at [AISES](http://conference.aises.org/).
 
-Lastly: if you haven't made time for a regular checkin with a doctor recently, [please do](/life/make-time-for-the-doctor/)! Even if you feel perfectly healthy.
+If you haven't made time for a regular checkin with a doctor recently, [*please do!*](/life/make-time-for-the-doctor/) Even if you feel perfectly healthy.
