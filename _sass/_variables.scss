@@ -24,6 +24,8 @@ $green-color-light:   #ddffdd !default;
 $green-color-bright:  #11D68B !default;
 $cool-green-color:    #237b5c !default;
 $purple-color:        #8d12bd !default;
+$light-purple:        #8f58ab !default;
+$light-purple-2:      #9961b4 !default;
 $light-purple-color:  lighten($purple-color, 25%);
 $pink-color:          #f92080 !default;
 $pink-color-light:    #ffdddd !default;
@@ -67,7 +69,12 @@ $theme-color-light:             $cmu-skibo-red;
 
 // $theme-color-dark:              $cyan-color;
 // $theme-color-dark:              $cmu-palladian-green;
-$theme-color-dark:              $ocean-blue-2;
+// $theme-color-dark:              $ocean-blue-2;
+$theme-color-dark:              #2391ff !default;
+
+$theme-bg-color-light:          $white-color;
+// $theme-bg-color-dark:           $grey-color-dark;
+$theme-bg-color-dark:         #16181d !default;
 
 
-
+// https://colorhunt.co/palettes/cold
