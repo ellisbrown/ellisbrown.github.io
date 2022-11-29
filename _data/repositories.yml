@@ -5,4 +5,4 @@ github_repos:
   - JuliaFirstOrder/PiecewiseQuadratics.jl
   - JuliaFirstOrder/SeparableOptimization.jl
   - ellisbrown/name2gender
-  - amdegroot/deepgenres.torch
+  # - amdegroot/deepgenres.torch

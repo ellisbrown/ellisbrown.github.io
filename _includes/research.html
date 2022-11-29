@@ -6,9 +6,21 @@
         <p>{{research-page.interests | markdownify}}</p>
     {%- endif %}
 
+    <br>
     <h4>publications</h4>
     {% bibliography -f papers -q @*[selected=true]* %}
 
+    <br>
     <h4>talks</h4>
     {% bibliography -f talks -q @*[selected=true]* %}
+
+    {% if site.data.repositories.github_repos %}
+        <br>
+        <h4>code</h4>
+        <div class="repositories d-flex flex-wrap flex-lg-row flex-column justify-content-between align-items-center">
+        {% for repo in site.data.repositories.github_repos %}
+            {% include repository/repo.html repository=repo %}
+        {% endfor %}
+        </div>
+    {% endif %}
 </div>
