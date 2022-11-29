@@ -1,9 +1,8 @@
 ---
-layout: single
-title: "curriculum vitae"
-permalink: "/cv/"
-header:
-  overlay_color: "#333"
-last_modified_at: 2022-08-09
+layout: cv
+permalink: /cv/
+title: cv
+nav: true
+nav_order: 4
+cv_pdf: ELBII_CV.pdf
 ---
-[↓ download](/assets/files/cv/ELBII_CV.pdf){: .btn .btn--primary .btn--x-large}

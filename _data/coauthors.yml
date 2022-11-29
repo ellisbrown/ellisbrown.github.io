@@ -1,0 +1,20 @@
+
+"Kunda":
+  - fistname: ["Maithilee"]
+    url: ["https://my.vanderbilt.edu/mkunda/"]
+
+"Pathak":
+  - firstname: ["Deepak", "D."]
+    url: "https://www.cs.cmu.edu/~dpathak"
+
+"Efros":
+  - firstname: ["Alexei", "Alyosha", "Alexei A.", "A."]
+    url: "https://www.cs.berkeley.edu/~efros/"
+
+"Li":
+  - firstname: ["Alex", "Alexander", "Alexander C.", "A."]
+    url: "https://alexanderli.com"
+
+"Li*":
+  - firstname: ["Alex", "Alexander", "Alexander C.", "A."]
+    url: "https://alexanderli.com"

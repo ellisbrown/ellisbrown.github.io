@@ -1,8 +1,8 @@
 ---
-layout: single
+layout: post
 title:  "Creating a Private Fork of a GitHub Repository"
 date:   2022-04-08
-excerpt: "Simple steps commands to create a private fork of a GitHub repository."
+description: "Simple steps commands to create a private fork of a GitHub repository."
 header:
   image: /assets/posts/programming/private-fork.png
 categories:
@@ -18,7 +18,7 @@ I have found myself forking repositories quite frequently recently for school pr
 ## Basic Steps
 
 1. Create a new [private repository on Github](https://help.github.com/articles/creating-a-new-repository/)
-   <img src="/assets/posts/programming/private-repo.png" style="max-width:600px">
+   <img src="/assets/posts/programming/private-repo.png" style="max-width:600px; margin: 0 auto; display: block;">
 
 2. Fork the repo (`BASE_REPO`) to your new private repo (`PRIVATE_REPO`) as follows:
 
