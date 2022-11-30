@@ -13,6 +13,7 @@ tags:
     - PyTorch
 toc: true
 toc_sticky: true
+comments: true
 redirect_from:
     - /nlp/name2gender-introduction/
 ---

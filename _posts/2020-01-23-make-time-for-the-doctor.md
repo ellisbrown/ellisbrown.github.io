@@ -7,6 +7,7 @@ header:
   teaser: /assets/posts/doctor/bed.jpg
 categories:
     - life
+comments: true
 redirect_from:
     - /life/make-time-for-the-doctor/
 ---

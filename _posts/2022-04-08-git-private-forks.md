@@ -11,6 +11,7 @@ tags:
     - git
     - engineering
 toc: true
+comments: true
 redirect_from:
     - /programming/git-private-forks/
 ---

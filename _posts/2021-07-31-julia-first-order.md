@@ -13,6 +13,7 @@ tags:
     - optimization
 toc: true
 toc_sticky: true
+comments: true
 redirect_from:
     - /optimization/julia-first-order/
 ---
