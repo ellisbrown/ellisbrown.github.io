@@ -14,7 +14,7 @@ tags:
 toc: true
 toc_sticky: true
 redirect_from:
-    - /optimization/julia-first-order
+    - /optimization/julia-first-order/
 ---
 > *This was originally posted [here](https://medium.com/blackrock-engineering/open-source-julia-packages-for-first-order-optimization-ac51f0f1aa09) on BlackRock's engineering blog.*
 

@@ -8,7 +8,7 @@ header:
 categories:
     - life
 redirect_from:
-    - /life/make-time-for-the-doctor
+    - /life/make-time-for-the-doctor/
 ---
 
 

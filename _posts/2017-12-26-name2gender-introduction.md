@@ -14,7 +14,7 @@ tags:
 toc: true
 toc_sticky: true
 redirect_from:
-    - /nlp/name2gender-introduction
+    - /nlp/name2gender-introduction/
 ---
 
 > *Note: This post has also been published on Medium [here](https://towardsdatascience.com/name2gender-introduction-626d89378fb0).*

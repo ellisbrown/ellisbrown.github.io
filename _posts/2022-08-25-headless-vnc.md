@@ -11,7 +11,7 @@ tags:
 toc: true
 toc_sticky: true
 redirect_from:
-    - /programming/headless-vnc
+    - /programming/headless-vnc/
 ---
 
 
