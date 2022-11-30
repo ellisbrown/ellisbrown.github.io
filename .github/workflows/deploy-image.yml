@@ -9,7 +9,7 @@ jobs:
   build:
 
     runs-on: ubuntu-latest
-    if: github.repository_owner == 'alshedivat'
+    if: github.repository_owner == 'ellisbrown'
 
     steps:
     - name: Checkout
@@ -28,4 +28,4 @@ jobs:
       with:
         context: .
         push: true
-        tags: amirpourmand/al-folio
+        tags: ellisbrown/al-folio

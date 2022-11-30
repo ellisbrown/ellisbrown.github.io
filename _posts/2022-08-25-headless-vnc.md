@@ -10,6 +10,8 @@ tags:
     - engineering
 toc: true
 toc_sticky: true
+redirect_from:
+    - /programming/headless-vnc
 ---
 
 

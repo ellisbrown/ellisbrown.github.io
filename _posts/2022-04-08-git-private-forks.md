@@ -11,6 +11,8 @@ tags:
     - git
     - engineering
 toc: true
+redirect_from:
+    - /programming/git-private-forks
 ---
 
 I have found myself forking repositories quite frequently recently for school projects and research, and most of the time I have wanted to keep them private on GitHub. It is not that straightforward, so once I figured out the right way to accomplish it I started honing this post to remind myself of the right steps. Hopefully it helps any one else trying to accomplish the same thing!

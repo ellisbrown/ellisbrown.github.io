@@ -22,7 +22,7 @@ jobs:
       id: meta
       uses: docker/metadata-action@v4
       with:
-        images: amirpourmand/al-folio
+        images: ellisbrown/al-folio
 
     - name: Login
       uses: docker/login-action@v1
