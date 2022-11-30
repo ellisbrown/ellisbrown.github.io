@@ -5,9 +5,9 @@
     <div class="col-sm-2 {% if entry.preview %}preview{% else %}abbr{% endif %}">
     {%- if entry.preview -%}
         {% if entry.preview contains '://' -%}
-        <img class="preview z-depth-1 rounded" src="{{ entry.preview }}">
+        <img class="preview z-depth-1 rounded" src="{{ entry.preview }}" data-zoomable>
         {%- else -%}
-        <img class="preview z-depth-1 rounded" src="{{ entry.preview | prepend: '/assets/img/publication_preview/' | relative_url }}">
+        <img class="preview z-depth-1 rounded" src="{{ entry.preview | prepend: '/assets/img/publication_preview/' | relative_url }}" data-zoomable>
         {%- endif -%}
     {%- elsif entry.abbr -%}
         {%- if site.data.venues[entry.abbr] -%}
