@@ -49,10 +49,11 @@ table.table a {
     }
 }
 
-figure,
-img {
-    max-width: 90vw;
-}
+// // messes up the picture in center mode
+// figure,
+// img {
+//     max-width: 90vw;
+// }
 
 blockquote {
     background: var(--global-bg-color);
@@ -136,20 +137,53 @@ blockquote {
 
 .profile.center {
     margin: auto;
+    justify-content: center;
 
     .header {
         text-align: center;
         font-size: x-large;
     }
+
+    picture {
+        justify-content: center;
+        display: flex;
+        margin: auto;
+    }
+
+    img {
+        margin: auto;
+        max-width: 25%;
+        min-width: 100px;
+    }
 }
 
 @media (min-width: 576px) {
     .profile {
-        width: 30%;
-
+        width: 100%;
         .address {
             p {
                 display: block;
+            }
+        }
+    }
+}
+
+@media (max-width: 576px) {
+    .publications ol.bibliography li .preview {
+        margin: 0.5rem auto 0.5rem auto;
+    }
+    img {
+        min-width: 200px;
+    }
+}
+
+@media (max-width: 1000px) {
+    .profile {
+        width: 100% !important;
+        margin: auto;
+        .address {
+            p {
+                white-space: nowrap;
             }
         }
     }
