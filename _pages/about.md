@@ -29,7 +29,7 @@ Previously I was a founding engineer at [BlackRock AI Labs](http://www.blackrock
 [Mykel Kochenderfer](http://mykel.kochenderfer.com/),
 [Stephen Boyd](http://web.stanford.edu/~boyd/),
 and [Trevor Hastie](http://web.stanford.edu/~hastie/)
-on projects at the intersection of machine learning, optimization, and finance.
+on projects in machine learning, optimization, and big data applied to finance.
 While working in Palo Alto and NYC, I was a non-degree computer science graduate student at [Stanford](http://www.stanford.edu/) and [Columbia](http://www.columbia.edu/).
 Before that, I studied computer science and mathematics at [Vanderbilt](http://www.vanderbilt.edu/) and worked on computational cognitive science and artificial intelligence with [Maithilee Kunda](http://my.vanderbilt.edu/mkunda/).
 
