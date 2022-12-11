@@ -23,7 +23,7 @@ Put your address / P.O. box / other info right below your picture. You can also 
 Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
  -->
 
-I am a Master's student in the [Computer Science Department](http://csd.cmu.edu/) at [CMU](https://www.cmu.edu/) and a graduate student researcher in the [Robotics Institute](http://www.ri.cmu.edu/) affiliated with [CMU Vision](https://cmu-vision.github.io/). I am advised by [Deepak Pathak](http://www.cs.cmu.edu/~dpathak/) and collaborate closely with [Alyosha Efros](http://www.cs.berkeley.edu/~efros/).
+I am a Master's student in the [Computer Science Department](http://csd.cmu.edu/) at [CMU](https://www.cmu.edu/) and a graduate student researcher in the [Robotics Institute](http://www.ri.cmu.edu/) affiliated with [CMU Vision](https://cmu-vision.github.io/). I am advised by [Deepak Pathak](http://www.cs.cmu.edu/~dpathak/) and [Alyosha Efros](http://www.cs.berkeley.edu/~efros/).
 
 Previously I was a founding engineer at [BlackRock AI Labs](http://www.blackrock.com/corporate/ai), where I was fortunate to work with 
 [Mykel Kochenderfer](http://mykel.kochenderfer.com/),
