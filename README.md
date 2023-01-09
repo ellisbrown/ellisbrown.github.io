@@ -85,6 +85,9 @@ Feel free to add your own page(s) by sending a PR.
 <a href="https://tylerbarna.com" target="_blank">★</a>
 <a href="https://daviddmc.github.io/" target="_blank">★</a>
 <a href="https://andreaskuster.ch/" target="_blank">★</a>
+<a href="https://ellisbrown.github.io/" target="_blank">★</a>
+ <a href="https://noman-bashir.github.io/" target="_blank">★</a>
+<a href="https://djherron.github.io/" target="_blank">★</a>
 </td>
 </tr>
 <tr>
@@ -187,26 +190,17 @@ Note that when you run it for the first time, it will download a docker image of
 
 Now, feel free to customize the theme however you like (don't forget to change the name!). After you are done, you can use the same command (`docker-compose up`) to render the webpage with all you changes. Also, make sure to commit your final changes.
 
-<details><summary>(click to expand) <strong>Build your own docker image (more advanced):</strong></summary>
+> To change port number, you can edit `docker-compose.yml` file.
+
+<details><summary>(click to expand) <strong>Build your own docker image:</strong></summary>
 
 > Note: this approach is only necessary if you would like to build an older or very custom version of al-folio.
 
-First, download the necessary modules and install them into a docker image called `al-folio:Dockerfile` (this command will build an image which is used to run your website afterwards. Note that you only need to do this step once. After you have the image, you no longer need to do this anymore):
-
-
-```bash
-$ docker-compose -f docker-local.yml build
-```
-
-Run the website!
-
+Build and run a new docker image using:
 ```bash
 $ docker-compose -f docker-local.yml up
 ```
-
-> To change port number, you can edit `docker-compose.yml` file.
-
-> If you want to update jekyll, install new ruby packages, etc., all you have to do is build the image again! It will download ruby and jekyll and install all ruby packages again from scratch.
+> If you want to update jekyll, install new ruby packages, etc., all you have to do is build the image again using `--force-recreate` argument at the end of previous command! It will download ruby and jekyll and install all ruby packages again from scratch.
 
 </details>
 
@@ -564,3 +558,21 @@ The theme is available as open source under the terms of the [MIT License](https
 
 Originally, **al-folio** was based on the [\*folio theme](https://github.com/bogoli/-folio) (published by [Lia Bogoev](https://liabogoev.com) and under the MIT license).
 Since then, it got a full re-write of the styles and many additional cool features.
+
+
+## Development
+
+Add [alshedivat/al-folio](https://github.com/alshedivat/al-folio) as a remote:
+
+```bash
+git remote add upstream git@github.com:alshedivat/al-folio.git
+git remote set-url --push upstream DISABLE
+```
+
+To update your fork with the latest changes from the upstream repository:
+
+```bash
+git pull upstream TAG
+```
+
+where `TAG` is the latest release tag (e.g. `v1.0.0`).

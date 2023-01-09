@@ -22,11 +22,8 @@
     {%- endif -%}
     </div>
 
-    <!-- Entry bib key -->
-    <div id="{{entry.key}}" class="col-sm-8">
-    {% if entry.type == "thesis" -%}
-        {{reference}}
-    {%- else %}
+        <!-- Entry bib key -->
+        <div id="{{entry.key}}" class="col-sm-8">
         <!-- Title -->
         <div class="title">{{entry.title}}</div>
         <!-- Author -->
@@ -106,42 +103,37 @@
         </div>
 
         <!-- Journal/Book title and date -->
-        {% assign proceedings = "inproceedings, incollection" | split: ','%}
+        {% assign proceedings = "inproceedings,incollection" | split: ','%}
+        {% assign thesis = "thesis,mastersthesis,phdthesis" | split: ','%}
         {% if entry.type == "article" -%}
             {%- capture entrytype -%}<em>{{entry.journal}}</em>{%- endcapture -%}
-        {%- elsif entry.type == "techreport" -%}
-            {%- capture entrytype -%}<em>{{entry.institution}}</em>{%- endcapture -%}
         {%- elsif proceedings contains entry.type -%}
-            {%- capture entrytype -%}<em>{{entry.booktitle}}</em>{%- endcapture -%}
-        {%- elsif entry.type == "book" -%}
-            {%- capture entrytype -%}<em>{{entry.title}}</em>{%- endcapture -%}
-        {%- elsif entry.type == "phdthesis" -%}
-            {%- capture entrytype -%}<em>{{entry.school}}</em>{%- endcapture -%}
-        {%- elsif entry.type == "mastersthesis" -%}
-            {%- capture entrytype -%}<em>{{entry.school}}</em>{%- endcapture -%}
-        {%- elsif entry.type == "misc" -%}
-            {%- capture entrytype -%}<em>{{entry.howpublished}}</em>{%- endcapture -%}
+            {%- capture entrytype -%}<em>In {{entry.booktitle}}</em> {%- endcapture -%}
+        {%- elsif thesis contains entry.type -%}
+            {%- capture entrytype -%}<em>{{entry.school}}</em> {%- endcapture -%}
         {%- else -%}
-            {%- capture entrytype -%}<em>{{entry.type}}</em>{%- endcapture -%}
+            {%- capture entrytype -%}{%- endcapture -%}
         {%- endif -%}
         {%- if entry.month -%}
-            {%- capture entrymonth -%}{{ ", " }}{{ entry.month | capitalize }}{%- endcapture -%}
+            {%- capture entrymonth -%}{{ " " }}{{ entry.month | capitalize }}{%- endcapture -%}
         {%- endif -%}
         {%- if entry.year -%}
             {%- capture entryyear -%}{{ " " }}{{entry.year}}{%- endcapture -%}
         {%- endif -%}
-        {%- capture periodical -%}{{ entrytype }}{{ entrymonth }}{{ entryyear }}{%- endcapture -%}
+        {% assign entrytype_text = entrytype | strip_html | strip %}
+        {%- capture periodical -%}{{ entrytype }}{%- if entrytype_text != "" and entryyear != "" -%}, {%- endif -%}{{ entrymonth }}{{ entryyear }}{%- endcapture -%}
         <div class="periodical">
             {{ periodical | strip }}
         </div>
-    {%- endif %}
+        <div class="periodical">
+            {{ entry.note | strip }}
+        </div>
     
-    {%- if entry.award %}
+        {%- if entry.award %}
         <div class="award">
             🎖️ <span style="color: red; font-style: italic;">{{entry.award}}</span>
         </div>
-    {%- endif %}
-
+        {%- endif %}
 
         <!-- Links/Buttons -->
         <div class="links">
@@ -202,7 +194,7 @@
         {%- endif %}
         {%- if entry.altmetric %}
             <script type="text/javascript" src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script><div data-altmetric-id="{{ entry.altmetric }}" class="altmetric-embed" data-hide-no-mentions="true" data-hide-less-than="15" data-badge-popover="right" data-badge-type="2" style="display:inline"></div>
-        {%- endif %}
+          {%- endif %}
         </div>
 
         {% if entry.abstract -%}
