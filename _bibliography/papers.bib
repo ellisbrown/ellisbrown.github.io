@@ -3,16 +3,37 @@
 
 @string{aps = {American Physical Society,}}
 
+@article{li2023diffusion,
+    abbr={preprint},
+    title={Your Diffusion Model is Secretly a Zero-Shot Classifier}, 
+    author={Alexander C. Li and Mihir Prabhudesai and Shivam Duggal and Ellis Brown and Deepak Pathak},
+    year={2023},
+    journal={arXiv:cs.LG},
+    arxiv={2303.16203},
+    eprint={2303.16203},
+    archivePrefix={arXiv},
+    primaryClass={cs.LG},
+    website={https://diffusion-classifier.github.io/},
+    pdf={https://diffusion-classifier.github.io/static/docs/DiffusionClassifier.pdf},
+    preview={diffusion_classifier.jpg},
+    abstract={The recent wave of large-scale text-to-image diffusion models has dramatically increased our text-based image generation abilities. These models can generate realistic images for a staggering variety of prompts and exhibit impressive compositional generalization abilities. Almost all use cases thus far have solely focused on sampling; however, diffusion models can also provide conditional density estimates, which are useful for tasks beyond image generation.
+    <br><br>
+    In this paper, we show that the density estimates from large-scale text-to-image diffusion models like Stable Diffusion can be leveraged to perform zero-shot classification without any additional training. Our generative approach to classification, which we call Diffusion Classifier, attains strong results on a variety of benchmarks and outperforms alternative methods of extracting knowledge from diffusion models. Although a gap remains between generative and discriminative approaches on zero-shot recognition tasks, we find that our diffusion-based approach has stronger multimodal relational reasoning abilities than competing discriminative approaches.
+    <br><br>
+    Finally, we use Diffusion Classifier to extract standard classifiers from class-conditional diffusion models trained on ImageNet. Even though these diffusion models are trained with weak augmentations and no regularization, we find that they approach the performance of SOTA discriminative ImageNet classifiers. Overall, our strong generalization and robustness results represent an encouraging step toward using generative over discriminative models for downstream tasks.},
+    selected={true},
+}
+
 @article{li2023internet,
     abbr={preprint},
     title={Internet Explorer: Targeted Representation Learning on the Open Web},
-    author={Li*, Alexander and Brown*, Ellis and Efros, Alexei A., and Pathak, Deepak},
+    author={Li*, Alexander C. and Brown*, Ellis and Efros, Alexei A., and Pathak, Deepak},
     year={2023},
     journal={arXiv:cs.LG},
     selected={true},
     arxiv={2302.14051},
     website={https://internet-explorer-ssl.github.io/},
-    pdf={https://internet-explorer-ssl.github.io/static/pdf/Internet_Explorer.pdf},
+    pdf={https://internet-explorer-ssl.github.io/static/docs/InternetExplorer.pdf},
     preview={internet_explorer.gif},
     abstract={Vision models heavily rely on fine-tuning general-purpose models pre-trained on large, static datasets. These general-purpose models only understand knowledge within their pre-training datasets, which are tiny, out-of-date snapshots of the Internet—where billions of images are uploaded each day. We suggest an alternate approach: rather than hoping our static datasets transfer to our desired tasks after large-scale pre-training, we propose dynamically utilizing the Internet to quickly train a small-scale model that does extremely well on the task at hand. Our approach, called Internet Explorer, explores the web in a self-supervised manner to progressively find relevant examples that improve performance on a desired target dataset. It cycles between searching for images on the Internet with text queries, self-supervised training on downloaded images, determining which images were useful, and prioritizing what to search for next. We evaluate Internet Explorer across several datasets and show that it outperforms or matches CLIP oracle performance by using just a single GPU desktop to actively query the Internet for 30–40 hours.}
 }
@@ -21,7 +42,7 @@
     abbr={ECCV SSLWIN},
     bibtex_show={true},
     title={Internet Curiosity: Directed Unsupervised Learning on Uncurated Internet Data},
-    author={Li*, Alexander and Brown*, Ellis and Efros, Alexei A., and Pathak, Deepak},
+    author={Li*, Alexander C. and Brown*, Ellis and Efros, Alexei A., and Pathak, Deepak},
     year={2022},
     booktitle = {European Conference on Computer Vision Workshop on ``Self Supervised Learning: What is Next?''},
     address = {Tel Aviv, Israel},
