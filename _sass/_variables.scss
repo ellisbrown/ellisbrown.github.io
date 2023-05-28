@@ -54,6 +54,12 @@ $cmu-palladian-green: #6fc597 !default;
 // 0 96 77 42
 $cmu-skibo-red: #940622 !default;
 
+
+// $dark-blue: #20007F !default;
+// $dark-blue: rgb(32, 48, 128) !default;
+// $dark-blue: rgb(48, 32, 128) !default;
+$dark-blue: rgb(48, 32, 151) !default;
+
 // Theme colors
 
 $code-bg-color-light:     rgba($purple-color, 0.05);
@@ -65,12 +71,14 @@ $code-bg-color-dark:      #2c3237 !default;
 // $theme-color-light:             $cool-green-color;
 // $theme-color-light:             $cool-blue-color;
 // $theme-color-light:             $dark-red-color;
-$theme-color-light:             $cmu-skibo-red;
+// $theme-color-light:             $cmu-skibo-red;
+$theme-color-light:             $dark-blue !default;
 
 // $theme-color-dark:              $cyan-color;
 // $theme-color-dark:              $cmu-palladian-green;
 // $theme-color-dark:              $ocean-blue-2;
-$theme-color-dark:              #2391ff !default;
+// $theme-color-dark:              #2391ff !default;
+$theme-color-dark:              rgb(48, 128, 255) !default;
 
 $theme-bg-color-light:          $white-color;
 // $theme-bg-color-dark:           $grey-color-dark;
