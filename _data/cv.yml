@@ -4,11 +4,16 @@
     - name: Full Name
       value: Ellis L. Brown, II
     - name: Location
-      value: Pittsburgh, PA
+      value: New York, NY
 
 - title: Education
   type: time_table
   contents:
+    - title: Ph.D. in Computer Science
+      institution: New York University, New York, NY
+      year: 2028
+      description:
+        - Advised by Professor <a href="https://sainingxie.com/">Saining Xie</a>.
     - title: M.S. in Computer Science
       institution: Carnegie Mellon University, Pittsburgh, PA
       year: 2023 
@@ -26,60 +31,60 @@
       description:
         - Advised by Professor <a href="https://my.vanderbilt.edu/mkunda/">Maithilee Kunda</a>.
 
-- title: Experience
-  type: time_table
-  contents:
-    - title: Research Engineer
-      institution: <a href="https://www.blackrock.com/corporate/ai">BlackRock AI Labs</a>, Palo Alto, CA
-      year: 2020 - 2021
-      description:
-        - Advised by Professors <a href="https://mykel.kochenderfer.com/">Mykel Kochenderfer</a>, <a href="https://web.stanford.edu/~boyd/">Stephen Boyd</a>, and <a href="https://web.stanford.edu/~hastie/">Trevor Hastie</a>.
-        - Worked on applied research projects to transform BlackRock's business using Machine Learning, Statistics, and Optimization.
-    - title: ML Engineer
-      institution: <a href="https://www.blackrock.com/corporate/ai">BlackRock AI Labs</a>, New York, NY
-      year: 2018 - 2019
-      description:
-        - Founding team member
-    - title: Software Engineer
-      institution: BlackRock, New York, NY
-      year: 2017
+# - title: Experience
+#   type: time_table
+#   contents:
+#     - title: Research Engineer
+#       institution: <a href="https://www.blackrock.com/corporate/ai">BlackRock AI Labs</a>, Palo Alto, CA
+#       year: 2020 - 2021
+#       description:
+#         - Advised by Professors <a href="https://mykel.kochenderfer.com/">Mykel Kochenderfer</a>, <a href="https://web.stanford.edu/~boyd/">Stephen Boyd</a>, and <a href="https://web.stanford.edu/~hastie/">Trevor Hastie</a>.
+#         - Worked on applied research projects to transform BlackRock's business using Machine Learning, Statistics, and Optimization.
+#     - title: ML Engineer
+#       institution: <a href="https://www.blackrock.com/corporate/ai">BlackRock AI Labs</a>, New York, NY
+#       year: 2018 - 2019
+#       description:
+#         - Founding team member
+#     - title: Software Engineer
+#       institution: BlackRock, New York, NY
+#       year: 2017
 
-    - title: Software Engineering Intern
-      institution: BlackRock, New York, NY
-      year: 2016
+#     - title: Software Engineering Intern
+#       institution: BlackRock, New York, NY
+#       year: 2016
 
-- title: Open Source Projects
-  type: time_table
-  contents:
-    - title:  <a href="https://github.com/JuliaFirstOrder/al-folio">JuliaFirstOrder/</a>{<a href="https://github.com/JuliaFirstOrder/PiecewiseQuadratics.jl">PiecewiseQuadratics.jl</a>, <a href="https://github.com/JuliaFirstOrder/SeparableOptimization.jl">SeparableOptimization.jl</a>}
-      year: 2021
-      description:
-        - Co-authored Julia packages for solving the problem of minimizing a sum of piecewise-quadratic functions subject to affine equality constraints via a derivative of the Alternating Direction Method of Multipliers (ADMM).
-        - Formed the <a href="https://github.com/JuliaFirstOrder/JuliaFirstOrder">JuliaFirstOrder</a> organization.
-    - title: <a href="https://github.com/amdegroot/ssd.pytorch">amdegroot/ssd.pytorch</a>
-      year: 2017
-      description:
-        - Co-authored the canonical PyTorch implementation of the <a href="http://arxiv.org/abs/1512.02325v5">Single Shot MultiBox Detector</a>, a real-time object detection framework using a single network, 3 months after PyTorch's alpha release.
-- title: Honors and Awards
-  type: time_table
-  contents:
-    - year: 2021
-      items: 
-        - Scholar, Computer Science Research Mentorship Program, Google Research
-        - Scholar, Lighting the Pathways to Faculty Careers for Natives in STEM, American Indian Science & Engineering Society (AISES)
-    - year: 2019
-      items:
-        - 2nd Place, Graduate Student Research Competition, AISES National Conference 
-- title: Scholarship
-  type: time_table
-  contents:
-    - year: 2021 - Pres.
-      items: 
-        - Intel Growing the Legacy Graduate Scholarship
-        - Osage Nation Higher Education Graduate Scholarship
-    - year: 2013 - 2017
-      items:
-        - Osage Nation Higher Education Undergraduate Scholarship
+# - title: Open Source Projects
+#   type: time_table
+#   contents:
+#     - title:  <a href="https://github.com/JuliaFirstOrder/al-folio">JuliaFirstOrder/</a>{<a href="https://github.com/JuliaFirstOrder/PiecewiseQuadratics.jl">PiecewiseQuadratics.jl</a>, <a href="https://github.com/JuliaFirstOrder/SeparableOptimization.jl">SeparableOptimization.jl</a>}
+#       year: 2021
+#       description:
+#         - Co-authored Julia packages for solving the problem of minimizing a sum of piecewise-quadratic functions subject to affine equality constraints via a derivative of the Alternating Direction Method of Multipliers (ADMM).
+#         - Formed the <a href="https://github.com/JuliaFirstOrder/JuliaFirstOrder">JuliaFirstOrder</a> organization.
+#     - title: <a href="https://github.com/amdegroot/ssd.pytorch">amdegroot/ssd.pytorch</a>
+#       year: 2017
+#       description:
+#         - Co-authored the canonical PyTorch implementation of the <a href="http://arxiv.org/abs/1512.02325v5">Single Shot MultiBox Detector</a>, a real-time object detection framework using a single network, 3 months after PyTorch's alpha release.
+# - title: Honors and Awards
+#   type: time_table
+#   contents:
+#     - year: 2021
+#       items: 
+#         - Scholar, Computer Science Research Mentorship Program, Google Research
+#         - Scholar, Lighting the Pathways to Faculty Careers for Natives in STEM, American Indian Science & Engineering Society (AISES)
+#     - year: 2019
+#       items:
+#         - 2nd Place, Graduate Student Research Competition, AISES National Conference 
+# - title: Scholarship
+#   type: time_table
+#   contents:
+#     - year: 2021 - Pres.
+#       items: 
+#         - Intel Growing the Legacy Graduate Scholarship
+#         - Osage Nation Higher Education Graduate Scholarship
+#     - year: 2013 - 2017
+#       items:
+#         - Osage Nation Higher Education Undergraduate Scholarship
 
 # - title: Academic Interests
 #   type: nested_list
@@ -93,7 +98,7 @@
 #         - Description 1.
 #         - Description 2.
 
-- title: Other Interests
-  type: list
-  contents:
-    - <u>Hobbies:</u> water polo, skiing, kitesurfing (learning); Formula 1; eating/cooking delicious food.
+# - title: Other Interests
+#   type: list
+#   contents:
+#     - <u>Hobbies:</u> water polo, skiing, kitesurfing (learning); Formula 1; eating/cooking delicious food.
