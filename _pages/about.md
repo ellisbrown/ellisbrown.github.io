@@ -30,7 +30,7 @@ Before that, I was a founding research engineer at [BlackRock AI Labs](http://ww
 [Stephen Boyd](http://web.stanford.edu/~boyd/),
 and [Trevor Hastie](http://web.stanford.edu/~hastie/)
 on applied research & finance.
-I earned Bachelors degrees in CS & Math from [Vanderbilt University](http://www.vanderbilt.edu), where I worked on Comp. CogSci / AI with [Maithilee Kunda](http://my.vanderbilt.edu/mkunda/). I'm originally from St. Louis, MO.
+I earned Bachelors degrees in CS & Math from [Vanderbilt University](http://www.vanderbilt.edu), where I worked on CoCoSci & Vision with [Maithilee Kunda](http://my.vanderbilt.edu/mkunda/). I'm originally from St. Louis, MO.
 
 <!--  -->
 
