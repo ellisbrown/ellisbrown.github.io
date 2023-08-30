@@ -13,8 +13,7 @@
       institution: New York University, New York, NY
       year: 2028
       description:
-        - Advised by Professors <a href="https://sainingxie.com/">Saining Xie</a> and 
-        <a href="https://cs.nyu.edu/~fergus/">Rob Fergus</a>.
+        - Advised by Professors <a href="https://sainingxie.com/">Saining Xie</a> and `<a href="https://cs.nyu.edu/~fergus/">Rob Fergus</a>.
     - title: M.S. in Computer Science
       institution: Carnegie Mellon University, Pittsburgh, PA
       year: 2023 
