@@ -35,6 +35,6 @@ I earned Bachelors degrees in CS & Math from [Vanderbilt University](http://www.
 <!--  -->
 
 I am a proud member of the [Osage Nation](http://www.osagenation-nsn.gov/) and have recently enjoyed engaging with the Native research community at [AISES](http://conference.aises.org/).
-Look out for [Killer's of the Flower Moon](https://g.co/kgs/xUjmiT) in theaters 2023 Fall!
+Look out for [Killer's of the Flower Moon](https://g.co/kgs/xUjmiT) in theaters fall, 2023!
 
 If you haven't made time for a regular checkin with a doctor recently, *[please do!](/blog/2020/make-time-for-the-doctor/)* Even if you feel perfectly healthy.
