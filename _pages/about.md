@@ -23,7 +23,7 @@ Put your address / P.O. box / other info right below your picture. You can also 
 Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
  -->
 
-I am an incoming CS PhD Student at [NYU Courant](https://cs.nyu.edu/) advised by [Saining Xie](https://www.sainingxie.com/) and [Rob Fergus](https://cs.nyu.edu/~fergus).
+I am a CS PhD Student at [NYU Courant](https://cs.nyu.edu/) advised by [Saining Xie](https://www.sainingxie.com/) and [Rob Fergus](https://cs.nyu.edu/~fergus).
 I recently graduated from a Master's at [CMU](https://www.cmu.edu/) where I was advised by [Deepak Pathak](http://www.cs.cmu.edu/~dpathak/) and [Alyosha Efros](http://www.cs.berkeley.edu/~efros/).
 Before that, I was a founding research engineer at [BlackRock AI Labs](http://www.blackrock.com/ai), where I was fortunate to work with 
 [Mykel Kochenderfer](http://mykel.kochenderfer.com/),
@@ -35,6 +35,6 @@ I earned Bachelors degrees in CS & Math from [Vanderbilt University](http://www.
 <!--  -->
 
 I am a proud member of the [Osage Nation](http://www.osagenation-nsn.gov/) and have recently enjoyed engaging with the Native research community at [AISES](http://conference.aises.org/).
-Look out for [Killer's of the Flower Moon](https://g.co/kgs/xUjmiT) in theaters fall, 2023!
+<!-- Look out for [Killer's of the Flower Moon](https://g.co/kgs/xUjmiT) in theaters fall, 2023! -->
 
 If you haven't made time for a regular checkin with a doctor recently, *[please do!](/blog/2020/make-time-for-the-doctor/)* Even if you feel perfectly healthy.
