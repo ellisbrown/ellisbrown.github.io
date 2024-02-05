@@ -1,7 +1,8 @@
 
-"Kunda":
-  - fistname: ["Maithilee", "M."]
-    url: ["https://my.vanderbilt.edu/mkunda/"]
+
+"Xie":
+  - firstname: ["Saining", "S."]
+    url: "https://www.sainingxie.com/"
 
 "Pathak":
   - firstname: ["Deepak", "D."]
@@ -26,3 +27,7 @@
 "Duggal":
   - firstname: ["Shivam", "S."]
     url: "https://shivamduggal4.github.io/"
+
+"Kunda":
+  - fistname: ["Maithilee", "M."]
+    url: ["https://my.vanderbilt.edu/mkunda/"]

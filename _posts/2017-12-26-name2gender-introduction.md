@@ -16,6 +16,7 @@ toc_sticky: true
 comments: true
 redirect_from:
     - /nlp/name2gender-introduction/
+related_posts: false
 ---
 
 > *Note: This post has also been published on Medium [here](https://towardsdatascience.com/name2gender-introduction-626d89378fb0).*
@@ -50,7 +51,7 @@ Our gender classification problem becomes even more interesting when you abstrac
 # Methodology
 All code for this project is available at 
 <div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
-    {% include repository/repo.html repository='ellisbrown/name2gender' %}
+    {% include repository/repo.liquid repository='ellisbrown/name2gender' %}
 </div>
 
 <br>

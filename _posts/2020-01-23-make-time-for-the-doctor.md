@@ -10,6 +10,7 @@ categories:
 comments: true
 redirect_from:
     - /life/make-time-for-the-doctor/
+related_posts: false
 ---
 
 

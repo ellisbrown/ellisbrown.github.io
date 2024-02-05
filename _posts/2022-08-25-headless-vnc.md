@@ -13,6 +13,7 @@ toc_sticky: true
 comments: true
 redirect_from:
     - /programming/headless-vnc/
+related_posts: false
 ---
 
 

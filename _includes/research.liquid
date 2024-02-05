@@ -1,0 +1,26 @@
+<div class="publications">
+    <h2>selected research <a href="/research">(more)</a></h2>
+
+    {% assign research-page = site.pages | where: "title", "research" | first %}
+    {%- if research-page.interests %}
+        <p>{{research-page.interests | markdownify}}</p>
+    {%- endif %}
+
+    <br>
+    <h4>publications</h4>
+    {% bibliography -f papers -q @*[selected=true]* %}
+
+    <br>
+    <h4>talks</h4>
+    {% bibliography -f talks -q @*[selected=true]* %}
+
+    {% if site.data.repositories.github_repos %}
+        <br>
+        <h4>code</h4>
+        <div class="repositories d-flex flex-wrap flex-lg-row flex-column justify-content-between align-items-center">
+        {% for repo in site.data.repositories.github_repos %}
+            {% include repository/repo.liquid repository=repo %}
+        {% endfor %}
+        </div>
+    {% endif %}
+</div>
