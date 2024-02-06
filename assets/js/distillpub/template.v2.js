@@ -921,16 +921,16 @@ ${math}
       cite += doi_string(ent);
       return cite;
       /*var cite =  author_string(ent, "${L}, ${I}", ", ", " and ");
-            if (ent.year || ent.date){
-              cite += ", " + (ent.year || ent.date) + ". "
-            } else {
-              cite += ". "
-            }
-            cite += "<b>" + ent.title + "</b>. ";
-            cite += venue_string(ent);
-            cite += doi_string(ent);
-            cite += link_string(ent);
-            return cite*/
+                  if (ent.year || ent.date){
+                    cite += ", " + (ent.year || ent.date) + ". "
+                  } else {
+                    cite += ". "
+                  }
+                  cite += "<b>" + ent.title + "</b>. ";
+                  cite += venue_string(ent);
+                  cite += doi_string(ent);
+                  cite += link_string(ent);
+                  return cite*/
     } else {
       return "?";
     }
@@ -2352,8 +2352,8 @@ d-citation-list .references .title {
 
   var prism = createCommonjsModule(function (module) {
     /* **********************************************
-           Begin prism-core.js
-      ********************************************** */
+               Begin prism-core.js
+          ********************************************** */
 
     var _self =
       typeof window !== "undefined"
@@ -3080,8 +3080,8 @@ d-citation-list .references .title {
     }
 
     /* **********************************************
-           Begin prism-markup.js
-      ********************************************** */
+               Begin prism-markup.js
+          ********************************************** */
 
     Prism.languages.markup = {
       comment: /<!--[\s\S]*?-->/,
@@ -3190,8 +3190,8 @@ d-citation-list .references .title {
     Prism.languages.svg = Prism.languages.markup;
 
     /* **********************************************
-           Begin prism-css.js
-      ********************************************** */
+               Begin prism-css.js
+          ********************************************** */
 
     (function (Prism) {
       var string = /("|')(?:\\(?:\r\n|[\s\S])|(?!\1)[^\\\r\n])*\1/;
@@ -3261,8 +3261,8 @@ d-citation-list .references .title {
     })(Prism);
 
     /* **********************************************
-           Begin prism-clike.js
-      ********************************************** */
+               Begin prism-clike.js
+          ********************************************** */
 
     Prism.languages.clike = {
       comment: [
@@ -3296,8 +3296,8 @@ d-citation-list .references .title {
     };
 
     /* **********************************************
-           Begin prism-javascript.js
-      ********************************************** */
+               Begin prism-javascript.js
+          ********************************************** */
 
     Prism.languages.javascript = Prism.languages.extend("clike", {
       "class-name": [
@@ -3397,8 +3397,8 @@ d-citation-list .references .title {
     Prism.languages.js = Prism.languages.javascript;
 
     /* **********************************************
-           Begin prism-file-highlight.js
-      ********************************************** */
+               Begin prism-file-highlight.js
+          ********************************************** */
 
     (function () {
       if (typeof self === "undefined" || !self.Prism || !self.document || !document.querySelector) {
