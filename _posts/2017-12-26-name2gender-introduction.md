@@ -86,7 +86,7 @@ Example code usage is available at [naive_bayes/demo.ipynb](https://github.com/e
 
 ## Char-RNN
 
-Of course, there are many many patterns of characters in a name that might contain gender cues — especially when considering our global (worldly) name space; it seems absurd to attempt to hard code every possible pattern when we have [Deep Learning](https://en.wikipedia.org/wiki/Deep_learning). In this vein, I explore a Character-level Recurrent Neural Network approach using [PyTorch](http://pytorch.org/about/) that attempts to learn the various gender-revealing sequences without having to explicitly specify them.
+Of course, there are many many patterns of characters in a name that might contain gender cues — especially when considering our global (worldly) name space; it seems absurd to attempt to hard code every possible pattern when we have [Deep Learning](https://en.wikipedia.org/wiki/Deep_learning). In this vein, I explore a Character-level Recurrent Neural Network approach using [PyTorch](http://pytorch.org/) that attempts to learn the various gender-revealing sequences without having to explicitly specify them.
 
 ### Tensor Representation
 
@@ -233,5 +233,5 @@ For such names, we could simply lookup what our datastore has for the gender of 
 
 [^1]: Bird, S., Klein, E., and Loper, E. "6.1.1 Gender Identification." Natural Language Processing with Python: Analyzing Text with the Natural Language Toolkit, O’Reilly, 2009, <a href="www.nltk.org/book/ch06.html" style="word-wrap:break-word;">www.nltk.org/book/ch06.html</a>.
 [^2]: "Grammatical Gender." Wikipedia, Wikimedia Foundation, 21 Dec. 2017, <a href="http://en.wikipedia.org/wiki/Grammatical_gender" style="word-wrap:break-word;">http://en.wikipedia.org/wiki/Grammatical_gender</a>.
-[^3]: Liu, W., and Ruths, D. "What’s in a Name? Using First Names as Features for Gender Inference in Twitter" AAAI Spring Symposium Series (2013), 21 Dec. 2017, <a href="https://www.aaai.org/ocs/index.php/SSS/SSS13/paper/view/5744/5908" style="word-wrap:break-word;">https://www.aaai.org/ocs/index.php/SSS/SSS13/paper/view/5744/5908</a>.
+[^3]: Liu, W., and Ruths, D. "What’s in a Name? Using First Names as Features for Gender Inference in Twitter" AAAI Spring Symposium Series (2013), 21 Dec. 2017, <a href="https://www.semanticscholar.org/paper/What%27s-in-a-Name-Using-First-Names-as-Features-for-Liu-Ruths/b60d04043a60e46670f182b2debb485e9d17ce46?utm_source=direct_link" style="word-wrap:break-word;">https://www.aaai.org/ocs/index.php/SSS/SSS13/paper/view/5744/5908</a>.
 [^4]: Robertson, S. "Classifying Names with a Character-Level RNN." Classifying Names with a Character-Level RNN, PyTorch Docs, 2017, <a href="http://pytorch.org/tutorials/intermediate/char_rnn_classification_tutorial.html" style="word-wrap:break-word;">http://pytorch.org/tutorials/intermediate/char_rnn_classification_tutorial.html</a>.

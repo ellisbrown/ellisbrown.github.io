@@ -67,7 +67,7 @@ plot(get_plot(f); label="piece-wise quadratic", grid=false, color=:black)
 plot!(get_plot(simplify(envelope(f))); label="envelope", linestyle=:dash, color=:blue, la=0.5)
 ```
 
-![](https://miro.medium.com/max/700/1*7NKzaEbGVDkwXepADdBsnQ.png)
+![](assets/posts/julia/pwq.png)
 
 See the [PiecewiseQuadratics.jl documentation](https://juliafirstorder.github.io/PiecewiseQuadratics.jl/stable/) for details and more examples of the package!
 
@@ -90,4 +90,4 @@ Rather than hosting these packages on [BlackRock’s GitHub](https://github.com/
 
 ## Conclusions
 
-We are very excited to get these new packages into the hands of the Julia community, and to grow our new organization. Head to their documentation pages to learn more and how to give them a try. Don’t forget to tune into our [presentation at JuliaCon 2021](https://live.juliacon.org/talk/FGUEAM) titled “Linearly Constrained Separable Optimization!”
+We are very excited to get these new packages into the hands of the Julia community, and to grow our new organization. Head to their documentation pages to learn more and how to give them a try. Don’t forget to tune into our [presentation at JuliaCon 2021](https://youtu.be/9iXWtqm60sQ?si=APdRf8lwlpAPf6-x) titled “Linearly Constrained Separable Optimization!”
