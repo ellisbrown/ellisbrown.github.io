@@ -210,7 +210,7 @@ For such names, we could simply lookup what our datastore has for the gender of 
 ---
 
 # References
-[^1]: Bird, S., Klein, E., and Loper, E. “6.1.1 Gender Identification.” Natural Language Processing with Python: Analyzing Text with the Natural Language Toolkit, O’Reilly, 2009, <a href="www.nltk.org/book/ch06.html" style="word-wrap:break-word;">www.nltk.org/book/ch06.html</a>.
+[^1]: Bird, S., Klein, E., and Loper, E. “6.1.1 Gender Identification.” Natural Language Processing with Python: Analyzing Text with the Natural Language Toolkit, O’Reilly, 2009, <a href="https://www.nltk.org/book/ch06.html" style="word-wrap:break-word;">https://www.nltk.org/book/ch06.html</a>.
 [^2]: “Grammatical Gender.” Wikipedia, Wikimedia Foundation, 21 Dec. 2017, <a href="http://en.wikipedia.org/wiki/Grammatical_gender" style="word-wrap:break-word;">http://en.wikipedia.org/wiki/Grammatical_gender</a>.
 [^3]: Liu, W., and Ruths, D. “What’s in a Name? Using First Names as Features for Gender Inference in Twitter” AAAI Spring Symposium Series (2013), 21 Dec. 2017, <a href="https://www.aaai.org/ocs/index.php/SSS/SSS13/paper/view/5744/5908" style="word-wrap:break-word;">https://www.aaai.org/ocs/index.php/SSS/SSS13/paper/view/5744/5908</a>.
 [^4]: Robertson, S. “Classifying Names with a Character-Level RNN.” Classifying Names with a Character-Level RNN, PyTorch Docs, 2017, <a href="http://pytorch.org/tutorials/intermediate/char_rnn_classification_tutorial.html" style="word-wrap:break-word;">http://pytorch.org/tutorials/intermediate/char_rnn_classification_tutorial.html</a>.
