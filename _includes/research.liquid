@@ -6,13 +6,15 @@
         <p>{{research-page.interests | markdownify}}</p>
     {%- endif %}
 
-    <br>
-    <h4>publications</h4>
-    {% bibliography -f papers -q @*[selected=true]* %}
+    {% if research-page.selected_papers %}
+        <h4>publications</h4>
+        {% bibliography -f papers -q @*[selected=true]* %}
+    {% endif %}
 
-    <br>
-    <h4>talks</h4>
-    {% bibliography -f talks -q @*[selected=true]* %}
+    {% if research-page.selected_talks %}
+        <h4>talks</h4>
+        {% bibliography -f talks -q @*[selected=true]* %}
+    {% endif %}
 
     {% if site.data.repositories.github_repos %}
         <br>
