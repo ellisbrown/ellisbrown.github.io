@@ -1,7 +1,6 @@
---- 
-# Only the main Sass file needs front matter (the dashes are enough) 
---- 
-
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
 
 // see https://github.com/mmistakes/minimal-mistakes/discussions/1219
 
@@ -10,66 +9,65 @@
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
 
-
 html {
+  font-size: 16px; // change to whatever
+
+  @include breakpoint($medium) {
     font-size: 16px; // change to whatever
+  }
 
-    @include breakpoint($medium) {
-        font-size: 16px; // change to whatever
-    }
+  @include breakpoint($large) {
+    font-size: 18px; // change to whatever
+  }
 
-    @include breakpoint($large) {
-        font-size: 18px; // change to whatever
-    }
-
-    @include breakpoint($x-large) {
-        font-size: 20px; // change to whatever
-    }
+  @include breakpoint($x-large) {
+    font-size: 20px; // change to whatever
+  }
 }
 
 .project {
-    @extend .notice;
-    overflow: hidden;
+  @extend .notice;
+  overflow: hidden;
 
-    .teaser {
-        width: 30%;
-        float: left;
-        position: relative;
-        height: 100%;
-        display: flex;
-        align-items: center;
+  .teaser {
+    width: 30%;
+    float: left;
+    position: relative;
+    height: 100%;
+    display: flex;
+    align-items: center;
 
-        img {
-            @extend .align-left;
-            width: 95%;
-            height: 100%;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            vertical-align: middle;
-        }
+    img {
+      @extend .align-left;
+      width: 95%;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      vertical-align: middle;
+    }
+  }
+
+  .content {
+    width: 70%;
+    float: right;
+
+    h1 span {
+      @extend .footnote;
+      @extend small;
+
+      font-style: italic;
+      font-weight: normal;
     }
 
-    .content {
-        width: 70%;
-        float: right;
-        
-        h1 span {
-            @extend .footnote;
-            @extend small;
-
-            font-style: italic;
-            font-weight: normal;
-        }
-
-        .button {
-            @extend .btn;
-            @extend .btn--inverse;
-        }
-
-        .date {
-            float: right;
-            font-weight: bold;
-        }
+    .button {
+      @extend .btn;
+      @extend .btn--inverse;
     }
+
+    .date {
+      float: right;
+      font-weight: bold;
+    }
+  }
 }

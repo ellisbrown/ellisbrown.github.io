@@ -14,7 +14,7 @@ profile:
 news: true # includes a list of news items
 latest_posts: true # includes a list of the newest posts
 selected_papers: true # includes a list of papers marked as "selected={true}"
-social: false  # includes social icons at the bottom of the page
+social: false # includes social icons at the bottom of the page
 ---
 
 <!-- Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
@@ -26,7 +26,7 @@ Link to your social media connections, too. This theme is set up to use [Font Aw
 
 I am a CS PhD Student at [NYU Courant](https://cs.nyu.edu/) advised by [Saining Xie](https://www.sainingxie.com/) and [Rob Fergus](https://cs.nyu.edu/~fergus).
 I recently graduated from a Master's at [CMU](https://www.cmu.edu/) where I was advised by [Deepak Pathak](http://www.cs.cmu.edu/~dpathak/) and [Alyosha Efros](http://www.cs.berkeley.edu/~efros/).
-Before that, I was a founding research engineer at [BlackRock AI Labs](http://www.blackrock.com/ai), where I was fortunate to work with 
+Before that, I was a founding research engineer at [BlackRock AI Labs](http://www.blackrock.com/ai), where I was fortunate to work with
 [Mykel Kochenderfer](http://mykel.kochenderfer.com/),
 [Stephen Boyd](http://web.stanford.edu/~boyd/),
 and [Trevor Hastie](http://web.stanford.edu/~hastie/)
@@ -36,6 +36,7 @@ I earned Bachelors degrees in CS & Math from [Vanderbilt University](http://www.
 <!--  -->
 
 I am a proud member of the [Osage Nation](http://www.osagenation-nsn.gov/) and have recently enjoyed engaging with the Native research community at [AISES](http://conference.aises.org/).
+
 <!-- Look out for [Killer's of the Flower Moon](https://g.co/kgs/xUjmiT) in theaters fall, 2023! -->
 
-If you haven't made time for a regular checkin with a doctor recently, *[please do!](/blog/2020/make-time-for-the-doctor/)* Even if you feel perfectly healthy.
+If you haven't made time for a regular checkin with a doctor recently, _[please do!](/blog/2020/make-time-for-the-doctor/)_ Even if you feel perfectly healthy.

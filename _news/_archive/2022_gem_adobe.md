@@ -6,7 +6,5 @@ inline: true
 
 Selected by [Adobe Research][AR] to receive full PhD funding (2023--2028) through the [GEM Fellowship Program][GEM]! 🎉
 
-
-
 [GEM]: https://www.gemfellowship.org/gem-fellowship-program/
 [AR]: https://research.adobe.com/

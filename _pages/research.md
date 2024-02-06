@@ -8,32 +8,35 @@ report_years: [2022, 2021, 2020, 2019]
 nav: true
 nav_order: 1
 interests: >
-    I'm interested in self-supervised learning, representation learning, curiosity-based exploration, and leveraging internet-scale models and data.
-    I am keen to draw inspiration from intelligence in humans and nature---especially as a goal-post rather than a blueprint.
-    My long-term goal is to develop intelligent agents that can *generalize* and *continually adapt* as robustly and efficiently as humans do, allowing them to be *safely* deployed in the real world.
+  I'm interested in self-supervised learning, representation learning, curiosity-based exploration, and leveraging internet-scale models and data.
+  I am keen to draw inspiration from intelligence in humans and nature---especially as a goal-post rather than a blueprint.
+  My long-term goal is to develop intelligent agents that can *generalize* and *continually adapt* as robustly and efficiently as humans do, allowing them to be *safely* deployed in the real world.
 selected_papers: true
 selected_talks: false
 ---
+
 <div class="publications">
 
 {%- if page.interests %}
-    <p>{{page.interests | markdownify}}</p>
-{%- endif %}
 
+<p>{{page.interests | markdownify}}</p>
+{%- endif %}
 
 <h3>Publications</h3>
 {% bibliography -f papers %}
 
 {%- if page.talk_years %}
-    <br><br><br>
-    <h3>Talks</h3>
-    {% bibliography -f talks %}
+<br><br><br>
+
+<h3>Talks</h3>
+{% bibliography -f talks %}
 {% endif %}
 
 {%- if page.report_years %}
-    <br><br><br>
-    <h3>Reports</h3>
-    {% bibliography -f reports %}
+<br><br><br>
+
+<h3>Reports</h3>
+{% bibliography -f reports %}
 {% endif %}
 
 </div>

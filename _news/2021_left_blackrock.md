@@ -6,5 +6,4 @@ inline: true
 
 Left [BlackRock AI Labs][BRAIL] to pursue a Master's degree in Computer Science at CMU. Bittersweet!
 
-
 [BRAIL]: https://www.blackrock.com/corporate/ai

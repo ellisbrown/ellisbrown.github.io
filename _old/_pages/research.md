@@ -8,6 +8,7 @@ toc_sticky: true
 ---
 
 ---
+
 # publications
 
 <!-- ## working
@@ -37,6 +38,7 @@ Sixth Annual Conference on Advances in Cognitive Systems, Stanford, CA.
 </small>
 
 ## reports
+
 Securities Lending Policy Optimization<br>
 <small>
 <u>Ellis Brown, II.</u><br>
@@ -52,6 +54,7 @@ Modeling Uncertainty in Bayesian Neural Networks with Dropout: The effect of wei
 </small>
 
 ---
+
 # talks
 
 Linearly Constrained Separable Optimization<br>
@@ -66,7 +69,7 @@ Modeling Uncertainty in Bayesian Neural Networks with Dropout:<br>The effect of 
 American Indian Science and Engineering Society National Conference, Madison, WI.
 <br>2019, Oct. 10. Abstract and Poster presentation. (\* equal contribution)<br>
 [[poster](/assets/files/presentations/2019_bnn_uncertainty_aises_poster.pdf)]
-*Awarded Third Place, Graduate Student Research Competition*
+_Awarded Third Place, Graduate Student Research Competition_
 </small>
 
 SpatioTemporal Template-based Search:<br>An Architecture for Spatiotemporal Template-Based Search<br>

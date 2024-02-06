@@ -5,13 +5,14 @@ layout: single
 # author_profile: true
 last_modified_at: 2022-08-05
 ---
+
 <img src="/assets/images/elb.jpg" alt="elb" class="align-right" width="35%" style="box-shadow: 0 0 5px #828282; margin-top: 0em; margin-bottom: 0em; border-radius: 50%;"> 
 I am a Master's student in the [Computer Science Department](http://csd.cmu.edu/) at [CMU](https://www.cmu.edu/) and a graduate student researcher in the [Robitics Institute](http://www.ri.cmu.edu/). I am advised by [Deepak Pathak](http://www.cs.cmu.edu/~dpathak/) and collaborate closely with [Alyosha Efros](http://www.cs.berkeley.edu/~efros/).
 My recent interests are in self-supervised learning, curiosity-based exploration, and leveraging internet-scale models and data.
 I am keen to draw inspiration from intelligence in humans and nature---especially as a goal-post rather than a blueprint.
 My long-term goal is to develop intelligent agents that can *generalize* and *continually adapt* as robustly and efficiently as humans do, allowing them to be *safely* deployed in the real world.
 
-Previously I was a founding engineer at [BlackRock AI Labs](http://www.blackrock.com/corporate/ai) in Palo Alto, where I was fortunate to work with 
+Previously I was a founding engineer at [BlackRock AI Labs](http://www.blackrock.com/corporate/ai) in Palo Alto, where I was fortunate to work with
 [Mykel Kochenderfer](http://mykel.kochenderfer.com/),
 [Stephen Boyd](http://web.stanford.edu/~boyd/),
 and [Trevor Hastie](http://web.stanford.edu/~hastie/)

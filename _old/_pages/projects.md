@@ -41,7 +41,6 @@ Presented at JuliaCon 2021.
 </div>
 </div>
 
-
 <div class="project">
 <div class="teaser">
 <a href="http://www.github.com/amdegroot/ssd.pytorch">
@@ -93,7 +92,6 @@ Presented at JuliaCon 2021.
 <span class="date">Dec 2017</span>
 </div>
 </div>
-
 
 <div class="project">
 <div class="teaser">

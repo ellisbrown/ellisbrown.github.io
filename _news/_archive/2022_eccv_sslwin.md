@@ -6,6 +6,4 @@ inline: true
 
 Our paper "Internet Curiosity" was accepted to the ECCV 2022 workshop on [Self-Supervised: Learning What's Next?][SSLWIN]
 
-
-
 [SSLWIN]: https://sslwin.org/

@@ -16,7 +16,7 @@
         - Advised by Professors <a href="https://sainingxie.com/">Saining Xie</a> and <a href="https://cs.nyu.edu/~fergus/">Rob Fergus</a>.
     - title: M.S. in Computer Science
       institution: Carnegie Mellon University, Pittsburgh, PA
-      year: 2023 
+      year: 2023
       description:
         - Advised by Professors <a href="https://www.cs.cmu.edu/~dpathak">Deepak Pathak</a> and <a href="https://www.cs.berkeley.edu/~efros/">Alexei Efros</a>.
     - title: Non-Degree Graduate Student, Computer Science
@@ -30,7 +30,6 @@
       year: 2017
       description:
         - Advised by Professor <a href="https://my.vanderbilt.edu/mkunda/">Maithilee Kunda</a>.
-
 # - title: Experience
 #   type: time_table
 #   contents:
@@ -69,17 +68,17 @@
 #   type: time_table
 #   contents:
 #     - year: 2021
-#       items: 
+#       items:
 #         - Scholar, Computer Science Research Mentorship Program, Google Research
 #         - Scholar, Lighting the Pathways to Faculty Careers for Natives in STEM, American Indian Science & Engineering Society (AISES)
 #     - year: 2019
 #       items:
-#         - 2nd Place, Graduate Student Research Competition, AISES National Conference 
+#         - 2nd Place, Graduate Student Research Competition, AISES National Conference
 # - title: Scholarship
 #   type: time_table
 #   contents:
 #     - year: 2021 - Pres.
-#       items: 
+#       items:
 #         - Intel Growing the Legacy Graduate Scholarship
 #         - Osage Nation Higher Education Graduate Scholarship
 #     - year: 2013 - 2017
@@ -90,7 +89,7 @@
 #   type: nested_list
 #   contents:
 #     - title: Topic 1.
-#       items: 
+#       items:
 #         - Description 1.
 #         - Description 2.
 #     - title: Topic 2.
