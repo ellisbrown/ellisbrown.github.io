@@ -757,6 +757,10 @@ footer.sticky-bottom {
             }
           }
         }
+        .badge {
+          max-width: 60%;
+          margin: 0 20%;
+        }
 
         .award {
           color: var(--global-theme-color) !important;
