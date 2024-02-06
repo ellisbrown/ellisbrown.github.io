@@ -1,31 +1,39 @@
-"Xie":
+"xie":
   - firstname: ["Saining", "S."]
     url: "https://www.sainingxie.com/"
 
-"Pathak":
+"fergus":
+  - firstname: ["Rob", "R.", "Robert"]
+    url: "https://cs.nyu.edu/~fergus/"
+
+"yang":
+  - firstname: ["Jihan"]
+    url: "https://jihanyang.github.io/"
+
+"pathak":
   - firstname: ["Deepak", "D."]
     url: "https://www.cs.cmu.edu/~dpathak"
 
-"Efros":
+"efros":
   - firstname: ["Alexei", "Alyosha", "Alexei A.", "A."]
     url: "https://www.cs.berkeley.edu/~efros/"
 
-"Li":
+"li":
   - firstname: ["Alex", "Alexander", "Alexander C.", "A."]
     url: "https://alexanderli.com"
 
-"Li*":
+"li*":
   - firstname: ["Alex", "Alexander", "Alexander C.", "A."]
     url: "https://alexanderli.com"
 
-"Prabhudesai":
+"prabhudesai":
   - firstname: ["Mihir", "M."]
     url: "https://mihirp1998.github.io/"
 
-"Duggal":
+"duggal":
   - firstname: ["Shivam", "S."]
     url: "https://shivamduggal4.github.io/"
 
-"Kunda":
+"kunda":
   - fistname: ["Maithilee", "M."]
     url: ["https://my.vanderbilt.edu/mkunda/"]
