@@ -136,7 +136,8 @@ An alternative approach might be to store the value of a character by its locati
 
 <figure class="align-right" style="max-width: 200px">
   <!-- {{ rnn_layers | markdownify | remove: "<p>" | remove: "</p>" }} -->
-    <img src="{{ "/assets/posts/name2gen/rnn.png" | relative_url }}" alt="RNN" style="max-width: 100%" data-zoomable>
+    <!-- <img src="{{ "/assets/posts/name2gen/rnn.png" | relative_url }}" alt="RNN" style="max-width: 100%" data-zoomable> -->
+    <img src="/assets/posts/name2gen/rnn.png" alt="RNN" style="max-width: 100%" data-zoomable>
   <figcaption><a href="https://goo.gl/BB7h2A">source</a></figcaption>
 </figure>
 
@@ -233,5 +234,5 @@ For such names, we could simply lookup what our datastore has for the gender of 
 
 [^1]: Bird, S., Klein, E., and Loper, E. "6.1.1 Gender Identification." Natural Language Processing with Python: Analyzing Text with the Natural Language Toolkit, O’Reilly, 2009, <a href="https://www.nltk.org/book/ch06.html" style="word-wrap:break-word;">https://www.nltk.org/book/ch06.html</a>.
 [^2]: "Grammatical Gender." Wikipedia, Wikimedia Foundation, 21 Dec. 2017, <a href="http://en.wikipedia.org/wiki/Grammatical_gender" style="word-wrap:break-word;">http://en.wikipedia.org/wiki/Grammatical_gender</a>.
-[^3]: Liu, W., and Ruths, D. "What’s in a Name? Using First Names as Features for Gender Inference in Twitter" AAAI Spring Symposium Series (2013), 21 Dec. 2017, <a href="https://www.semanticscholar.org/paper/What%27s-in-a-Name-Using-First-Names-as-Features-for-Liu-Ruths/b60d04043a60e46670f182b2debb485e9d17ce46?utm_source=direct_link" style="word-wrap:break-word;">https://www.aaai.org/ocs/index.php/SSS/SSS13/paper/view/5744/5908</a>.
+[^3]: Liu, W., and Ruths, D. "What’s in a Name? Using First Names as Features for Gender Inference in Twitter" AAAI Spring Symposium Series (2013), 21 Dec. 2017, <a href="https://www.semanticscholar.org/paper/What%27s-in-a-Name-Using-First-Names-as-Features-for-Liu-Ruths/b60d04043a60e46670f182b2debb485e9d17ce46?utm_source=direct_link" style="word-wrap:break-word;">link</a>.
 [^4]: Robertson, S. "Classifying Names with a Character-Level RNN." Classifying Names with a Character-Level RNN, PyTorch Docs, 2017, <a href="http://pytorch.org/tutorials/intermediate/char_rnn_classification_tutorial.html" style="word-wrap:break-word;">http://pytorch.org/tutorials/intermediate/char_rnn_classification_tutorial.html</a>.
