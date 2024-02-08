@@ -214,7 +214,8 @@ Application of this name to gender classification to variations of first names w
 > "Nicknames, abbreviations, mangled names, and usernames can frequently contain non-trivial gender cues. Identifying strategies for extracting and using these cues to more accurately infer gender is a promising direction for future work." [^3]
 
 <figure class="align-right" style="max-width: 280px">
-    <img src="{{ "/assets/posts/name2gen/freq.png" | relative_url }}" alt="Freq" style="max-width: 100%" data-zoomable>
+    <!-- <img src="{{ "/assets/posts/name2gen/freq.png" | relative_url }}" alt="Freq" style="max-width: 100%" data-zoomable> -->
+    <img src="/assets/posts/name2gen/freq.png" alt="Freq" style="max-width: 100%" data-zoomable>
   <figcaption>Name Frequency Scheme</figcaption>
   <br>
 </figure>
