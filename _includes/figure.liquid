@@ -22,7 +22,7 @@
         {% endif %}
         type="image/webp"
       >
-    {% else if site.imagemagick.enabled %}
+    {% elsif site.imagemagick.enabled %}
       <source
         class="responsive-img-srcset"
         srcset="{% for i in site.imagemagick.widths %}{{ img_path | relative_url }}-{{ i }}.webp {{i}}w,{% endfor %}"

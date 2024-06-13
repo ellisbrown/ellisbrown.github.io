@@ -24,11 +24,11 @@ Put your address / P.O. box / other info right below your picture. You can also 
 Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fontawesome.com) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
  -->
 
-I am a CS PhD Student at [NYU Courant](https://cs.nyu.edu/) advised by [Saining Xie](https://www.sainingxie.com/) and [Rob Fergus](https://cs.nyu.edu/~fergus). This summer, I am interning at [AI2](https://allenai.org/) with [Ross Girshick](https://www.rossgirshick.info/).
+I am a CS PhD Student at [NYU Courant](https://cs.nyu.edu/) advised by [Saining Xie](https://www.sainingxie.com/) and [Rob Fergus](https://cs.nyu.edu/~fergus), and am supported by the NDSEG Fellowship.
+This summer, I am interning with [Ross Girshick](https://www.rossgirshick.info/) in the [PRIOR](https://prior.allenai.org/) team at the [Allen Institute for AI](https://allenai.org/).
 
 I recently graduated from a Master's at [CMU](https://www.cmu.edu/) where I was advised by [Deepak Pathak](http://www.cs.cmu.edu/~dpathak/) and [Alyosha Efros](http://www.cs.berkeley.edu/~efros/). Before that, I was a founding research engineer at [BlackRock AI Labs](http://www.blackrock.com/ai), where I was fortunate to work with [Mykel Kochenderfer](http://mykel.kochenderfer.com/), [Stephen Boyd](http://web.stanford.edu/~boyd/), and [Trevor Hastie](http://web.stanford.edu/~hastie/) on applied research & finance.
 I earned Bachelors degrees in CS & Math from [Vanderbilt University](http://www.vanderbilt.edu), where I worked on CoCoSci & Vision with [Maithilee Kunda](http://my.vanderbilt.edu/mkunda/). I'm originally from St. Louis, MO.
-
 
 <!--  -->
 
