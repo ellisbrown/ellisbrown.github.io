@@ -1,22 +1,15 @@
-"xie":
-  - firstname: ["Saining", "S."]
-    url: "https://www.sainingxie.com/"
 
-"fergus":
-  - firstname: ["Rob", "R.", "Robert"]
-    url: "https://cs.nyu.edu/~fergus/"
+"tong":
+  - firstname: ["Shengbang"]
+    url: "https://tsb0601.github.io/petertongsb/"
+
+"wu":
+  - firstname: ["Penghao", "P."]
+    url: "https://penghao-wu.github.io/"
 
 "yang":
-  - firstname: ["Jihan"]
+  - firstname: ["Jihan", "J."]
     url: "https://jihanyang.github.io/"
-
-"pathak":
-  - firstname: ["Deepak", "D."]
-    url: "https://www.cs.cmu.edu/~dpathak"
-
-"efros":
-  - firstname: ["Alexei", "Alyosha", "Alexei A.", "A."]
-    url: "https://www.cs.berkeley.edu/~efros/"
 
 "li":
   - firstname: ["Alex", "Alexander", "Alexander C.", "A."]
@@ -37,3 +30,24 @@
 "kunda":
   - fistname: ["Maithilee", "M."]
     url: ["https://my.vanderbilt.edu/mkunda/"]
+
+
+"xie":
+  - firstname: ["Saining", "S."]
+    url: "https://www.sainingxie.com/"
+
+"fergus":
+  - firstname: ["Rob", "R.", "Robert"]
+    url: "https://cs.nyu.edu/~fergus/"
+
+"lecun":
+  - firstname: ["Yann", "Y."]
+    url: "http://yann.lecun.com/"
+
+"pathak":
+  - firstname: ["Deepak", "D."]
+    url: "https://www.cs.cmu.edu/~dpathak"
+
+"efros":
+  - firstname: ["Alexei", "Alyosha", "Alexei A.", "A."]
+    url: "https://www.cs.berkeley.edu/~efros/"
