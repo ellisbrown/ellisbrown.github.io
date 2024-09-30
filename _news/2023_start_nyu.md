@@ -4,7 +4,7 @@ date: 2023-08-21 12:00:00-0400
 inline: true
 ---
 
-Excited to be starting my PhD at [NYU][CILVR] advised by
+Excited to be starting my PhD at [NYU][CILVR] advised by Profs.
 [Saining Xie][Saining]
 and [Rob Fergus][Fergus] 🎉🗽
 
