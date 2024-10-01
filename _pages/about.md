@@ -26,7 +26,7 @@ Link to your social media connections, too. This theme is set up to use [Font Aw
 
 I am a CS PhD Student at [NYU Courant](https://cs.nyu.edu/) advised by Profs. [Saining Xie](https://www.sainingxie.com/) and [Rob Fergus](https://cs.nyu.edu/~fergus).
 My research is supported by the NDSEG Fellowship.
-This summer, I am interning with [Ross Girshick](https://www.rossgirshick.info/) in the [PRIOR](https://prior.allenai.org/) team at the [Allen Institute for AI (Ai2)](https://allenai.org/).
+I am currently interning with [Ross Girshick](https://www.rossgirshick.info/) in the [PRIOR](https://prior.allenai.org/) team at the [Allen Institute for AI (Ai2)](https://allenai.org/).
 
 I recently graduated from a Master's at [Carnegie Mellon](https://www.cmu.edu/) where I was advised by Profs. [Deepak Pathak](http://www.cs.cmu.edu/~dpathak/) and [Alyosha Efros](http://www.cs.berkeley.edu/~efros/). Before that, I was a founding research engineer at [BlackRock AI Labs](http://www.blackrock.com/ai), where I was fortunate to work with Profs. [Mykel Kochenderfer](http://mykel.kochenderfer.com/), [Stephen Boyd](http://web.stanford.edu/~boyd/), and [Trevor Hastie](http://web.stanford.edu/~hastie/) on applied research & finance.
 During my undergrad at [Vanderbilt](http://www.vanderbilt.edu), I majored in CS & Math and did research in CogSci & Vision with Prof. [Maithilee Kunda](http://my.vanderbilt.edu/mkunda/). I'm originally from St. Louis, MO.
