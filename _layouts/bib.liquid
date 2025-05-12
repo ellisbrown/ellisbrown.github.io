@@ -149,12 +149,15 @@
     <!-- Journal/Book title and date -->
     {% assign proceedings = 'inproceedings,incollection' | split: ',' %}
     {% assign thesis = 'thesis,mastersthesis,phdthesis' | split: ',' %}
+    {% assign techreport = 'techreport' | split: ',' %}
     {% if entry.type == 'article' %}
       {% capture entrytype %}<em>{{ entry.journal }}</em>{% endcapture %}
     {% elsif proceedings contains entry.type %}
       {% capture entrytype %}<em>In {{ entry.booktitle }}</em>{% endcapture %}
     {% elsif thesis contains entry.type %}
       {% capture entrytype %}<em>{{ entry.school }}</em>{% endcapture %}
+    {% elsif techreport contains entry.type %}
+      {% capture entrytype %}<em>{{ entry.institution }}</em>{% if entry.note %}{% endif %}{% endcapture %}
     {% else %}
       {% capture entrytype %}{% endcapture %}
     {% endif %}
@@ -179,21 +182,16 @@
     <div class="periodical">
       {{ periodical | strip }}
     </div>
-    <div class="periodical">
+    <div class="periodical"> 
       {{ entry.note | strip }}
     </div>
-
-    {%- if entry.award %}
-      <div class="award">
-        🎖️ <span style="color: red; font-style: italic;">{{ entry.award }}</span>
-      </div>
-    {%- endif %}
 
     <!-- Links/Buttons -->
 
     <div class="links">
       {% if entry.award %}
         <a class="award btn btn-sm z-depth-0" role="button">
+          🎖️ &nbsp;
           {%- if entry.award_name %}{{ entry.award_name }}{% else %}Awarded{% endif -%}
         </a>
       {% endif %}
