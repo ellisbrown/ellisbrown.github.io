@@ -9,5 +9,7 @@ vendor
 .ruby-version
 .tweet-cache
 Gemfile.lock
+assets/libs/
 node_modules/
 vendor
+.idea
