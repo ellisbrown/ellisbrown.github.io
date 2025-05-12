@@ -2,9 +2,8 @@
 layout: page
 permalink: /research/
 title: research
-pub_years: [2024, 2023, 2022, 2018]
+pub_years: [2025, 2024, 2023, 2022, 2018]
 talk_years: [2021, 2019, 2017]
-report_years: [2022, 2021, 2020, 2019]
 nav: true
 nav_order: 1
 interests: >
@@ -30,13 +29,6 @@ selected_talks: false
 
 <h3>Talks</h3>
 {% bibliography -f talks %}
-{% endif %}
-
-{%- if page.report_years %}
-<br><br><br>
-
-<h3>Reports</h3>
-{% bibliography -f reports %}
 {% endif %}
 
 </div>
