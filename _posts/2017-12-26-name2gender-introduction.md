@@ -19,7 +19,7 @@ redirect_from:
 related_posts: false
 ---
 
-> _Note: This post has also been published on Medium [here](https://towardsdatascience.com/name2gender-introduction-626d89378fb0)._
+> _Note: This post has also been published on Medium [Towards Data Science](https://towardsdatascience.com/)._
 
 Consider the names "John" and "Cindy" — most people would instantly mark John as a male name and Cindy as a female one. Is this the case _primarily_ because we have seen so many examples of male Johns and female Cindys that our brains have built up a latent association between the specific name and the corresponding gender? Probably.
 

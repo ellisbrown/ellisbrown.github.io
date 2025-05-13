@@ -122,7 +122,3 @@ If you need to change the password, run:
 ```bash
 vncpasswd
 ```
-
-## References
-
-- [https://www.sproutworkshop.com/2021/04/how-to-create-a-virtual-headless-tigervnc-server-on-ubuntu-20-04/](https://www.sproutworkshop.com/2021/04/how-to-create-a-virtual-headless-tigervnc-server-on-ubuntu-20-04/)
