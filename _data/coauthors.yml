@@ -1,14 +1,16 @@
+"ray":
+  - firstname: ["Arijit", "A."]
+    url: "https://arijitray1993.github.io"
+
 "tong":
   - firstname: ["Shengbang"]
     url: "https://tsb0601.github.io/petertongsb/"
 
-"wu":
-  - firstname: ["Penghao", "P."]
-    url: "https://penghao-wu.github.io/"
-
 "yang":
   - firstname: ["Jihan", "J."]
     url: "https://jihanyang.github.io/"
+  - firstname: ["Shusheng", "S."]
+    url: "https://github.com/vealocia"
 
 "li":
   - firstname: ["Alex", "Alexander", "Alexander C.", "A."]
