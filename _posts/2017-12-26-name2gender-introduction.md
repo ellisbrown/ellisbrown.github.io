@@ -82,7 +82,7 @@ These features are plugged into the NLTK NaiveBayesClassifier for easy training 
 
 I trained this model with a 70/30 train-test split (~95k training names, ~40.6k testing names). The testing accuracy was around **85%**, which is arguably pretty good for this task.
 
-Example code usage is available at [naive_bayes/demo.ipynb](https://github.com/ellisbrown/name2gender/blob/bfe60ce6597fdd19c8240dd5fd0e0643de48f1b7/naive_bayes/demo.ipynb).
+Example code usage is available at [naive_bayes/demo.ipynb](https://github.com/ellisbrown/name2gender/tree/master/naive_bayes).
 
 ## Char-RNN
 
