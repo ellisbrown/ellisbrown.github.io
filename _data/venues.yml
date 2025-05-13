@@ -1,6 +1,34 @@
-"AJP":
-  url: https://aapt.scitation.org/journal/ajp
-  color: "#00369f"
+"NeurIPS":
+  # color: "#5e3e7e"
+  # color: "#759"
+  color: "#8c47d1"
+  url: https://neurips.cc/
 
-"PhysRev":
-  url: https://journals.aps.org/
+"ICML":
+  color: "#c30916"
+  url: https://icml.cc
+
+"CVPR":
+  color: "#253b70"
+  url: https://cvpr.thecvf.com/
+
+"ECCV":
+  # color: "#5a7b96"
+  color: "#5887b8"
+  url: https://eccv.ecva.net/
+
+"ICCV":
+  color: "#5887b8"
+  url: https://iccv.thecvf.com/
+
+"JuliaCon":
+  color: "#740274"
+  url: https://juliacon.org/
+
+"AISES":
+  color: "#db242d"
+  url: https://aises.org/
+
+"CogSys":
+  color: "#000"
+  url: http://cogsys.org/

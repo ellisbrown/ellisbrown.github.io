@@ -19,7 +19,7 @@ redirect_from:
 related_posts: false
 ---
 
-> _Note: This post has also been published on Medium [here](https://towardsdatascience.com/name2gender-introduction-626d89378fb0)._
+> _Note: This post has also been published on Medium [Towards Data Science](https://towardsdatascience.com/)._
 
 Consider the names "John" and "Cindy" — most people would instantly mark John as a male name and Cindy as a female one. Is this the case _primarily_ because we have seen so many examples of male Johns and female Cindys that our brains have built up a latent association between the specific name and the corresponding gender? Probably.
 
@@ -82,7 +82,7 @@ These features are plugged into the NLTK NaiveBayesClassifier for easy training 
 
 I trained this model with a 70/30 train-test split (~95k training names, ~40.6k testing names). The testing accuracy was around **85%**, which is arguably pretty good for this task.
 
-Example code usage is available at [naive_bayes/demo.ipynb](https://github.com/ellisbrown/name2gender/blob/master/naive_bayes/demo.ipynb).
+Example code usage is available at [naive_bayes/demo.ipynb](https://github.com/ellisbrown/name2gender/tree/master/naive_bayes).
 
 ## Char-RNN
 
