@@ -848,6 +848,13 @@ footer.sticky-bottom {
     li {
       margin-bottom: 1rem;
 
+      .selected-publication {
+        background-color: var(--global-code-bg-color);
+        border-left: 3px solid var(--global-theme-color);
+        padding: 1rem;
+        border-radius: 4px;
+      }
+
       .preview {
         width: 100%;
         min-width: 80px;
@@ -965,6 +972,7 @@ footer.sticky-bottom {
         -ms-transition: 0.15s ease;
         -o-transition: 0.15s ease;
         transition: all 0.15s ease;
+        opacity: 0;
 
         p {
           line-height: 1.4em;
@@ -985,6 +993,7 @@ footer.sticky-bottom {
         -ms-transition: 0.15s ease;
         -o-transition: 0.15s ease;
         transition: all 0.15s ease;
+        opacity: 1;
       }
 
       div.abstract.hidden {
