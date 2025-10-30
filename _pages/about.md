@@ -5,6 +5,7 @@ permalink: /
 # subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
 
 profile:
+#   align: left-box
   align: center
   image: elb.jpg
   image_circular: true # crops the image to make it circular

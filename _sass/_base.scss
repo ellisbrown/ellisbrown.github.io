@@ -202,9 +202,11 @@ ul.task-list input[type="checkbox"] {
   width: 100%;
 
   .address {
-    margin-bottom: 5px;
-    margin-top: 5px;
+    margin-bottom: 0.25rem;
+    // margin-bottom: 5px;
+    // margin-top: 5px;
     font-family: monospace;
+    opacity: 75%;
 
     p {
       display: inline-block;
@@ -214,6 +216,10 @@ ul.task-list input[type="checkbox"] {
 
   .title {
     font-size: medium;
+    opacity: 75%;
+  }
+  .name {
+    margin-bottom: 0.25rem;
   }
 }
 
@@ -238,6 +244,37 @@ ul.task-list input[type="checkbox"] {
     min-width: 100px;
   }
 }
+.profile.left-box {
+  display: flex;
+  gap: 5rem;
+  align-items: flex-start;
+  .header {
+    text-align: left;
+    font-size: x-large;
+  }
+//   figure {
+//     margin: 0;
+//   }
+  picture {
+    display: flex;
+    margin-right: 0.25rem;
+    margin-left: 0;
+    margin-top: 0;
+    margin-bottom: 5rem;
+  }
+  img {
+    min-width: 120px;
+  }
+  .title {
+    font-size: large;
+  }
+  .address {
+    font-size: large;
+  }
+  .name {
+    font-size:xx-large;
+  }
+}
 .profile.float-right {
   margin-left: 1rem;
 }
@@ -260,8 +297,22 @@ ul.task-list input[type="checkbox"] {
   .publications ol.bibliography li .preview {
     margin: 0.5rem auto 0.5rem auto;
   }
+//   .publications.ol.bibliography.li.abbr.badge
+  .publications ol.bibliography li abbr.badge {
+    margin-left: 0 !important;
+    max-width: 33% !important;
+  }
   img {
     min-width: 200px;
+  }
+  .profile.left-box {
+    picture {
+        margin-right: 0.125rem;
+        padding-top: 0.125rem;
+    }
+    .address {
+        font-size: medium;
+    }
   }
 }
 
