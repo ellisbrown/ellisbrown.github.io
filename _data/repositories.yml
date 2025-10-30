@@ -1,13 +1,13 @@
 github_users:
   - ellisbrown
 
-github_repos:
-  - amdegroot/ssd.pytorch
-  - internet-explorer-ssl/internet-explorer
-  - diffusion-classifier/diffusion-classifier
-  - JuliaFirstOrder/PiecewiseQuadratics.jl
-  - JuliaFirstOrder/SeparableOptimization.jl
-  - ellisbrown/name2gender
-  # - amdegroot/deepgenres.torch
+# github_repos:
+#   - amdegroot/ssd.pytorch
+#   - internet-explorer-ssl/internet-explorer
+#   - diffusion-classifier/diffusion-classifier
+#   - JuliaFirstOrder/PiecewiseQuadratics.jl
+#   - JuliaFirstOrder/SeparableOptimization.jl
+#   - ellisbrown/name2gender
+#   # - amdegroot/deepgenres.torch
 
 repo_description_lines_max: 2
