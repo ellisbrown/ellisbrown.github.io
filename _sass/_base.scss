@@ -200,21 +200,32 @@ ul.task-list input[type="checkbox"] {
 
 .profile {
   width: 100%;
+  margin-bottom: 1rem;
 
   .address {
-    margin-bottom: 5px;
-    margin-top: 5px;
+    margin-bottom: 0.25rem;
+    // margin-bottom: 5px;
+    // margin-top: 5px;
     font-family: monospace;
+    opacity: 75%;
 
     p {
       display: inline-block;
       margin: auto;
     }
   }
+  .name {
+    font-size: xx-large;
+  }
+  .title {
+    font-size: large;
+    opacity: 75%;
+  }
 }
 
 .profile.center {
   margin: auto;
+  margin-bottom: 1rem;
   justify-content: center;
 
   .header {
@@ -232,6 +243,37 @@ ul.task-list input[type="checkbox"] {
     margin: auto;
     max-width: 25%;
     min-width: 100px;
+  }
+}
+.profile.left-box {
+  display: flex;
+  gap: 5rem;
+  align-items: flex-start;
+  .header {
+    text-align: left;
+    font-size: x-large;
+  }
+//   figure {
+//     margin: 0;
+//   }
+  picture {
+    display: flex;
+    margin-right: 0.25rem;
+    margin-left: 0;
+    margin-top: 0;
+    margin-bottom: 5rem;
+  }
+  img {
+    min-width: 120px;
+  }
+  .title {
+    font-size: large;
+  }
+  .address {
+    font-size: large;
+  }
+  .name {
+    font-size:xx-large;
   }
 }
 .profile.float-right {
@@ -256,8 +298,22 @@ ul.task-list input[type="checkbox"] {
   .publications ol.bibliography li .preview {
     margin: 0.5rem auto 0.5rem auto;
   }
+//   .publications.ol.bibliography.li.abbr.badge
+  .publications ol.bibliography li abbr.badge {
+    margin-left: 0 !important;
+    max-width: 33% !important;
+  }
   img {
     min-width: 200px;
+  }
+  .profile.left-box {
+    picture {
+        margin-right: 0.125rem;
+        padding-top: 0.125rem;
+    }
+    .address {
+        font-size: medium;
+    }
   }
 }
 
@@ -793,6 +849,13 @@ footer.sticky-bottom {
     li {
       margin-bottom: 1rem;
 
+      .selected-publication {
+        background-color: var(--global-code-bg-color);
+        border-left: 3px solid var(--global-theme-color);
+        padding: 1rem;
+        border-radius: 4px;
+      }
+
       .preview {
         width: 100%;
         min-width: 80px;
@@ -910,6 +973,7 @@ footer.sticky-bottom {
         -ms-transition: 0.15s ease;
         -o-transition: 0.15s ease;
         transition: all 0.15s ease;
+        opacity: 0;
 
         p {
           line-height: 1.4em;
@@ -930,6 +994,7 @@ footer.sticky-bottom {
         -ms-transition: 0.15s ease;
         -o-transition: 0.15s ease;
         transition: all 0.15s ease;
+        opacity: 1;
       }
 
       div.abstract.hidden {

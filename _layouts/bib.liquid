@@ -1,6 +1,6 @@
 ---
 ---
-<div class="row">
+<div class="row {% if entry.selected == true or entry.selected == 'true' %}selected-publication{% endif %}">
   {% if site.enable_publication_thumbnails %}
     <div class="col col-sm-2 abbr">
       {%- if entry.abbr -%}
