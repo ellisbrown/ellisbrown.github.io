@@ -46,6 +46,11 @@ layout: default
             {%- else -%}
               {{ site.title }}
             {%- endif %}
+            {%- if page.profile.title %}
+              <div class="title">
+                {{ page.profile.title }}
+              </div>
+            {%- endif %}
             {%- if page.profile.address %}
               <div class="address" style="font-size: large;">
                 {{ page.profile.address }}

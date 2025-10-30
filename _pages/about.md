@@ -8,6 +8,7 @@ profile:
   align: center
   image: elb.jpg
   image_circular: true # crops the image to make it circular
+  title: PhD Student @ NYU Courant
   address: >
     <p>ellis.brown at nyu dot edu</p>
 
