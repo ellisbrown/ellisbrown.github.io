@@ -200,6 +200,7 @@ ul.task-list input[type="checkbox"] {
 
 .profile {
   width: 100%;
+  margin-bottom: 1rem;
 
   .address {
     margin-bottom: 0.25rem;
@@ -213,18 +214,18 @@ ul.task-list input[type="checkbox"] {
       margin: auto;
     }
   }
-
-  .title {
-    font-size: medium;
-    opacity: 75%;
-  }
   .name {
-    margin-bottom: 0.25rem;
+    font-size: xx-large;
+  }
+  .title {
+    font-size: large;
+    opacity: 75%;
   }
 }
 
 .profile.center {
   margin: auto;
+  margin-bottom: 1rem;
   justify-content: center;
 
   .header {
