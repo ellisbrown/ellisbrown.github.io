@@ -104,6 +104,9 @@
     if (source.doi) {
       target.doi = source.doi;
     }
+    if (source.resources) {
+      target.resources = source.resources.map((r) => ({ label: r.label, url: r.url, icon: r.icon }));
+    }
   }
 
   class FrontMatter {
@@ -2100,6 +2103,16 @@ d-appendix > distill-appendix {
         )
         .join("")}
     </div>
+    ${frontMatter.resources && frontMatter.resources.length ? `
+    <div>
+      <h3>Resources</h3>
+      ${frontMatter.resources
+        .map((r) => `
+        <p>${r.icon ? `<i class="${r.icon}" aria-hidden="true"></i> ` : ""}${r.url ? `<a href="${r.url}">${r.label}</a>` : `<span>${r.label}</span>`}</p>
+      `)
+        .join("")}
+    </div>
+    ` : ''}
     <div>
       <h3>Published</h3>
       ${

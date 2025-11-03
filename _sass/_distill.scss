@@ -2,12 +2,32 @@
  * Style overrides for distill blog posts.
  ******************************************************************************/
 
+d-title h1 {
+    grid-column-start: 3;
+    grid-column-end: -3;
+}
+
+d-title p {
+    grid-column-start: 3;
+    grid-column-end: -3;
+}
+
 d-byline {
-  border-top-color: var(--global-divider-color) !important;
+    border-top-color: var(--global-divider-color) !important;
+    font-size: 0.9rem !important;
 }
 
 d-byline h3 {
   color: var(--global-text-color) !important;
+  font-size: 0.75rem !important;
+  font-weight: 100 !important;
+  margin-bottom: 0.125rem !important;
+}
+
+d-byline p i {
+    // Resources icons
+    margin-right: 0.25rem !important;
+    font-size: 1rem !important;
 }
 
 d-byline a,

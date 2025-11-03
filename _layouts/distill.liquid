@@ -47,7 +47,13 @@
                   "display": true
                 }
               ]
-            }
+            }{% if page.resources %},
+            "resources": [
+              {% for r in page.resources %}
+              {"label": "{{ r.label }}", "url": "{{ r.url }}", "icon": "{{ r.icon }}"}{% if forloop.last == false %},{% endif %}
+              {% endfor %}
+            ]
+            {% endif %}
           }
     </script>
   </d-front-matter>
