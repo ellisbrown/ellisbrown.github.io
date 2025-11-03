@@ -195,16 +195,27 @@ _styles: >
 ## Abstract
 Despite impressive high-level video comprehension, multimodal language models struggle with spatial reasoning across time and space. While current spatial training approaches rely on real-world video data, obtaining diverse footage with precise spatial annotations remains a bottleneck. To alleviate this bottleneck, we present SIMS-V—a systematic data-generation framework that leverages the privileged information of 3D simulators to create spatially-rich video training data for multimodal language models. Using this framework, we investigate which properties of simulated data drive effective real-world transfer through systematic ablations of question types, mixes, and scales. We identify a minimal set of three question categories (metric measurement, perspective-dependent reasoning, and temporal tracking) that prove most effective for developing transferable spatial intelligence, outperforming comprehensive coverage despite using fewer question types. These insights enable highly efficient training: our 7B-parameter video LLM fine-tuned on just 25K simulated examples outperforms the larger 72B baseline and achieves competitive performance with proprietary models on rigorous real-world spatial reasoning benchmarks. Our approach demonstrates robust generalization, maintaining performance on general video understanding while showing substantial improvements on embodied and real-world spatial tasks.
 
+## Why Simulation?
+
+Spatial reasoning requires precise 3D annotations—exact distances, relative positions, and spatial configurations across time. While this information is critical for training video language models, obtaining it from real-world footage presents significant challenges. Manual annotation of precise 3D spatial relationships requires expert knowledge and is prohibitively costly at scale. Depth sensors and SLAM systems provide only noisy approximations, not perfect ground truth. Moreover, real-world datasets are inherently constrained by physical locations and recording resources.
+
+<aside>
+  <p>Sim-to-real transfer has historically been challenging in computer vision, but recent work shows promise for using synthetic data to improve specific capabilities like spatial reasoning.</p>
+</aside>
+
+Simulators offer a uniquely powerful alternative by providing: **(1) perfect ground truth** with exact 3D positions and spatial relationships for every object at every frame; **(2) privileged information** enabling access to complete scene layouts beyond what's visible in the camera view; **(3) systematic control** over trajectories and scenes to ensure comprehensive spatial coverage; and **(4) scalable generation** at minimal cost—we created 200K+ question-answer pairs across 2.5K diverse video trajectories.
+
+The key question we investigate is: **Which properties of simulated spatial data enable effective transfer to real-world video understanding?** Our systematic experiments reveal that training on just 25K carefully designed simulated examples achieves competitive performance with large proprietary models on real-world benchmarks.
 
 ## The SIMS-V Pipeline
 
+SIMS-V is a simulated instruction-tuning framework for multimodal spatial video understanding. Our systematic pipeline (Figure 2) leverages procedurally generated 3D environments from AI2-THOR, ProcTHOR, and Objaverse to programmatically create rich question-answer pairs about spatial configurations across videos.
+
 <aside>
-  The core of our work is a systematic pipeline (Figure 2) to generate high-quality, spatially-rich video data with perfect ground truth from 3D simulators.
+  <p>We generate procedurally diverse indoor scenes with 30-50 objects across 3-8 rooms, ensuring varied spatial layouts and object arrangements.</p>
 </aside>
 
-We present SIMS-V, a simulated instruction-tuning framework for multimodal spatial video understanding. Our framework leverages procedurally generated 3D environments (using AI2-THOR, ProcTHOR, and Objaverse) to programmatically create rich question-answer pairs about spatial configurations across videos.
-
-This pipeline allows us to extract two types of data: (1) **Observation-level data** like per-frame visible objects and agent position, and (2) **Global spatial data** like full room layouts and 3D object positions. We use this perfect ground truth to programmatically generate over 200k spatial QA pairs across 2.5k video trajectories.
+The pipeline extracts two complementary types of metadata: **(1) observation-level data** including per-frame visible objects, instance segmentation masks, and agent position; and **(2) global spatial data** including complete room layouts and 3D object positions. This privileged information enables us to generate questions that require reasoning about spatial relationships beyond what's immediately visible—for instance, asking about object locations encountered earlier in the video or metric distances between objects. Using this perfect ground truth, we programmatically generate over 200K spatial QA pairs across 2.5K video trajectories spanning 1.2K unique scenes.
 
 <d-figure class="l-body-outset">
   <figure>
@@ -218,13 +229,15 @@ This pipeline allows us to extract two types of data: (1) **Observation-level da
 
 ## Key Findings
 
-### Finding 1: A minimal "3Q" mix is highly data-efficient.
+### Finding 1: A minimal "3Q" mix is highly data-efficient
+
+We hypothesized that a minimal set of complementary question types could be sufficient for developing spatial reasoning, without needing to mirror the full distribution of evaluation benchmarks. Through systematic experiments, we identify three question types that form an effective minimal training mix: **Absolute Distance** (measuring metric properties), **Relative Direction** (understanding perspective-dependent configurations), and **Appearance Order** (tracking temporal-spatial relationships).
 
 <aside>
-  We identify a minimal set of three question types **Absolute Distance**, **Relative Direction**, and **Appearance Order** that prove most effective for developing transferable spatial intelligence.
+  <p>The 3Q mix trains on just 3 question types, while the VSI-Baseline mix covers all 8 VSI-Bench question categories to match the test distribution.</p>
 </aside>
 
-We hypothesized that a minimal set of complementary question types could be sufficient, without needing to mirror the full distribution of a benchmark. Our experiments show this "3Q Minimal Mix" consistently outperforms the comprehensive "VSI-Baseline Mix" across all data scales. This demonstrates that high-quality spatial annotations enable remarkably data-efficient learning.
+This "3Q Minimal Mix" consistently outperforms the comprehensive "VSI-Baseline Mix" across all data scales (Figure 5). The result demonstrates that high-quality spatial annotations enable remarkably data-efficient learning—targeted supervision on core spatial dimensions proves more effective than comprehensive coverage.
 
 <d-figure>
   <figure>
@@ -236,13 +249,15 @@ We hypothesized that a minimal set of complementary question types could be suff
   </figure>
 </d-figure>
 
-### Finding 2: SIMS-V rivals proprietary models on real-world video.
+### Finding 2: SIMS-V training enables spatial skills competitive with proprietary models
+
+Training with just 25K SIMS-V examples enables LLaVA-Video-7B to develop spatial reasoning capabilities competitive with large proprietary models. The approach yields **+8.4%** gains on VSI-Bench, with the resulting model (44.4%) surpassing both GPT-4o (34.0%) and the much larger LLaVA-Video-72B baseline (41.2%), nearly matching Gemini-1.5 Pro (45.4%).
 
 <aside>
-  Fine-tuning on just 25K simulated examples boosts LLaVA-Video-7B by **+8.4%** on VSI-Bench, surpassing the larger LLaVA-Video-72B baseline.
+  <p>VSI-Bench evaluates spatial intelligence using real-world videos across 8 question categories requiring metric estimation, directional reasoning, and temporal tracking.</p>
 </aside>
 
-Our 3Q Minimal mix model achieves 44.4% on the VSI-Bench, surpassing GPT-4o (34.0%) and nearly matching Gemini-1.5 Pro (45.4%), despite being trained on just 25K examples. The model shows particularly strong improvements in the categories we trained on: spatiotemporal (appearance order: +26.4%) and measurement (absolute distance: +20.0%).
+The learned skills are particularly strong in the categories emphasized during training: spatiotemporal reasoning (appearance order: +26.4%) and metric measurement (absolute distance: +20.0%). This demonstrates that SIMS-V training enables effective sim-to-real transfer—spatial capabilities learned from simulated indoor scenes generalize to diverse real-world video content despite the substantial domain gap.
 
 <d-figure class="l-page">
   <figure>
@@ -482,7 +497,6 @@ Our 3Q Minimal mix model achieves 44.4% on the VSI-Bench, surpassing GPT-4o (34.
         </tbody>
       </table>
     </div>
-    
     <figcaption>
       <b>Table 1: VSI-Bench Performance.</b>
       Our 7B model fine-tuned on 25K SIMS-V examples achieves 44.4%, surpassing GPT-4o (34.0%) and the larger LLaVA-Video-72B (41.2%), and approaching Gemini-1.5 Pro (45.4%). Strong gains in appearance order (+26.4%) and absolute distance (+20.0%) demonstrate effective spatial transfer to real-world videos.
@@ -490,13 +504,15 @@ Our 3Q Minimal mix model achieves 44.4% on the VSI-Bench, surpassing GPT-4o (34.
   </figure>
 </d-figure>
 
-### Finding 3: Learned skills transfer to diverse spatial tasks.
+### Finding 3: Learned skills transfer to diverse spatial tasks
+
+To verify that spatial-focused training does not degrade general capabilities, we evaluated our model on diverse benchmarks beyond VSI-Bench. The results demonstrate robust generalization: our approach maintains stable performance on general video understanding tasks (VideoMME, EgoSchema) while showing strong positive transfer to new spatial domains.
 
 <aside>
-  Spatial concepts learned in simulated indoor environments transfer to new domains, including embodied reasoning (OpenEQA **+8.6%**) and real-world outdoor images (MMRealWorld **+4.5%**).
+  <p>OpenEQA tests embodied question answering in real home environments, while MME.RWlite evaluates real-world outdoor scene understanding—both outside our training distribution.</p>
 </aside>
 
-To verify that our spatial-focused training does not degrade general capabilities, we evaluated on diverse benchmarks. We found that our approach maintains stable performance on general video understanding tasks like VideoMME and EgoSchema. More importantly, it shows strong positive transfer to new spatial domains, demonstrating that the learned spatial understanding generalizes beyond the indoor training environment.
+Notably, spatial concepts learned from simulated indoor environments transfer effectively to embodied reasoning in real homes (OpenEQA: **+8.6%**) and outdoor real-world images (MMRealWorld: **+4.5%**). This cross-domain transfer suggests that our training develops fundamental spatial reasoning capabilities rather than overfitting to simulation artifacts.
 
 <d-figure class="l-body-outset">
   <figure>
