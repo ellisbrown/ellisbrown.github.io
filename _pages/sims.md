@@ -46,6 +46,25 @@ _styles: >
   .post img {
     max-width: 120%;
   }
+  
+  .responsive-table-wrapper {
+    overflow-x: auto;
+  }
+  
+  .results-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.9em;
+    margin: 1em 0;
+  }
+  
+  .results-table.wide {
+    min-width: 800px;
+  }
+  
+  .results-table.medium {
+    min-width: 700px;
+  }
 
 ---
 
@@ -138,8 +157,8 @@ _styles: >
 
 <d-figure class="l-page">
   <figure>
-    <div style="overflow-x: auto;">
-      <table style="width: 100%; border-collapse: collapse; font-size: 0.85em; margin: 1em 0; min-width: 800px;">
+    <div class="responsive-table-wrapper">
+      <table class="results-table wide" style="font-size: 0.85em;">
         <thead>
           <tr>
             <th style="text-align: left; padding: 8px; border-bottom: 2px solid #333;">Model</th>
@@ -195,7 +214,6 @@ _styles: >
             <td style="text-align: center; padding: 4px;">28.4</td>
             <td style="text-align: center; padding: 4px;">25.2</td>
           </tr>
-          
           <!-- Proprietary Models -->
           <tr style="background-color: #f0f4f8; border-top: 1px solid #333;">
             <td colspan="12" style="padding: 6px 8px; font-style: italic;"><strong>Proprietary Models</strong></td>
@@ -256,7 +274,6 @@ _styles: >
             <td style="text-align: center; padding: 4px;"><strong>45.9</strong></td>
             <td style="text-align: center; padding: 4px;">71.3</td>
           </tr>
-          
           <!-- Open-source Models -->
           <tr style="background-color: #f0f4f8; border-top: 1px solid #333;">
             <td colspan="12" style="padding: 6px 8px; font-style: italic;"><strong>Open-Source Models</strong></td>
@@ -394,18 +411,19 @@ _styles: >
 
 <d-figure class="l-body-outset">
   <figure>
-    <table style="width: 100%; border-collapse: collapse; font-size: 0.9em; margin: 1em 0;">
-      <thead>
-        <tr style="border-bottom: 2px solid #333;">
-          <th style="text-align: left; padding: 8px;">Model</th>
-          <th style="text-align: center; padding: 8px;">VSI-B</th>
-          <th style="text-align: center; padding: 8px;">VSI-B<sup>Deb.</sup></th>
-          <th style="text-align: center; padding: 8px;">OpenEQA</th>
-          <th style="text-align: center; padding: 8px;">MME.RW<sup>lite</sup></th>
-          <th style="text-align: center; padding: 8px;">EgoSchema</th>
-          <th style="text-align: center; padding: 8px;">Video<sup>MME</sup></th>
-        </tr>
-      </thead>
+    <div class="responsive-table-wrapper">
+      <table class="results-table medium">
+        <thead>
+          <tr style="border-bottom: 2px solid #333;">
+            <th style="text-align: left; padding: 8px;">Model</th>
+            <th style="text-align: center; padding: 8px;">VSI-B</th>
+            <th style="text-align: center; padding: 8px;">VSI-B<sup>Deb.</sup></th>
+            <th style="text-align: center; padding: 8px;">OpenEQA</th>
+            <th style="text-align: center; padding: 8px;">MME.RW<sup>lite</sup></th>
+            <th style="text-align: center; padding: 8px;">EgoSchema</th>
+            <th style="text-align: center; padding: 8px;">Video<sup>MME</sup></th>
+          </tr>
+        </thead>
       <tbody>
         <!-- Proprietary Models -->
         <tr style="background-color: #f0f4f8; border-top: 1px solid #333;">
@@ -438,7 +456,6 @@ _styles: >
           <td style="text-align: center; padding: 6px 8px;">—</td>
           <td style="text-align: center; padding: 6px 8px;">—</td>
         </tr>
-        
         <!-- Open-Source Models -->
         <tr style="background-color: #f0f4f8; border-top: 1px solid #333;">
           <td colspan="7" style="padding: 6px 8px; font-style: italic;"><strong>Open-Source Models</strong></td>
@@ -535,6 +552,7 @@ _styles: >
         </tr>
       </tbody>
     </table>
+    </div>
 
     <figcaption>
       <b>Table 3: Generalization to diverse benchmarks.</b>
