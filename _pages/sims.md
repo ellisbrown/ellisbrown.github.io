@@ -34,6 +34,20 @@ authors:
 
 bibliography: 2025-11-03-sims-v.bib
 
+resources:
+  - label: Paper
+    url: https://example.com/paper.pdf
+    icon: fas fa-file-pdf
+  - label: arXiv
+    url: https://arxiv.org/abs/XXXX.XXXXX
+    icon: ai ai-arxiv
+  - label: Code
+    url: https://github.com/user/repo
+    icon: fab fa-github
+  - label: Data
+    url: https://example.com/data
+    icon: fas fa-database
+
 # Create a simple table of contents
 # toc:
 #   - name: Abstract
@@ -157,30 +171,6 @@ _styles: >
 
 ---
 
-<!-- ## Project Links
-
-<div class="row text-center">
-  <div class="col-md-3">
-    <a href="[LINK_TO_PDF]" class="btn btn-primary btn-lg" role="button" style="width: 100%;">
-      <i class="fas fa-file-pdf"></i> Paper
-    </a>
-  </div>
-  <div class="col-md-3">
-    <a href="[LINK_TO_ARXIV]" class="btn btn-primary btn-lg" role="button" style="width: 100%;">
-      <i class="ai ai-arxiv"></i> arXiv
-    </a>
-  </div>
-  <div class="col-md-3">
-    <a href="[LINK_TO_CODE_REPO]" class="btn btn-primary btn-lg" role="button" style="width: 100%;">
-      <i class="fab fa-github"></i> Code
-    </a>
-  </div>
-  <div class="col-md-3">
-    <a href="[LINK_TO_DATA]" class="btn btn-primary btn-lg" role="button" style="width: 100%;">
-      <i class="fas fa-database"></i> Data
-    </a>
-  </div>
-</div> -->
 
 <d-figure class="l-page">
   <figure>
