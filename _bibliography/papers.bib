@@ -1,14 +1,27 @@
 ---
 ---
 
+@article{brown2025simsv,
+    title   =  {{SIMS-V}: Simulated Instruction-Tuning for Spatial Video Understanding},
+    author  =  {Brown, Ellis and Ray, Arijit and Krishna, Ranjay and Girshick, Ross and Fergus, Rob and Xie, Saining},
+    journal =  {arXiv preprint},
+    year    =  {2025},
+    abbr={arXiv},
+    website={./sims-v/},
+    include={true},
+    bibtex_show={true},
+    preview={sims-v.png},
+}
+
+
 @InProceedings{ray2025satdynamicspatialaptitude,
-    abbr={COLM},
     title={SAT: Dynamic Spatial Aptitude Training for Multimodal Language Models}, 
     author={Arijit Ray and Jiafei Duan† and Ellis Brown† and Reuben Tan and Dina Bashkirova and Rose Hendrix and Kiana Ehsani and Aniruddha Kembhavi and Bryan A. Plummer and Ranjay Krishna and Kuo-Hao Zeng and Kate Saenko},
     year={2025},
     arxiv={2412.07755},
-    include={true},
     booktitle={COLM},
+    include={true},
+    abbr={COLM},
     website={https://arijitray.com/SAT/},
     pdf={https://arxiv.org/pdf/2412.07755},
     abstract={Reasoning about motion and space is a fundamental cognitive capability that is required by multiple real-world applications. While many studies highlight that large multimodal language models (MLMs) struggle to reason about space, they only focus on static spatial relationships, and not dynamic awareness of motion and space, i.e., reasoning about the effect of egocentric and object motions on spatial relationships. Manually annotating such object and camera movements is expensive. Hence, we introduce SAT, a simulated spatial aptitude training dataset comprising both static and dynamic spatial reasoning across 175K question-answer (QA) pairs and 20K scenes. Complementing this, we also construct a small (150 image-QAs) yet challenging dynamic spatial test set using real-world images. Leveraging our SAT datasets and 6 existing static spatial benchmarks, we systematically investigate what improves both static and dynamic spatial awareness. Our results reveal that simulations are surprisingly effective at imparting spatial aptitude to MLMs that translate to real images. We show that perfect annotations in simulation are more effective than existing approaches of pseudo-annotating real images. For instance, SAT training improves a LLaVA-13B model by an average 11% and a LLaVA-Video-7B model by an average 8% on multiple spatial benchmarks, including our real-image dynamic test set and spatial reasoning on long videos -- even outperforming some large proprietary models. While reasoning over static relationships improves with synthetic training data, there is still considerable room for improvement for dynamic reasoning questions.},

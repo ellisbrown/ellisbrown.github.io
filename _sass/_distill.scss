@@ -3,13 +3,77 @@
  ******************************************************************************/
 
 d-title h1 {
-    grid-column-start: 3;
-    grid-column-end: -3;
+    grid-column-start: 2;
+    grid-column-end: -2;
 }
 
 d-title p {
-    grid-column-start: 3;
-    grid-column-end: -3;
+    grid-column-start: 2;
+    grid-column-end: -2;
+}
+
+// Header with image layout
+d-title .d-title-with-image {
+    grid-column: 1 / -1;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    gap: 1rem;
+    align-items: center;
+    padding-left: clamp(1.25rem, 4vw, 2.75rem);
+    padding-right: clamp(1.25rem, 4vw, 2.75rem);
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+d-title .d-title-content {
+    grid-column: 1 / 7; // Spans columns 1-6 of the 12-column internal grid (equivalent to columns 2-8 of parent)
+}
+
+d-title .d-title-content h1 {
+    grid-column: unset !important;
+}
+
+d-title .d-title-content p {
+    grid-column: unset !important;
+}
+
+d-title .d-title-image {
+    grid-column: 7 / 13; // Spans columns 7-12 of the 12-column internal grid (equivalent to columns 8-14 of parent)
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    img {
+        width: 80%;
+        max-width: 80%;
+        height: auto;
+        display: block;
+        border-radius: 4px;
+        margin-bottom: 1rem;
+    }
+}
+
+// Responsive: stack vertically on smaller screens
+@media (max-width: 768px) {
+    d-title .d-title-with-image {
+        grid-column: 1 / -1;
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    
+    d-title .d-title-content {
+        grid-column: 1 / -1 !important;
+        width: 100%;
+    }
+    
+    d-title .d-title-image {
+        grid-column: 1 / -1 !important;
+        width: 100%;
+        max-width: 400px;
+        margin: 0 auto;
+    }
 }
 
 d-byline {

@@ -1,9 +1,10 @@
 ---
-permalink: /sims/
+permalink: /sims-v/
 layout: distill
 title: "SIMS-V: Simulated Instruction-Tuning for Spatial Video Understanding"
+display_title: "<code>SIMS-V:</code><br>Simulated Instruction-Tuning for Spatial Video Understanding"
 description: "Leveraging 3D simulators to create spatially-rich video training data that improves real-world spatial understanding in MLLMs."
-date: 2025-11-03
+date: 2025-11-06
 giscus_comments: true
 
 authors:
@@ -34,6 +35,8 @@ authors:
 
 bibliography: 2025-11-03-sims-v.bib
 
+# header_image: /assets/img/sims/header.png
+
 resources:
   - label: Paper
     url: https://example.com/paper.pdf
@@ -57,6 +60,11 @@ resources:
 #   - name: Citation
 
 _styles: >
+  .d-title-content h1 code {
+    font-size: 0.75em;
+    background-color: unset;
+  }
+
   .post img {
     max-width: 120%;
   }

@@ -64,9 +64,24 @@
 
     <!-- Content -->
     <div class="post distill">
+      {% assign heading_html = page.display_title | default: page.title %}
+      {% assign heading_text = page.title | default: heading_html %}
+      {% assign heading_text = heading_text | strip_html %}
       <d-title>
-        <h1>{{ page.title }}</h1>
-        <p>{{ page.description }}</p>
+        {% if page.header_image %}
+          <div class="d-title-with-image">
+            <div class="d-title-content">
+              <h1>{{ heading_html }}</h1>
+              <p>{{ page.description }}</p>
+            </div>
+            <div class="d-title-image">
+              <img src="{{ page.header_image | relative_url }}" alt="{{ heading_text }} header image">
+            </div>
+          </div>
+        {% else %}
+          <h1>{{ heading_html }}</h1>
+          <p>{{ page.description }}</p>
+        {% endif %}
       </d-title>
       {% if page.authors %}
         <d-byline></d-byline>
