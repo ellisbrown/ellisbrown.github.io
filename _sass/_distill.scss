@@ -3,13 +3,13 @@
  ******************************************************************************/
 
 d-title h1 {
-    grid-column-start: 2;
-    grid-column-end: -2;
+    grid-column-start: 2 !important;
+    grid-column-end: -2 !important;
 }
 
 d-title p {
-    grid-column-start: 2;
-    grid-column-end: -2;
+    grid-column-start: 2 !important;
+    grid-column-end: -2 !important;
 }
 
 // Header with image layout
