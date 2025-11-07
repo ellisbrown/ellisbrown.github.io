@@ -41,25 +41,29 @@ resources:
   - label: Paper
     url: https://arxiv.org/pdf/2511.04668
     icon: fas fa-file-pdf
-  - label: arXiv:2511.04668
+  - label: arXiv 
     url: http://arxiv.org/abs/2511.04668
     icon: ai ai-arxiv
-  - label: ellisbrown/SIMS-V
+  - label: SIMS-V
     url: https://github.com/ellisbrown/SIMS-V
     icon: fab fa-github
-  - label: ellisbrown/SIMS-VSI
+  - label: SIMS-VSI
     url: https://hf.co/datasets/ellisbrown/SIMS-VSI
-    icon: fas fa-huggingface
-
-# Create a simple table of contents
-# toc:
-#   - name: Abstract
-#   - name: Project Links
-#   - name: The SIMS-V Pipeline
-#   - name: Key Findings
-#   - name: Citation
+    icon: huggingface-icon
+  - label: Thread
+    url: https://x.com/_ellisbrown/status/1986904352506667479?s=20
+    icon: fab fa-x-twitter
 
 _styles: >
+
+  .huggingface-icon::before {
+    content: "🤗";
+    font-style: normal;
+  }
+  .ai {
+    margin-left: .25rem;
+  }
+
   d-title {
     background-color: #0e0f0f;
   }

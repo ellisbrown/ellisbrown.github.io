@@ -2108,7 +2108,7 @@ d-appendix > distill-appendix {
       <h3>Resources</h3>
       ${frontMatter.resources
         .map((r) => `
-        <p>${r.icon ? `<i class="${r.icon}" aria-hidden="true"></i> ` : ""}${r.url ? `<a href="${r.url}">${r.label}</a>` : `<span>${r.label}</span>`}</p>
+        <p>${r.icon ? `<i class="${r.icon}" aria-hidden="true"></i> ` : ""}${r.url ? `<a href="${r.url} target="_blank">${r.label}</a>` : `<span>${r.label}</span>`}</p>
       `)
         .join("")}
     </div>
