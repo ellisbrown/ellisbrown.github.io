@@ -44,12 +44,12 @@ resources:
   - label: arXiv
     url: http://arxiv.org/abs/2511.04668
     icon: ai ai-arxiv
-#   - label: Code
-#     url: https://github.com/user/repo
-#     icon: fab fa-github
-#   - label: Data
-#     url: https://example.com/data
-#     icon: fas fa-database
+  - label: Code
+    url: https://github.com/ellisbrown/SIMS-V
+    icon: fab fa-github
+  - label: Data
+    url: https://huggingface.co/datasets/ellisbrown/SIMS-VSI
+    icon: fas fa-database
 
 # Create a simple table of contents
 # toc:
