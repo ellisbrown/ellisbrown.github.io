@@ -90,6 +90,8 @@ _styles: >
     max-width: 120%;
   }
   
+  /* Table styles */
+
   .responsive-table-wrapper {
     overflow-x: auto;
   }
@@ -198,22 +200,100 @@ _styles: >
     background-color: #fffbe6;
   }
 
+  /* Dark mode styles for tables */
+  html[data-theme='dark'] .results-table {
+    color: #e8e6dc;
+  }
+
+  html[data-theme='dark'] .results-table figcaption,
+  html[data-theme='dark'] figcaption {
+    color: #e8e6dc;
+  }
+
+  html[data-theme='dark'] .results-table .section-header {
+    background-color: #2a2d3a;
+    border-top-color: #4a4d5a;
+  }
+
+  html[data-theme='dark'] .results-table .highlight-row {
+    background-color: #1a2332;
+  }
+
+  html[data-theme='dark'] .results-table .delta-row {
+    background-color: #2a2a2a;
+  }
+
+  html[data-theme='dark'] .results-table .bg-gray {
+    background-color: #2a2a2a;
+  }
+
+  html[data-theme='dark'] .results-table .bg-orange {
+    background-color: #3a2a1a;
+  }
+
+  html[data-theme='dark'] .results-table .bg-yellow {
+    background-color: #3a3a1a;
+  }
+
+  html[data-theme='dark'] .results-table .divider-top {
+    border-top-color: #4a4a4a;
+  }
+
+  html[data-theme='dark'] .results-table .divider-bottom {
+    border-bottom-color: #4a4a4a;
+  }
+
+  html[data-theme='dark'] .results-table .delta-label {
+    color: #999;
+  }
+
+  html[data-theme='dark'] .results-table thead {
+    border-bottom-color: rgba(255, 255, 255, 0.1);
+  }
+
+  html[data-theme='dark'] .results-table th {
+    border-bottom-color: rgba(255, 255, 255, 0.1);
+  }
+
+  html[data-theme='dark'] .results-table td {
+    border-bottom-color: rgba(255, 255, 255, 0.05);
+  }
+
+  html[data-theme='dark'] .results-table .positive {
+    color: #4ade80;
+  }
+
+  html[data-theme='dark'] .results-table .positive-bold {
+    color: #4ade80;
+  }
+
+  html[data-theme='dark'] .results-table .negative {
+    color: #f87171;
+  }
+
+  /* White screen figure styles for dark mode w/ figs with white bgs */
   .white-screen-figure {
     background-color: #ffffff !important;
     grid-column: screen;
     width: 100vw;
     margin-left: calc(-50vw + 50%);
   }
+  .white-screen-figure figcaption {
+    color: rgba(0, 0, 0, 0.6) !important;
+  }
   .white-screen-figure figure {
     margin: 2rem;
     width: 70vw;
     margin-left: calc(-35vw + 50%);
   }
-
   #fig-scaling {
     width: 50vw !important;
     margin-left: calc(-25vw + 50%) !important;
   }
+  d-figure img {
+    margin-bottom: 1rem;
+  }
+
 
 ---
 
