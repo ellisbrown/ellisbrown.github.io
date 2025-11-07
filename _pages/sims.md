@@ -5,7 +5,7 @@ title: "SIMS-V: Simulated Instruction-Tuning for Spatial Video Understanding"
 display_title: "<code>SIMS-V:</code><br>Simulated Instruction-Tuning for Spatial Video Understanding"
 description: "Leveraging 3D simulators to create spatially-rich video training data that improves real-world spatial understanding in MLLMs."
 date: 2025-11-06
-giscus_comments: true
+giscus_comments: false
 
 authors:
   - name: Ellis Brown
@@ -673,7 +673,7 @@ If you find our work useful, please consider citing:
 @article{brown2025simsv,
   title   =  { {SIMS-V}: Simulated Instruction-Tuning for Spatial Video Understanding },
   author  =  { Brown, Ellis and Ray, Arijit and Krishna, Ranjay and Girshick, Ross and Fergus, Rob and Xie, Saining },
-  journal =  { arXiv preprint },
+  journal =  { arXiv preprint arXiv:2511.04668 },
   year    =  { 2025 }
 }
 ```
