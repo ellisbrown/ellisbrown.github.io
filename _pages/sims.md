@@ -39,17 +39,17 @@ bibliography: 2025-11-03-sims-v.bib
 
 resources:
   - label: Paper
-    url: https://example.com/paper.pdf
+    url: https://arxiv.org/pdf/2511.04668
     icon: fas fa-file-pdf
   - label: arXiv
-    url: https://arxiv.org/abs/XXXX.XXXXX
+    url: http://arxiv.org/abs/2511.04668
     icon: ai ai-arxiv
-  - label: Code
-    url: https://github.com/user/repo
-    icon: fab fa-github
-  - label: Data
-    url: https://example.com/data
-    icon: fas fa-database
+#   - label: Code
+#     url: https://github.com/user/repo
+#     icon: fab fa-github
+#   - label: Data
+#     url: https://example.com/data
+#     icon: fas fa-database
 
 # Create a simple table of contents
 # toc:
