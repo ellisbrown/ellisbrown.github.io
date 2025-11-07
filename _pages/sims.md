@@ -287,12 +287,18 @@ _styles: >
   }
   .white-screen-figure figure {
     margin: 2rem;
-    width: 70vw;
-    margin-left: calc(-35vw + 50%);
+    width: 56vw;
+    /* margin-left: calc(-28vw + 50%); */
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
   }
   #fig-scaling {
     width: 50vw !important;
-    margin-left: calc(-25vw + 50%) !important;
+    /* margin-left: calc(-25vw + 50%) !important; */
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 705px;
   }
   d-figure img {
     margin-bottom: 1rem;
@@ -345,6 +351,25 @@ The pipeline extracts two complementary types of metadata: **(1) observation-lev
     </figcaption>
   </figure>
 </d-figure>
+
+
+## The SIMS-VSI Dataset
+
+As a concrete instantiation of our framework, we release **SIMS-VSI**—comprising not only 200K+ question-answer pairs, but also the ***complete spatial and temporal annotations*** that enabled their creation. Beyond the QA pairs designed for VSI-Bench, we provide:
+
+- **Global spatial data**: Complete 3D scene layouts, room configurations, and object positions
+- **Observation-level data**: Per-frame visible objects, instance segmentation masks, agent positions and camera poses
+- **Temporal tracking**: Object visibility and appearance information across entire trajectories
+
+<aside>
+  <p>The full annotations enable researchers to design custom supervision strategies, generate reasoning traces, or target spatial tasks beyond our VSI-Bench focus.</p>
+</aside>
+
+We hope this release enables the community to leverage simulation's perfect ground truth for tasks beyond our experiments. Researchers can generate new question types, create chain-of-thought reasoning data, or design custom training objectives—all grounded in the precise 3D spatial information that makes simulation uniquely valuable for spatial understanding research.
+
+**Dataset:** Available on HuggingFace at [🤗 ellisbrown/SIMS-VSI](https://hf.co/datasets/ellisbrown/SIMS-VSI)
+
+
 
 ## Key Findings
 
