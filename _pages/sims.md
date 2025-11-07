@@ -35,7 +35,7 @@ authors:
 
 bibliography: 2025-11-03-sims-v.bib
 
-# header_image: /assets/img/sims/header.png
+header_image: /assets/img/sims/header.png
 
 resources:
   - label: Paper
@@ -60,9 +60,30 @@ resources:
 #   - name: Citation
 
 _styles: >
+  d-title {
+    background-color: #0e0f0f;
+  }
+
+  .d-title-with-image {;
+    background-color: #0e0f0f;
+    color: #e8e6dc !important;
+  }
+  
+  .d-title-content h1 {
+    color: #ffffff !important;
+  }
+  
+  .d-title-content p {
+    color: #e8e6dc !important;
+  }
+
   .d-title-content h1 code {
     font-size: 0.75em;
     background-color: unset;
+    color: #1cdff9 !important;
+    text-shadow: 0 0 3px rgba(28, 223, 249, 0.7),
+                 0 0 6px rgba(28, 223, 249, 0.55),
+                 0 0 9px rgba(28, 223, 249, 0.4);
   }
 
   .post img {
