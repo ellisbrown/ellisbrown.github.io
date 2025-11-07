@@ -41,15 +41,15 @@ resources:
   - label: Paper
     url: https://arxiv.org/pdf/2511.04668
     icon: fas fa-file-pdf
-  - label: arXiv
+  - label: arXiv:2511.04668
     url: http://arxiv.org/abs/2511.04668
     icon: ai ai-arxiv
-  - label: Code
+  - label: ellisbrown/SIMS-V
     url: https://github.com/ellisbrown/SIMS-V
     icon: fab fa-github
-  - label: Data
-    url: https://huggingface.co/datasets/ellisbrown/SIMS-VSI
-    icon: fas fa-database
+  - label: ellisbrown/SIMS-VSI
+    url: https://hf.co/datasets/ellisbrown/SIMS-VSI
+    icon: fas fa-huggingface
 
 # Create a simple table of contents
 # toc:
@@ -198,10 +198,26 @@ _styles: >
     background-color: #fffbe6;
   }
 
+  .white-screen-figure {
+    background-color: #ffffff !important;
+    grid-column: screen;
+    width: 100vw;
+    margin-left: calc(-50vw + 50%);
+  }
+  .white-screen-figure figure {
+    margin: 2rem;
+    width: 70vw;
+    margin-left: calc(-35vw + 50%);
+  }
+
+  #fig-scaling {
+    width: 50vw !important;
+    margin-left: calc(-25vw + 50%) !important;
+  }
+
 ---
 
-
-<d-figure class="l-page">
+<d-figure class="white-screen-figure">
   <figure>
     <img src="/assets/img/sims/teaser.png" alt="A diagram showing the SIMS-V pipeline, converting 3D simulated layouts into spatial QAs, which then improves real-world video understanding on several benchmarks.">
     <figcaption>
@@ -236,7 +252,7 @@ SIMS-V is a simulated instruction-tuning framework for multimodal spatial video 
 
 The pipeline extracts two complementary types of metadata: **(1) observation-level data** including per-frame visible objects, instance segmentation masks, and agent position; and **(2) global spatial data** including complete room layouts and 3D object positions. This privileged information enables us to generate questions that require reasoning about spatial relationships beyond what's immediately visible—for instance, asking about object locations encountered earlier in the video or metric distances between objects. Using this perfect ground truth, we programmatically generate over 200K spatial QA pairs across 2.5K video trajectories spanning 1.2K unique scenes.
 
-<d-figure class="l-body-outset">
+<d-figure class="white-screen-figure">
   <figure>
     <img src="/assets/img/sims/pipeline.png" alt="Diagram of the SIMS-V data generation pipeline, showing Scene Generation, Trajectory Capture, Dense Annotation Extraction, and Spatial QA Generation.">
     <figcaption>
@@ -258,8 +274,8 @@ We hypothesized that a minimal set of complementary question types could be suff
 
 This "3Q Minimal Mix" consistently outperforms the comprehensive "VSI-Baseline Mix" across all data scales (Figure 5). The result demonstrates that high-quality spatial annotations enable remarkably data-efficient learning—targeted supervision on core spatial dimensions proves more effective than comprehensive coverage.
 
-<d-figure>
-  <figure>
+<d-figure class="white-screen-figure">
+  <figure id="fig-scaling">
     <img src="/assets/img/sims/scaling.png" alt="A line chart comparing the performance of the 3Q Minimal Mix against the VSI-Baseline Mix. The 3Q mix is consistently higher.">
     <figcaption>
       <b>Figure 5 (Left): Minimal 3Q mix is more data-efficient.</b>
