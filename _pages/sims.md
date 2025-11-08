@@ -304,6 +304,16 @@ _styles: >
     margin-bottom: 1rem;
   }
 
+  /* Mobile styles */
+  @media (max-width: 768px) {
+    .white-screen-figure figure {
+      width: 90vw !important;
+    }
+    #fig-scaling {
+      width: 90vw !important;
+    }
+  }
+
 
 ---
 
