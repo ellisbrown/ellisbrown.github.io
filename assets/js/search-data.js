@@ -108,6 +108,9 @@ ninja.data = [{
           section: "News",},{id: "news-honored-to-be-recognized-as-a-cvpr-2025-outstanding-reviewer",
           title: 'Honored to be recognized as a CVPR 2025 Outstanding Reviewer!',
           description: "",
+          section: "News",},{id: "news-i-ve-rejoined-meta-fair-through-the-aim-program-working-with-john-nguyen-jakob-verbeek-shengyi-qian-and-marjan-ghazvininejad",
+          title: 'I’ve rejoined Meta FAIR through the AIM program, working with John Nguyen, Jakob...',
+          description: "",
           section: "News",},{
         id: 'social-github',
         title: 'GitHub',
