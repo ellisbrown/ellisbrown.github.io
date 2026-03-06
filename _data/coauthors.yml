@@ -48,6 +48,22 @@
   - firstname: ["Deepak", "D."]
     url: "https://www.cs.cmu.edu/~dpathak"
 
+"fan":
+  - firstname: ["David", "D."]
+    url: "https://davidfan.io/"
+
+"nguyen":
+  - firstname: ["John", "J."]
+    url: "https://johnlnguyen.com/"
+
+"girshick":
+  - firstname: ["Ross", "R."]
+    url: "https://www.rossgirshick.info/"
+
+"qian":
+  - firstname: ["Shengyi", "S."]
+    url: "https://jasonqsy.github.io/"
+
 "efros":
   - firstname: ["Alexei", "Alyosha", "Alexei A.", "A."]
     url: "https://www.cs.berkeley.edu/~efros/"
