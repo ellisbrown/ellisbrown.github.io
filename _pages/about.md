@@ -9,9 +9,9 @@ profile:
   align: center
   image: elb.jpg
   image_circular: true # crops the image to make it circular
-  title: PhD Student @ NYU Courant
+  title: PhD Student @ NYU Courant CS
   address: >
-    <p>ellis.brown at nyu dot edu</p>
+    <p>ellis<span style="color: #808080; margin: 0 0.25em;">[dot]</span>brown<span style="color: #808080; margin: 0 0.25em;">[at]</span>nyu<span style="color: #808080; margin: 0 0.25em;">[dot]</span>edu</p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
@@ -27,10 +27,10 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am a CS PhD Student at [NYU Courant](https://cs.nyu.edu/) advised by Profs. [Saining Xie](https://www.sainingxie.com/) and [Rob Fergus](https://cs.nyu.edu/~fergus).
-My research is supported by the [NDSEG Fellowship](https://www.ndseg.org/).
-I have interned at [Meta FAIR](https://ai.meta.com/research/) (w/ [Shengyi Qian](https://jasonqsy.github.io)) and at [Ai2 PRIOR](https://prior.allenai.org/) (w/ [Ross Girshick](https://www.rossgirshick.info/)).
-<!-- I am interning with with [Shengyi Qian](https://jasonqsy.github.io) at [Meta FAIR](https://ai.meta.com/research/), and recently interned with [Ross Girshick](https://www.rossgirshick.info/) at the [Allen Institute for AI (Ai2)](https://allenai.org/). -->
+I am a CS PhD Student at [NYU Courant CS](https://cs.nyu.edu/) advised by Profs. [Saining Xie](https://www.sainingxie.com/) and [Rob Fergus](https://cs.nyu.edu/~fergus).
+I am also currently a Visiting Researcher at [Meta FAIR](https://ai.meta.com/research/).
+Previously, I interned at [Meta FAIR](https://ai.meta.com/research/) (w/ [Shengyi Qian](https://jasonqsy.github.io)) and [Ai2 PRIOR](https://prior.allenai.org/) (w/ [Ross Girshick](https://www.rossgirshick.info/)).
+My research is supported by the [NDSEG Fellowship](https://ndseg.sysplus.com/NDSEG/Awardees/FY2024).
 
 Before NYU, I graduated from a Master's at [Carnegie Mellon](https://www.cmu.edu/) where I was advised by Profs. [Deepak Pathak](http://www.cs.cmu.edu/~dpathak/) and [Alyosha Efros](http://www.cs.berkeley.edu/~efros/).
 Before that, I was a founding research engineer at [BlackRock AI Labs](http://www.blackrock.com/ai), working with Profs. [Mykel Kochenderfer](http://mykel.kochenderfer.com/), [Stephen Boyd](http://web.stanford.edu/~boyd/), and [Trevor Hastie](https://hastie.su.domains/) on applied research & finance
