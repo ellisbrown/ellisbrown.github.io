@@ -1,6 +1,42 @@
 ---
 ---
 
+
+@article{xu2026paintbench,
+    title={PaintBench: Deterministic Evaluation of Precise Visual Editing},
+    author={Xu*, Kai and Brown*, Ellis and Madhu, Shrikar and Fergus, Rob and He, He and Xie, Saining},
+    journal={arXiv preprint arXiv:2606.00188},
+    year={2026},
+    pdf={https://arxiv.org/pdf/2606.00188},
+    arxiv={2606.00188},
+    abbr={arXiv},
+    website={https://paintbench.github.io/},
+    include={true},
+    bibtex_show={true},
+    selected={true},
+    preview={paintbench.png},
+    abstract={While current multimodal models are proficient at open-ended visual editing, executing precise single-answer edits remains an important obstacle. To probe this challenge, we introduce PaintBench, a dynamically scalable benchmark targeting 20 fundamental precise visual editing operations across four categories: geometric transformation, structural manipulation, color change, and symbolic reasoning. Procedural generation with configurable complexity enables an effectively infinite, contamination-resistant evaluation suite, and deterministic pixel-level evaluation eliminates reliance on bias-prone judge models. Across 11 image editing models, we find overall low performance, with the current highest-performing industry leader scoring only 17.1% (mIoU). Task decomposition reveals especially challenging operation types (geometric transformation, most structural manipulation, formula-based color change) and model-specific specializations. Fine-grained benchmark diagnostics further show performance degradations induced by scene variations in object count, background complexity, color scheme, and edit-region size. To test generalization of PaintBench scores to applied task performance, we create a procedural, deterministic evaluation for data visualization editing (TinyGrafixBench) and find strong linear correlation with PaintBench scores (R²=0.91, p<0.001). Altogether, PaintBench provides a rigorous foundation for measuring and driving progress in precise multimodal visual editing.},
+    annotation={* Equal contribution},
+}
+
+
+@article{yu2026vstat,
+    title={Benchmarking Visual State Tracking in Multimodal Video Understanding},
+    author={Yu, Sihyun and Ma, Nanye and Huang, Pinzhi and Lee, Hyunseok and Yang, Shusheng and Choi, June Suk and Brown, Ellis and Michel, Oscar and Zheng, Boyang and Shin, Jinwoo and Xie, Saining},
+    journal={arXiv preprint arXiv:2606.03920},
+    year={2026},
+    pdf={https://arxiv.org/pdf/2606.03920},
+    arxiv={2606.03920},
+    abbr={arXiv},
+    website={https://vision-x-nyu.github.io/vstat-site/},
+    include={true},
+    bibtex_show={true},
+    selected={false},
+    preview={vstat.gif},
+    abstract={Understanding a video requires more than recognizing isolated moments, as humans continuously track entities, states, and events over time. This capacity for visual state tracking is fundamental to video understanding, yet remains underexplored in current evaluations of Multimodal Large Language Models (MLLMs). We introduce Visual STAte Tracking benchmark (VSTAT), a video-based benchmark designed to diagnose visual state tracking in MLLMs. VSTAT consists of 834 clips drawn from both synthetic and real-world videos, paired with 1,500 questions that cannot be answered from any single frame or short segment, requiring continuous perception and integration of events across the entire video stream. Despite their strong performance on existing video benchmarks, we find that state-of-the-art MLLMs perform far below humans and only modestly above answer-prior baselines. To analyze this gap, we compare MLLMs' thinking traces with the underlying video stream to understand why and when MLLMs fail on VSTAT. We find that MLLMs reason and track correctly in text, but fail at visually perceiving the events they need to track. Finally, our preliminary evaluation suggests that recent agentic approaches, including MLLM-based video agents and coding agents, do not readily resolve these failures, still falling short on VSTAT.},
+}
+
+
 @article{tong2026beyond,
   title={Beyond Language Modeling: An Exploration of Multimodal Pretraining},
   author={Tong*, Shengbang and Fan*, David and Nguyen*, John and Brown, Ellis and Zhou, Gaoyue and Qian, Shengyi and Zheng, Boyang and Vallaeys, Th{\'e}ophane and Han, Junlin and Fergus, Rob and Murray, Naila and Ghazvininejad, Marjan and Lewis, Mike and Ballas, Nicolas and Bar, Amir and Rabbat, Michael and Verbeek, Jakob and Zettlemoyer†, Luke and Sinha†, Koustuv and LeCun†, Yann and Xie†, Saining},
