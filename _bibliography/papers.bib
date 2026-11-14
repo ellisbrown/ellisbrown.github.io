@@ -2,6 +2,24 @@
 ---
 
 
+@article{brown2026unbundling,
+    title={Unbundling Multimodal Vision Encoding},
+    author={Brown*, Ellis and Hoang*, Chris and Qian, Shengyi and Li, Shang-Wen and Lewis, Mike and Ghazvininejad, Marjan and Zettlemoyer, Luke and Beyer, Lucas and Ren†, Mengye and Verbeek†, Jakob and Xie†, Saining and Xu†, Hu},
+    journal={arXiv preprint arXiv:2611.17334},
+    year={2026},
+    pdf={https://arxiv.org/pdf/2611.17334},
+    arxiv={2611.17334},
+    abbr={arXiv},
+    website={https://unbundling.github.io/},
+    include={true},
+    bibtex_show={true},
+    selected={true},
+    preview={unbundling.gif},
+    abstract={How multimodal language models should encode visual input remains up for debate. Most models use a pretrained vision encoder, while some recent recipes train the encoder from scratch with the language model or remove it entirely. Vision encoders bundle together three design choices: a visual prior from upstream pretraining, dedicated vision capacity, and pre-fusion placement of that capacity (i.e., before the multimodal backbone). Because published models also differ in data, architecture, and compute, comparing them cannot isolate the effect of each choice. We disentangle these choices via a controlled framework where we pretrain all models from scratch on common data and compare them on visual question answering and language benchmarks at matched lifetime compute. We find that the visual prior is not necessary; an encoder trained jointly from scratch is on par with a pretrained one, without a separate training stage. What matters instead is dedicated vision capacity: an encoder-free model trails on visual understanding even when its backbone is enlarged by the encoder's parameter count. Yet that capacity need not precede multimodal fusion, as vision-only modules added in-fusion to early backbone layers perform comparably to a pre-fusion encoder and can lower time to first token. These results also hold across backbone sizes, when encoder pretraining is treated as free, and when starting from a pretrained language model. Overall, our findings favor dedicated vision capacity trained jointly with the backbone and placed early within it.},
+    annotation={* Equal contribution, † Equal advising},
+}
+
+
 @article{xu2026paintbench,
     title={PaintBench: Deterministic Evaluation of Precise Visual Editing},
     author={Xu*, Kai and Brown*, Ellis and Madhu, Shrikar and Fergus, Rob and He, He and Xie, Saining},
