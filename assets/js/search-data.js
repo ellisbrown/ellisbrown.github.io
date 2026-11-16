@@ -111,8 +111,8 @@ ninja.data = [{
           section: "News",},{id: "news-i-ve-rejoined-meta-fair-through-the-aim-program-working-with-john-nguyen-jakob-verbeek-shengyi-qian-and-marjan-ghazvininejad",
           title: 'I’ve rejoined Meta FAIR through the AIM program, working with John Nguyen, Jakob...',
           description: "",
-          section: "News",},{id: "news-released-unbundling-multimodal-vision-encoding-on-arxiv-with-a-project-page",
-          title: 'Released Unbundling Multimodal Vision Encoding on arXiv, with a project page.',
+          section: "News",},{id: "news-our-new-paper-unbundling-multimodal-vision-encoding-is-out-on-arxiv",
+          title: 'Our new paper, Unbundling Multimodal Vision Encoding, is out on arXiv! 🎉',
           description: "",
           section: "News",},{
         id: 'social-github',
