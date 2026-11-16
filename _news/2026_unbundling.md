@@ -4,7 +4,7 @@ date: 2026-11-12 20:00:00-0500
 inline: true
 ---
 
-Released _[Unbundling Multimodal Vision Encoding][paper]_ on arXiv, with a [project page][site].
+Our new paper, _[Unbundling Multimodal Vision Encoding][site]_, is out on [arXiv][paper]! 🎉
 
 [paper]: https://arxiv.org/abs/2611.17334
 [site]: https://unbundling.github.io/
